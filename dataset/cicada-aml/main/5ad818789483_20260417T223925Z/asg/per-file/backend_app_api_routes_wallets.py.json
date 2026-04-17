@@ -1,0 +1,340 @@
+{
+  "analysis_timestamp": "2026-04-17T22:39:26+00:00",
+  "branch": "main",
+  "commit_sha": "5ad818789483d573d65008302d60e6e0b4cacf5b",
+  "dependency_resolution_status": "manifest_only",
+  "edges": [
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:edge:1",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:import:1",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:edge:2",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:import:2",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:edge:3",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:import:3",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:edge:4",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:import:4",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:edge:5",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:import:5",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:edge:6",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:symbol_def:1",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:edge:7",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:symbol_def:2",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:edge:8",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:symbol_def:3",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:edge:9",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:1",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:edge:10",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:2",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:edge:11",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:3",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:edge:12",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:4",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:edge:13",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:5",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:edge:14",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:6",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:edge:15",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:7",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:edge:16",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:8",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:edge:17",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:9",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:edge:18",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:10",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:edge:19",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:11",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:edge:20",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:12",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:edge:21",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:13",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:edge:22",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:14",
+      "type": "calls"
+    }
+  ],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:module:1",
+      "kind": "module",
+      "label": "backend/app/api/routes_wallets.py",
+      "payload": {
+        "path": "backend/app/api/routes_wallets.py"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:import:1",
+      "kind": "import",
+      "label": "from fastapi import APIRouter, Query, HTTPException",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:import:2",
+      "kind": "import",
+      "label": "from app.repositories.wallets_repo import get_wallets, get_wallet_by_address",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:import:3",
+      "kind": "import",
+      "label": "from app.repositories.scores_repo import get_wallet_score",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:import:4",
+      "kind": "import",
+      "label": "from app.services.graph_service import build_wallet_graph, get_wallet_graph_json",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:import:5",
+      "kind": "import",
+      "label": "from app.repositories.transactions_repo import get_transactions",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:symbol_def:1",
+      "kind": "symbol_def",
+      "label": "list_wallets",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:symbol_def:2",
+      "kind": "symbol_def",
+      "label": "get_wallet",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:symbol_def:3",
+      "kind": "symbol_def",
+      "label": "get_wallet_graph",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:1",
+      "kind": "call",
+      "label": "APIRouter()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:2",
+      "kind": "call",
+      "label": "router.get(\"\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:3",
+      "kind": "call",
+      "label": "Query(1, ge=1)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:4",
+      "kind": "call",
+      "label": "Query(50, ge=1, le=500)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:5",
+      "kind": "call",
+      "label": "get_wallets(page=page, limit=limit)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:6",
+      "kind": "call",
+      "label": "router.get(\"/{address}\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:7",
+      "kind": "call",
+      "label": "get_wallet_by_address(address)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:8",
+      "kind": "call",
+      "label": "HTTPException(404, \"Wallet not found\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:9",
+      "kind": "call",
+      "label": "get_wallet_score(address)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:10",
+      "kind": "call",
+      "label": "router.get(\"/{address}/graph\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:11",
+      "kind": "call",
+      "label": "Query(3, ge=1, le=5)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:12",
+      "kind": "call",
+      "label": "get_transactions(page=1, limit=10000)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:13",
+      "kind": "call",
+      "label": "build_wallet_graph(data)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_wallets.py:call:14",
+      "kind": "call",
+      "label": "get_wallet_graph_json(G, address, hops)",
+      "payload": {}
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:python",
+  "relative_path": "backend/app/api/routes_wallets.py",
+  "repository_name": "Cicada-AML",
+  "repository_url": "https://github.com/aroudrasthakur/Cicada-AML",
+  "source_language": "python",
+  "warnings": []
+}

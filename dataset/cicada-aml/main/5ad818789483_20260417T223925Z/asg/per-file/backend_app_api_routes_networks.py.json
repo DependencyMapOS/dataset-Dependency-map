@@ -1,0 +1,538 @@
+{
+  "analysis_timestamp": "2026-04-17T22:39:25+00:00",
+  "branch": "main",
+  "commit_sha": "5ad818789483d573d65008302d60e6e0b4cacf5b",
+  "dependency_resolution_status": "manifest_only",
+  "edges": [
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:1",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:import:1",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:2",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:import:2",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:3",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:import:3",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:4",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:import:4",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:5",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:import:5",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:6",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:import:6",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:7",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:symbol_def:1",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:8",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:symbol_def:2",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:9",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:symbol_def:3",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:10",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:symbol_def:4",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:11",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:1",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:12",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:2",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:13",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:3",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:14",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:4",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:15",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:5",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:16",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:6",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:17",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:7",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:18",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:8",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:19",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:9",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:20",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:10",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:21",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:11",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:22",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:12",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:23",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:13",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:24",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:14",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:25",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:15",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:26",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:16",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:27",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:17",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:28",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:18",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:29",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:19",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:30",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:20",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:31",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:21",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:32",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:22",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:33",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:23",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:34",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:24",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:35",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:25",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:edge:36",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:26",
+      "type": "calls"
+    }
+  ],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:module:1",
+      "kind": "module",
+      "label": "backend/app/api/routes_networks.py",
+      "payload": {
+        "path": "backend/app/api/routes_networks.py"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:import:1",
+      "kind": "import",
+      "label": "from fastapi import APIRouter, Query, HTTPException",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:import:2",
+      "kind": "import",
+      "label": "from app.repositories.network_cases_repo import get_network_cases, get_network_case",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:import:3",
+      "kind": "import",
+      "label": "from app.services.graph_service import build_wallet_graph",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:import:4",
+      "kind": "import",
+      "label": "from app.repositories.transactions_repo import get_transactions",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:import:5",
+      "kind": "import",
+      "label": "from app.utils.graph_utils import graph_to_cytoscape",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:import:6",
+      "kind": "import",
+      "label": "from app.services.investigation_service import detect_suspicious_networks",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:symbol_def:1",
+      "kind": "symbol_def",
+      "label": "list_networks",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:symbol_def:2",
+      "kind": "symbol_def",
+      "label": "get_case",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:symbol_def:3",
+      "kind": "symbol_def",
+      "label": "get_case_graph",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:symbol_def:4",
+      "kind": "symbol_def",
+      "label": "detect_networks",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:1",
+      "kind": "call",
+      "label": "APIRouter()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:2",
+      "kind": "call",
+      "label": "router.get(\"\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:3",
+      "kind": "call",
+      "label": "Query(1, ge=1)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:4",
+      "kind": "call",
+      "label": "Query(50, ge=1, le=500)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:5",
+      "kind": "call",
+      "label": "get_network_cases(page=page, limit=limit)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:6",
+      "kind": "call",
+      "label": "router.get(\"/{case_id}\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:7",
+      "kind": "call",
+      "label": "get_network_case(case_id)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:8",
+      "kind": "call",
+      "label": "HTTPException(404, \"Case not found\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:9",
+      "kind": "call",
+      "label": "router.get(\"/{case_id}/graph\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:10",
+      "kind": "call",
+      "label": "get_network_case(case_id)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:11",
+      "kind": "call",
+      "label": "HTTPException(404, \"Case not found\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:12",
+      "kind": "call",
+      "label": "case.get(\"wallet_addresses\", [])",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:13",
+      "kind": "call",
+      "label": "get_transactions(page=1, limit=10000)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:14",
+      "kind": "call",
+      "label": "build_wallet_graph(data)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:15",
+      "kind": "call",
+      "label": "set()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:16",
+      "kind": "call",
+      "label": "G.has_node(w)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:17",
+      "kind": "call",
+      "label": "sub_nodes.add(w)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:18",
+      "kind": "call",
+      "label": "sub_nodes.update(G.successors(w))",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:19",
+      "kind": "call",
+      "label": "G.successors(w)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:20",
+      "kind": "call",
+      "label": "sub_nodes.update(G.predecessors(w))",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:21",
+      "kind": "call",
+      "label": "G.predecessors(w)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:22",
+      "kind": "call",
+      "label": "G.subgraph(sub_nodes)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:23",
+      "kind": "call",
+      "label": "graph_to_cytoscape(sub)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:24",
+      "kind": "call",
+      "label": "router.post(\"/detect\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:25",
+      "kind": "call",
+      "label": "detect_suspicious_networks()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/api/routes_networks.py:call:26",
+      "kind": "call",
+      "label": "len(cases)",
+      "payload": {}
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:python",
+  "relative_path": "backend/app/api/routes_networks.py",
+  "repository_name": "Cicada-AML",
+  "repository_url": "https://github.com/aroudrasthakur/Cicada-AML",
+  "source_language": "python",
+  "warnings": []
+}

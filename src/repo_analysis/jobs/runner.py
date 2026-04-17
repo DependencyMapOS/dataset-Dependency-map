@@ -8,7 +8,8 @@ from repo_analysis.config import Settings, get_settings
 from repo_analysis.discovery.language_detect import detect_language
 from repo_analysis.discovery.walk import iter_source_files
 from repo_analysis.export import json_export, split_combined
-from repo_analysis.export.gcb_serializer import write_gcb_triples
+from repo_analysis.export.gcb_serializer import write_gcb_triples_capped
+from repo_analysis.export.node_json_partition import DATASET_MAX_FILE_BYTES
 from repo_analysis.export.schema_version import GENERATION_VERSION
 from repo_analysis.extraction.function_extractor import extract_repo_functions
 from repo_analysis.graph_build.asg_builder import build_asg_for_tree
@@ -23,7 +24,7 @@ from repo_analysis.models.warnings import WarningEnvelope, WarningRecord
 from repo_analysis.parsing.backends.tree_sitter_backend import TreeSitterBackend
 from repo_analysis.persistence.index import append_index
 from repo_analysis.persistence.layout import run_root
-from repo_analysis.persistence.writer import atomic_write_json, write_jsonl_models
+from repo_analysis.persistence.writer import atomic_write_json, write_jsonl_models_capped
 from repo_analysis.resolution.workspace import infer_repo_name
 
 
@@ -144,8 +145,19 @@ def run_analysis(
             )
             ast_files.append(ast_art)
             asg_files.append(asg_art)
-            json_export.write_json(ast_dir / "per-file" / f"{rel.replace('/', '_')}.json", ast_art)
-            json_export.write_json(asg_dir / "per-file" / f"{rel.replace('/', '_')}.json", asg_art)
+            stem = rel.replace("/", "_")
+            json_export.write_json_capped(
+                ast_dir / "per-file" / f"{stem}.json",
+                ast_art,
+                max_bytes=DATASET_MAX_FILE_BYTES,
+                graph_kind="ast",
+            )
+            json_export.write_json_capped(
+                asg_dir / "per-file" / f"{stem}.json",
+                asg_art,
+                max_bytes=DATASET_MAX_FILE_BYTES,
+                graph_kind="asg",
+            )
 
         if not ast_files:
             warnings.append({"code": "no_parsable_files", "message": "No supported source files found."})
@@ -159,7 +171,7 @@ def run_analysis(
                 graph_kind="ast",
                 commit_sha=commit_sha,
                 tool_version=GENERATION_VERSION,
-                max_bytes=split_combined.DEFAULT_MAX_PART_BYTES,
+                max_bytes=DATASET_MAX_FILE_BYTES,
             )
         if combined_asg is not None:
             split_combined.write_split_combined_json_and_graphml(
@@ -168,7 +180,7 @@ def run_analysis(
                 graph_kind="asg",
                 commit_sha=commit_sha,
                 tool_version=GENERATION_VERSION,
-                max_bytes=split_combined.DEFAULT_MAX_PART_BYTES,
+                max_bytes=DATASET_MAX_FILE_BYTES,
             )
 
         # Function extraction + GCB (after ASG artifacts are prepared)
@@ -189,9 +201,12 @@ def run_analysis(
             commit_sha=commit_sha,
             files=func_files,
         )
-        write_jsonl_models(out_dir / "functions.jsonl", functions)
-
-        write_gcb_triples(out_dir / "gcb_triples.jsonl", functions)
+        functions_rel = write_jsonl_models_capped(
+            out_dir / "functions.jsonl", functions, DATASET_MAX_FILE_BYTES
+        )
+        gcb_rel = write_gcb_triples_capped(
+            out_dir / "gcb_triples.jsonl", functions, DATASET_MAX_FILE_BYTES
+        )
 
         warn_models: list[WarningRecord] = []
         for w in warnings:
@@ -244,14 +259,14 @@ def run_analysis(
             artifacts=RunArtifacts(
                 ast_dir=str(ast_dir.relative_to(out_dir)),
                 asg_dir=str(asg_dir.relative_to(out_dir)),
-                functions_jsonl="functions.jsonl",
-                gcb_triples_jsonl="gcb_triples.jsonl",
+                functions_jsonl=functions_rel,
+                gcb_triples_jsonl=gcb_rel,
             ),
             artifacts_paths=[
                 str(ast_dir.relative_to(out_dir)),
                 str(asg_dir.relative_to(out_dir)),
-                "functions.jsonl",
-                "gcb_triples.jsonl",
+                functions_rel,
+                gcb_rel,
             ],
         )
         atomic_write_json(meta_dir / "run_manifest.json", manifest.model_dump())

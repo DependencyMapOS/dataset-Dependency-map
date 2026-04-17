@@ -1,0 +1,252 @@
+{
+  "analysis_timestamp": "2026-04-17T22:40:00+00:00",
+  "branch": "main",
+  "commit_sha": "5ad818789483d573d65008302d60e6e0b4cacf5b",
+  "dependency_resolution_status": "manifest_only",
+  "edges": [
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:edge:1",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:1",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:edge:2",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:2",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:edge:3",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:3",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:edge:4",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:4",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:edge:5",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:5",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:edge:6",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:6",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:edge:7",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:7",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:edge:8",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:8",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:edge:9",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:9",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:edge:10",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:10",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:edge:11",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:11",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:edge:12",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:12",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:edge:13",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:13",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:edge:14",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:symbol_def:1",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:edge:15",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:call:1",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:edge:16",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:call:2",
+      "type": "calls"
+    }
+  ],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:module:1",
+      "kind": "module",
+      "label": "frontend/src/App.tsx",
+      "payload": {
+        "path": "frontend/src/App.tsx"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:1",
+      "kind": "import",
+      "label": "import { Routes, Route, Navigate, useParams } from \"react-router-dom\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:2",
+      "kind": "import",
+      "label": "import LandingPage from \"@/pages/LandingPage\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:3",
+      "kind": "import",
+      "label": "import AuthPage from \"@/pages/AuthPage\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:4",
+      "kind": "import",
+      "label": "import ResetPasswordPage from \"@/pages/ResetPasswordPage\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:5",
+      "kind": "import",
+      "label": "import DashboardLayout from \"@/layouts/DashboardLayout\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:6",
+      "kind": "import",
+      "label": "import DashboardPage from \"@/pages/DashboardPage\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:7",
+      "kind": "import",
+      "label": "import TransactionsPage from \"@/pages/TransactionsPage\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:8",
+      "kind": "import",
+      "label": "import WalletPage from \"@/pages/WalletPage\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:9",
+      "kind": "import",
+      "label": "import NetworkCasesPage from \"@/pages/NetworkCasesPage\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:10",
+      "kind": "import",
+      "label": "import FlowExplorerPage from \"@/pages/FlowExplorerPage\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:11",
+      "kind": "import",
+      "label": "import ReportsPage from \"@/pages/ReportsPage\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:12",
+      "kind": "import",
+      "label": "import { PublicOnly, RequireAuth } from \"@/components/AuthGuards\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:import:13",
+      "kind": "import",
+      "label": "import ToastViewport from \"@/components/ToastViewport\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:symbol_def:1",
+      "kind": "symbol_def",
+      "label": "RedirectWalletLegacy",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:call:1",
+      "kind": "call",
+      "label": "useParams<{ address: string }>()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/App.tsx:call:2",
+      "kind": "call",
+      "label": "useParams<{ id: string }>()",
+      "payload": {}
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:typescript",
+  "relative_path": "frontend/src/App.tsx",
+  "repository_name": "Cicada-AML",
+  "repository_url": "https://github.com/aroudrasthakur/Cicada-AML",
+  "source_language": "typescript",
+  "warnings": []
+}

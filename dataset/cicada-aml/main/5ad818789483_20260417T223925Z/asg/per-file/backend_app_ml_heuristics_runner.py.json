@@ -1,0 +1,392 @@
+{
+  "analysis_timestamp": "2026-04-17T22:39:27+00:00",
+  "branch": "main",
+  "commit_sha": "5ad818789483d573d65008302d60e6e0b4cacf5b",
+  "dependency_resolution_status": "manifest_only",
+  "edges": [
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:1",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:import:1",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:2",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:import:2",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:3",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:import:3",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:4",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:import:4",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:5",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:symbol_def:1",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:6",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:1",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:7",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:2",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:8",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:3",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:9",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:4",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:10",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:5",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:11",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:6",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:12",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:7",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:13",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:8",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:14",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:9",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:15",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:10",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:16",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:11",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:17",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:12",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:18",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:13",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:19",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:14",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:20",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:15",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:21",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:16",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:22",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:17",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:23",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:18",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:24",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:19",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:25",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:20",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:edge:26",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:21",
+      "type": "calls"
+    }
+  ],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:module:1",
+      "kind": "module",
+      "label": "backend/app/ml/heuristics/runner.py",
+      "payload": {
+        "path": "backend/app/ml/heuristics/runner.py"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:import:1",
+      "kind": "import",
+      "label": "from typing import Any, Optional",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:import:2",
+      "kind": "import",
+      "label": "from app.ml.heuristics.base import HeuristicResult, Applicability",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:import:3",
+      "kind": "import",
+      "label": "from app.ml.heuristics import registry",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:import:4",
+      "kind": "import",
+      "label": "from app.utils.logger import get_logger",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:symbol_def:1",
+      "kind": "symbol_def",
+      "label": "run_all",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:1",
+      "kind": "call",
+      "label": "get_logger(__name__)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:2",
+      "kind": "call",
+      "label": "registry.get_all()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:3",
+      "kind": "call",
+      "label": "range(1, TOTAL_HEURISTICS + 1)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:4",
+      "kind": "call",
+      "label": "all_heuristics.get(hid)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:5",
+      "kind": "call",
+      "label": "h.check_data_requirements(context)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:6",
+      "kind": "call",
+      "label": "h.evaluate(\r\n                tx=tx, wallet=wallet, graph=graph, features=features, context=context,\r\n            )",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:7",
+      "kind": "call",
+      "label": "float(result.confidence)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:8",
+      "kind": "call",
+      "label": "bool(result.triggered)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:9",
+      "kind": "call",
+      "label": "triggered_ids.append(hid)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:10",
+      "kind": "call",
+      "label": "str(hid)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:11",
+      "kind": "call",
+      "label": "logger.error(f\"Heuristic {hid} ({getattr(h, 'name', '?')}) failed: {exc}\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:12",
+      "kind": "call",
+      "label": "getattr(h, 'name', '?')",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:13",
+      "kind": "call",
+      "label": "sorted(triggered_ids, key=lambda i: heuristic_vector[i - 1], reverse=True)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:14",
+      "kind": "call",
+      "label": "all_heuristics.get(hid)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:15",
+      "kind": "call",
+      "label": "top_k_triggers.append({\r\n                \"heuristic_id\": hid,\r\n                \"name\": getattr(h, \"name\", f\"heuristic_{hid}\"),\r\n                \"confidence\": heuristic_vector[hid - 1],\r\n            })",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:16",
+      "kind": "call",
+      "label": "getattr(h, \"name\", f\"heuristic_{hid}\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:17",
+      "kind": "call",
+      "label": "sum(1 for a in applicability_vector if a != \"applicable\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:18",
+      "kind": "call",
+      "label": "logger.info(\r\n        \"heuristic_trace | triggered=%d/%d inapplicable=%d top_k=%s\",\r\n        len(triggered_ids), TOTAL_HEURISTICS, inapplicable_count,\r\n        [(t[\"name\"], round(t[\"confidence\"], 3)) ",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:19",
+      "kind": "call",
+      "label": "len(triggered_ids)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:20",
+      "kind": "call",
+      "label": "round(t[\"confidence\"], 3)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/heuristics/runner.py:call:21",
+      "kind": "call",
+      "label": "len(triggered_ids)",
+      "payload": {}
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:python",
+  "relative_path": "backend/app/ml/heuristics/runner.py",
+  "repository_name": "Cicada-AML",
+  "repository_url": "https://github.com/aroudrasthakur/Cicada-AML",
+  "source_language": "python",
+  "warnings": []
+}

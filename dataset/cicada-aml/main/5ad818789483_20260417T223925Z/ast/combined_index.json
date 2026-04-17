@@ -1,0 +1,38 @@
+{
+  "analysis_timestamp": "2026-04-17T22:39:25+00:00",
+  "branch": "main",
+  "commit_sha": "5ad818789483d573d65008302d60e6e0b4cacf5b",
+  "dependency_resolution_status": "manifest_only",
+  "errors": [],
+  "generation_version": "0.1.0",
+  "graph_kind": "ast",
+  "max_part_bytes": 52428800,
+  "parser_id": "tree-sitter-language-pack:python",
+  "part_count": 4,
+  "parts": [
+    {
+      "graphml": "combined_part000.graphml",
+      "json": "combined_part000.json"
+    },
+    {
+      "graphml": "combined_part001.graphml",
+      "json": "combined_part001.json"
+    },
+    {
+      "graphml": "combined_part002.graphml",
+      "json": "combined_part002.json"
+    },
+    {
+      "graphml": "combined_part003.graphml",
+      "json": "combined_part003.json"
+    }
+  ],
+  "relative_path": "",
+  "repository_name": "Cicada-AML",
+  "repository_url": "https://github.com/aroudrasthakur/Cicada-AML",
+  "shard_format_version": 1,
+  "source_language": "multi",
+  "total_edges": 160170,
+  "total_nodes": 160395,
+  "warnings": []
+}

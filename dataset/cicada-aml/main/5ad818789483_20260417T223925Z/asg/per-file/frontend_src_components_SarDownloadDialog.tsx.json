@@ -1,0 +1,54 @@
+{
+  "analysis_timestamp": "2026-04-17T22:40:04+00:00",
+  "branch": "main",
+  "commit_sha": "5ad818789483d573d65008302d60e6e0b4cacf5b",
+  "dependency_resolution_status": "manifest_only",
+  "edges": [
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/SarDownloadDialog.tsx:edge:1",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/SarDownloadDialog.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/SarDownloadDialog.tsx:import:1",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/SarDownloadDialog.tsx:edge:2",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/SarDownloadDialog.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/SarDownloadDialog.tsx:call:1",
+      "type": "calls"
+    }
+  ],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/SarDownloadDialog.tsx:module:1",
+      "kind": "module",
+      "label": "frontend/src/components/SarDownloadDialog.tsx",
+      "payload": {
+        "path": "frontend/src/components/SarDownloadDialog.tsx"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/SarDownloadDialog.tsx:import:1",
+      "kind": "import",
+      "label": "import { FileWarning, Download, X, CheckCircle2, Loader2 } from \"lucide-react\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/SarDownloadDialog.tsx:call:1",
+      "kind": "call",
+      "label": "e.stopPropagation()",
+      "payload": {}
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:typescript",
+  "relative_path": "frontend/src/components/SarDownloadDialog.tsx",
+  "repository_name": "Cicada-AML",
+  "repository_url": "https://github.com/aroudrasthakur/Cicada-AML",
+  "source_language": "typescript",
+  "warnings": []
+}

@@ -1,0 +1,1630 @@
+{
+  "analysis_timestamp": "2026-04-17T22:39:34+00:00",
+  "branch": "main",
+  "commit_sha": "5ad818789483d573d65008302d60e6e0b4cacf5b",
+  "dependency_resolution_status": "manifest_only",
+  "edges": [
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:1",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:1",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:2",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:2",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:3",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:3",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:4",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:4",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:5",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:5",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:6",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:6",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:7",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:7",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:8",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:8",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:9",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:9",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:10",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:10",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:11",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:11",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:12",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:12",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:13",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:13",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:14",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:14",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:15",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:symbol_def:1",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:16",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:symbol_def:2",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:17",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:symbol_def:3",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:18",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:symbol_def:4",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:19",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:1",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:20",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:2",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:21",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:3",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:22",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:4",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:23",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:5",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:24",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:6",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:25",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:7",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:26",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:8",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:27",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:9",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:28",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:10",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:29",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:11",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:30",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:12",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:31",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:13",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:32",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:14",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:33",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:15",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:34",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:16",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:35",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:17",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:36",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:18",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:37",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:19",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:38",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:20",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:39",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:21",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:40",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:22",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:41",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:23",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:42",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:24",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:43",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:25",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:44",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:26",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:45",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:27",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:46",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:28",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:47",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:29",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:48",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:30",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:49",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:31",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:50",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:32",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:51",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:33",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:52",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:34",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:53",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:35",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:54",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:36",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:55",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:37",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:56",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:38",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:57",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:39",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:58",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:40",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:59",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:41",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:60",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:42",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:61",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:43",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:62",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:44",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:63",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:45",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:64",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:46",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:65",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:47",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:66",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:48",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:67",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:49",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:68",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:50",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:69",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:51",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:70",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:52",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:71",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:53",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:72",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:54",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:73",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:55",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:74",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:56",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:75",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:57",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:76",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:58",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:77",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:59",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:78",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:60",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:79",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:61",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:80",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:62",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:81",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:63",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:82",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:64",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:83",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:65",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:84",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:66",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:85",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:67",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:86",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:68",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:87",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:69",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:88",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:70",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:89",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:71",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:90",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:72",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:91",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:73",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:92",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:74",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:93",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:75",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:94",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:76",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:95",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:77",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:96",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:78",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:97",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:79",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:98",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:80",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:99",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:81",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:100",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:82",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:101",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:83",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:102",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:84",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:103",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:85",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:104",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:86",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:105",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:87",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:106",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:88",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:107",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:89",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:108",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:90",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:109",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:91",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:110",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:92",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:111",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:93",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:112",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:94",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:113",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:95",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:edge:114",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:96",
+      "type": "calls"
+    }
+  ],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:module:1",
+      "kind": "module",
+      "label": "backend/app/ml/training/train_meta.py",
+      "payload": {
+        "path": "backend/app/ml/training/train_meta.py"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:1",
+      "kind": "import",
+      "label": "import argparse",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:2",
+      "kind": "import",
+      "label": "import json",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:3",
+      "kind": "import",
+      "label": "import sys",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:4",
+      "kind": "import",
+      "label": "import joblib",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:5",
+      "kind": "import",
+      "label": "import numpy as np",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:6",
+      "kind": "import",
+      "label": "import pandas as pd",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:7",
+      "kind": "import",
+      "label": "from pathlib import Path",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:8",
+      "kind": "import",
+      "label": "from sklearn.metrics import (\r\n    average_precision_score,\r\n    classification_report,\r\n    precision_recall_curve,\r\n    roc_auc_score,\r\n)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:9",
+      "kind": "import",
+      "label": "from sklearn.model_selection import train_test_split",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:10",
+      "kind": "import",
+      "label": "from xgboost import XGBClassifier",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:11",
+      "kind": "import",
+      "label": "from app.ml.model_paths import MODELS_DIR",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:12",
+      "kind": "import",
+      "label": "from app.ml.ml_device import fit_xgboost_classifier, log_device_banner, xgboost_fit_kwargs",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:13",
+      "kind": "import",
+      "label": "from app.ml.platt_calibrator import PlattSigmoidCalibrator",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:import:14",
+      "kind": "import",
+      "label": "from app.utils.logger import get_logger",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:symbol_def:1",
+      "kind": "symbol_def",
+      "label": "_load_data",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:symbol_def:2",
+      "kind": "symbol_def",
+      "label": "_prepare_features",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:symbol_def:3",
+      "kind": "symbol_def",
+      "label": "_find_optimal_threshold",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:symbol_def:4",
+      "kind": "symbol_def",
+      "label": "main",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:1",
+      "kind": "call",
+      "label": "get_logger(__name__)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:2",
+      "kind": "call",
+      "label": "meta_path.exists()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:3",
+      "kind": "call",
+      "label": "logger.error(\"Meta feature file not found at %s\", meta_path)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:4",
+      "kind": "call",
+      "label": "logger.info(\r\n            \"Run the full training pipeline to generate stacked lens scores:\\n\"\r\n            \"  make train-all  OR\\n\"\r\n            \"  python -m scripts.prepare_meta_features --data-dir %",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:5",
+      "kind": "call",
+      "label": "sys.exit(1)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:6",
+      "kind": "call",
+      "label": "pd.read_csv(meta_path)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:7",
+      "kind": "call",
+      "label": "logger.info(\"Loaded meta features: %d rows, %d columns\", len(df), len(df.columns))",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:8",
+      "kind": "call",
+      "label": "len(df)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:9",
+      "kind": "call",
+      "label": "len(df.columns)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:10",
+      "kind": "call",
+      "label": "len(cols)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:11",
+      "kind": "call",
+      "label": "len(META_FEATURES)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:12",
+      "kind": "call",
+      "label": "set(META_FEATURES)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:13",
+      "kind": "call",
+      "label": "set(cols)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:14",
+      "kind": "call",
+      "label": "logger.warning(\"Missing %d meta features: %s\", len(missing), sorted(missing))",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:15",
+      "kind": "call",
+      "label": "len(missing)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:16",
+      "kind": "call",
+      "label": "sorted(missing)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:17",
+      "kind": "call",
+      "label": "df[cols].fillna(0).values.astype(np.float32)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:18",
+      "kind": "call",
+      "label": "df[cols].fillna(0)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:19",
+      "kind": "call",
+      "label": "precision_recall_curve(y_true, y_prob)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:20",
+      "kind": "call",
+      "label": "valid.any()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:21",
+      "kind": "call",
+      "label": "np.where(valid)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:22",
+      "kind": "call",
+      "label": "int(candidates[np.argmax(precision[candidates])])",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:23",
+      "kind": "call",
+      "label": "np.argmax(precision[candidates])",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:24",
+      "kind": "call",
+      "label": "len(thresholds)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:25",
+      "kind": "call",
+      "label": "len(thresholds)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:26",
+      "kind": "call",
+      "label": "float(\r\n        2 * precision[best_idx] * recall[best_idx]\r\n        / (precision[best_idx] + recall[best_idx] + 1e-8)\r\n    )",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:27",
+      "kind": "call",
+      "label": "float(thresholds[best_idx])",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:28",
+      "kind": "call",
+      "label": "len(thresholds)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:29",
+      "kind": "call",
+      "label": "float(precision[best_idx])",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:30",
+      "kind": "call",
+      "label": "float(recall[best_idx])",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:31",
+      "kind": "call",
+      "label": "argparse.ArgumentParser(description=\"Train Meta-Learner\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:32",
+      "kind": "call",
+      "label": "parser.add_argument(\"--data-dir\", default=\"data/processed\", help=\"Directory with preprocessed data\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:33",
+      "kind": "call",
+      "label": "parser.parse_args()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:34",
+      "kind": "call",
+      "label": "Path(args.data_dir)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:35",
+      "kind": "call",
+      "label": "logger.info(\"=== Training Meta-Learner ===\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:36",
+      "kind": "call",
+      "label": "log_device_banner(logger, \"train_meta\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:37",
+      "kind": "call",
+      "label": "str(m)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:38",
+      "kind": "call",
+      "label": "m.exists()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:39",
+      "kind": "call",
+      "label": "logger.error(\"Missing required lens models: %s\", missing)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:40",
+      "kind": "call",
+      "label": "logger.info(\"Train all lens models first before training the meta-learner\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:41",
+      "kind": "call",
+      "label": "sys.exit(1)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:42",
+      "kind": "call",
+      "label": "_load_data(data_dir)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:43",
+      "kind": "call",
+      "label": "logger.error(\"No 'label' column found in data; cannot train\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:44",
+      "kind": "call",
+      "label": "sys.exit(1)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:45",
+      "kind": "call",
+      "label": "_prepare_features(df)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:46",
+      "kind": "call",
+      "label": "df[\"label\"].values.astype(int)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:47",
+      "kind": "call",
+      "label": "logger.info(\"Meta features: %d total (%s)\", len(feature_names), feature_names)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:48",
+      "kind": "call",
+      "label": "len(feature_names)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:49",
+      "kind": "call",
+      "label": "train_test_split(\r\n        X, y, test_size=0.3, random_state=42, stratify=y,\r\n    )",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:50",
+      "kind": "call",
+      "label": "train_test_split(\r\n        X_holdout, y_holdout, test_size=0.5, random_state=42, stratify=y_holdout,\r\n    )",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:51",
+      "kind": "call",
+      "label": "int(y_train.sum())",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:52",
+      "kind": "call",
+      "label": "y_train.sum()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:53",
+      "kind": "call",
+      "label": "len(y_train)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:54",
+      "kind": "call",
+      "label": "max(n_pos, 1)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:55",
+      "kind": "call",
+      "label": "logger.info(\r\n        \"Balance: %d pos / %d neg -> spw=%.2f  |  train=%d  cal=%d  test=%d\",\r\n        n_pos, n_neg, spw, len(y_train), len(y_cal), len(y_test),\r\n    )",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:56",
+      "kind": "call",
+      "label": "len(y_train)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:57",
+      "kind": "call",
+      "label": "len(y_cal)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:58",
+      "kind": "call",
+      "label": "len(y_test)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:59",
+      "kind": "call",
+      "label": "XGBClassifier(\r\n        n_estimators=300,\r\n        max_depth=4,\r\n        learning_rate=0.03,\r\n        scale_pos_weight=spw,\r\n        eval_metric=\"aucpr\",\r\n        early_stopping_rounds=25,\r\n        ra",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:60",
+      "kind": "call",
+      "label": "xgboost_fit_kwargs()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:61",
+      "kind": "call",
+      "label": "fit_xgboost_classifier(\r\n        base_model, X_train, y_train, eval_set=[(X_cal, y_cal)], verbose=False,\r\n    )",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:62",
+      "kind": "call",
+      "label": "logger.info(\"Applying Platt calibration on held-out calibration set...\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:63",
+      "kind": "call",
+      "label": "PlattSigmoidCalibrator(base_model)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:64",
+      "kind": "call",
+      "label": "calibrated.fit(X_cal, y_cal)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:65",
+      "kind": "call",
+      "label": "calibrated.predict_proba(X_test)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:66",
+      "kind": "call",
+      "label": "average_precision_score(y_test, y_prob)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:67",
+      "kind": "call",
+      "label": "roc_auc_score(y_test, y_prob)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:68",
+      "kind": "call",
+      "label": "_find_optimal_threshold(y_test, y_prob)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:69",
+      "kind": "call",
+      "label": "logger.info(\"Meta-Learner PR-AUC: %.4f  ROC-AUC: %.4f\", pr_auc, roc)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:70",
+      "kind": "call",
+      "label": "logger.info(\"Optimal threshold: %.4f (F1=%.4f, P=%.4f, R=%.4f)\",\r\n                threshold, threshold_info[\"optimal_f1\"],\r\n                threshold_info[\"precision_at_threshold\"],\r\n                t",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:71",
+      "kind": "call",
+      "label": "logger.info(\"\\n%s\", classification_report(y_test, (y_prob >= threshold).astype(int), zero_division=0))",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:72",
+      "kind": "call",
+      "label": "classification_report(y_test, (y_prob >= threshold).astype(int), zero_division=0)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:73",
+      "kind": "call",
+      "label": "(y_prob >= threshold).astype(int)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:74",
+      "kind": "call",
+      "label": "sorted(zip(feature_names, importances), key=lambda x: x[1], reverse=True)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:75",
+      "kind": "call",
+      "label": "zip(feature_names, importances)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:76",
+      "kind": "call",
+      "label": "logger.info(\"Feature importance (top 10):\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:77",
+      "kind": "call",
+      "label": "logger.info(\"  %-35s %.4f\", name, imp)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:78",
+      "kind": "call",
+      "label": "OUTPUT_DIR.mkdir(parents=True, exist_ok=True)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:79",
+      "kind": "call",
+      "label": "ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:80",
+      "kind": "call",
+      "label": "joblib.dump(calibrated, OUTPUT_DIR / \"meta_model.pkl\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:81",
+      "kind": "call",
+      "label": "joblib.dump(feature_names, OUTPUT_DIR / \"feature_names.pkl\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:82",
+      "kind": "call",
+      "label": "min(threshold * 1.5, 0.95)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:83",
+      "kind": "call",
+      "label": "max(threshold * 0.5, 0.1)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:84",
+      "kind": "call",
+      "label": "open(ARTIFACTS_DIR / \"threshold_config.json\", \"w\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:85",
+      "kind": "call",
+      "label": "json.dump(threshold_config, f, indent=2)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:86",
+      "kind": "call",
+      "label": "len(y_train)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:87",
+      "kind": "call",
+      "label": "len(y_cal)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:88",
+      "kind": "call",
+      "label": "len(y_test)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:89",
+      "kind": "call",
+      "label": "len(feature_names)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:90",
+      "kind": "call",
+      "label": "float(imp)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:91",
+      "kind": "call",
+      "label": "open(ARTIFACTS_DIR / \"metrics_report.json\", \"w\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:92",
+      "kind": "call",
+      "label": "json.dump(metrics_report, f, indent=2)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:93",
+      "kind": "call",
+      "label": "pd.DataFrame(importance_pairs, columns=[\"feature\", \"importance\"])",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:94",
+      "kind": "call",
+      "label": "importance_df.to_csv(ARTIFACTS_DIR / \"feature_importance.csv\", index=False)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:95",
+      "kind": "call",
+      "label": "logger.info(\"Artifacts saved to %s and %s\", OUTPUT_DIR, ARTIFACTS_DIR)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:backend/app/ml/training/train_meta.py:call:96",
+      "kind": "call",
+      "label": "main()",
+      "payload": {}
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:python",
+  "relative_path": "backend/app/ml/training/train_meta.py",
+  "repository_name": "Cicada-AML",
+  "repository_url": "https://github.com/aroudrasthakur/Cicada-AML",
+  "source_language": "python",
+  "warnings": []
+}

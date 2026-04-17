@@ -1,0 +1,740 @@
+{
+  "analysis_timestamp": "2026-04-17T22:40:03+00:00",
+  "branch": "main",
+  "commit_sha": "5ad818789483d573d65008302d60e6e0b4cacf5b",
+  "dependency_resolution_status": "manifest_only",
+  "edges": [
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:1",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:import:1",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:2",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:import:2",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:3",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:import:3",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:4",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:import:4",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:5",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:import:5",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:6",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:1",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:7",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:2",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:8",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:3",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:9",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:4",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:10",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:5",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:11",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:6",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:12",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:7",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:13",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:8",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:14",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:9",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:15",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:10",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:16",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:11",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:17",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:12",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:18",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:13",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:19",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:14",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:20",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:15",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:21",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:16",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:22",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:17",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:23",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:18",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:24",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:19",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:25",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:20",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:26",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:21",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:27",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:22",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:28",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:23",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:29",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:24",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:30",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:25",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:31",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:26",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:32",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:27",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:33",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:28",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:34",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:29",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:35",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:30",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:36",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:31",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:37",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:32",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:38",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:33",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:39",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:34",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:40",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:35",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:41",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:36",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:42",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:37",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:43",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:38",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:44",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:39",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:45",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:40",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:46",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:41",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:47",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:42",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:48",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:43",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:49",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:44",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:50",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:45",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:edge:51",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:46",
+      "type": "calls"
+    }
+  ],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:module:1",
+      "kind": "module",
+      "label": "frontend/src/components/flow-explorer/NodeInspectPanel.tsx",
+      "payload": {
+        "path": "frontend/src/components/flow-explorer/NodeInspectPanel.tsx"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:import:1",
+      "kind": "import",
+      "label": "import { useEffect, useState } from \"react\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:import:2",
+      "kind": "import",
+      "label": "import { X, Loader2 } from \"lucide-react\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:import:3",
+      "kind": "import",
+      "label": "import { fetchRunScores, fetchRunSuspicious, fetchRunReport } from \"@/api/runs\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:import:4",
+      "kind": "import",
+      "label": "import { useThresholds } from \"@/contexts/ThresholdProvider\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:import:5",
+      "kind": "import",
+      "label": "import {\r\n  resolveRiskTier,\r\n  riskTierLabel,\r\n  riskTierBadgeClass,\r\n  riskBarClassFromScore,\r\n} from \"@/utils/riskTiers\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:1",
+      "kind": "call",
+      "label": "useThresholds()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:2",
+      "kind": "call",
+      "label": "useState(true)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:3",
+      "kind": "call",
+      "label": "useState<ScoreDetail[]>([])",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:4",
+      "kind": "call",
+      "label": "useState<SuspiciousDetail[]>([])",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:5",
+      "kind": "call",
+      "label": "useState<string | null>(null)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:6",
+      "kind": "call",
+      "label": "useEffect(() => {\r\n    let cancelled = false;\r\n    setLoading(true);\r\n\r\n    (async () => {\r\n      try {\r\n        const [allScores, allSus, report] = await Promise.all([\r\n          fetchRunScores(runId",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:7",
+      "kind": "call",
+      "label": "setLoading(true)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:8",
+      "kind": "call",
+      "label": "(async () => {\r\n      try {\r\n        const [allScores, allSus, report] = await Promise.all([\r\n          fetchRunScores(runId),\r\n          fetchRunSuspicious(runId),\r\n          fetchRunReport(runId).ca",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:9",
+      "kind": "call",
+      "label": "Promise.all([\r\n          fetchRunScores(runId),\r\n          fetchRunSuspicious(runId),\r\n          fetchRunReport(runId).catch(() => null),\r\n        ])",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:10",
+      "kind": "call",
+      "label": "fetchRunScores(runId)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:11",
+      "kind": "call",
+      "label": "fetchRunSuspicious(runId)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:12",
+      "kind": "call",
+      "label": "fetchRunReport(runId).catch(() => null)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:13",
+      "kind": "call",
+      "label": "fetchRunReport(runId)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:14",
+      "kind": "call",
+      "label": "nodeLabel.toLowerCase()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:15",
+      "kind": "call",
+      "label": "(allScores as unknown as ScoreDetail[]).filter(\r\n          (s) =>\r\n            (s.transaction_id ?? \"\").toLowerCase().includes(addr) ||\r\n            addr.includes((s.transaction_id ?? \"\").slice(0, 8).",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:16",
+      "kind": "call",
+      "label": "(s.transaction_id ?? \"\").toLowerCase().includes(addr)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:17",
+      "kind": "call",
+      "label": "(s.transaction_id ?? \"\").toLowerCase()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:18",
+      "kind": "call",
+      "label": "addr.includes((s.transaction_id ?? \"\").slice(0, 8).toLowerCase())",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:19",
+      "kind": "call",
+      "label": "(s.transaction_id ?? \"\").slice(0, 8).toLowerCase()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:20",
+      "kind": "call",
+      "label": "(s.transaction_id ?? \"\").slice(0, 8)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:21",
+      "kind": "call",
+      "label": "setScores(relatedScores.slice(0, 10))",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:22",
+      "kind": "call",
+      "label": "relatedScores.slice(0, 10)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:23",
+      "kind": "call",
+      "label": "(allSus as unknown as SuspiciousDetail[]).filter(\r\n          (s) =>\r\n            (s.transaction_id ?? \"\").toLowerCase().includes(addr) ||\r\n            addr.includes((s.transaction_id ?? \"\").slice(0, 8",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:24",
+      "kind": "call",
+      "label": "(s.transaction_id ?? \"\").toLowerCase().includes(addr)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:25",
+      "kind": "call",
+      "label": "(s.transaction_id ?? \"\").toLowerCase()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:26",
+      "kind": "call",
+      "label": "addr.includes((s.transaction_id ?? \"\").slice(0, 8).toLowerCase())",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:27",
+      "kind": "call",
+      "label": "(s.transaction_id ?? \"\").slice(0, 8).toLowerCase()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:28",
+      "kind": "call",
+      "label": "(s.transaction_id ?? \"\").slice(0, 8)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:29",
+      "kind": "call",
+      "label": "setSuspicious(relatedSus.slice(0, 10))",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:30",
+      "kind": "call",
+      "label": "relatedSus.slice(0, 10)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:31",
+      "kind": "call",
+      "label": "topTxns.find((t: Record<string, unknown>) =>\r\n          String(t.transaction_id ?? \"\").toLowerCase().includes(addr),\r\n        )",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:32",
+      "kind": "call",
+      "label": "String(t.transaction_id ?? \"\").toLowerCase().includes(addr)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:33",
+      "kind": "call",
+      "label": "String(t.transaction_id ?? \"\").toLowerCase()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:34",
+      "kind": "call",
+      "label": "String(t.transaction_id ?? \"\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:35",
+      "kind": "call",
+      "label": "setNarrative(\r\n            `Risk: ${match.risk_level} | Typology: ${match.typology ?? \"—\"}`,\r\n          )",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:36",
+      "kind": "call",
+      "label": "setLoading(false)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:37",
+      "kind": "call",
+      "label": "resolveRiskTier(nodeRisk, tierConfig)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:38",
+      "kind": "call",
+      "label": "riskTierLabel(tier)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:39",
+      "kind": "call",
+      "label": "riskTierBadgeClass(tier)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:40",
+      "kind": "call",
+      "label": "breakdown ({scores.length})",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:41",
+      "kind": "call",
+      "label": "{scores.slice(0, 5)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:42",
+      "kind": "call",
+      "label": "lens.v.toFixed(2)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:43",
+      "kind": "call",
+      "label": "transactions ({suspicious.length})",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:44",
+      "kind": "call",
+      "label": "{suspicious.slice(0, 5).map((t) => (\r\n                  <li\r\n                    key={t.transaction_id}\r\n                    className=\"flex items-center justify-between rounded-lg border border-[var(",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:45",
+      "kind": "call",
+      "label": "{suspicious.slice(0, 5)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/flow-explorer/NodeInspectPanel.tsx:call:46",
+      "kind": "call",
+      "label": "{t.transaction_id.slice(0, 16)",
+      "payload": {}
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:typescript",
+  "relative_path": "frontend/src/components/flow-explorer/NodeInspectPanel.tsx",
+  "repository_name": "Cicada-AML",
+  "repository_url": "https://github.com/aroudrasthakur/Cicada-AML",
+  "source_language": "typescript",
+  "warnings": []
+}

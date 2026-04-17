@@ -1,0 +1,448 @@
+{
+  "analysis_timestamp": "2026-04-17T22:40:08+00:00",
+  "branch": "main",
+  "commit_sha": "5ad818789483d573d65008302d60e6e0b4cacf5b",
+  "dependency_resolution_status": "manifest_only",
+  "edges": [
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:1",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:import:1",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:2",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:import:2",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:3",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:import:3",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:4",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:symbol_def:1",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:5",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:1",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:6",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:2",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:7",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:3",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:8",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:4",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:9",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:5",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:10",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:6",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:11",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:7",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:12",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:8",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:13",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:9",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:14",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:10",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:15",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:11",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:16",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:12",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:17",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:13",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:18",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:14",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:19",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:15",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:20",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:16",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:21",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:17",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:22",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:18",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:23",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:19",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:24",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:20",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:25",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:21",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:26",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:22",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:27",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:23",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:28",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:24",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:29",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:25",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:edge:30",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:26",
+      "type": "calls"
+    }
+  ],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:module:1",
+      "kind": "module",
+      "label": "frontend/src/contexts/ToastProvider.tsx",
+      "payload": {
+        "path": "frontend/src/contexts/ToastProvider.tsx"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:import:1",
+      "kind": "import",
+      "label": "import {\r\n  useCallback,\r\n  useRef,\r\n  useState,\r\n  type ReactNode,\r\n} from \"react\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:import:2",
+      "kind": "import",
+      "label": "import { ToastCtx, type ToastItem } from \"@/contexts/toastContext\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:import:3",
+      "kind": "import",
+      "label": "import { useNotifications } from \"@/hooks/useNotifications\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:symbol_def:1",
+      "kind": "symbol_def",
+      "label": "ToastProvider",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:1",
+      "kind": "call",
+      "label": "useState<ToastItem[]>([])",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:2",
+      "kind": "call",
+      "label": "useRef<Map<string, ReturnType<typeof setTimeout>>>(new Map())",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:3",
+      "kind": "call",
+      "label": "useNotifications()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:4",
+      "kind": "call",
+      "label": "useCallback((id: string) => {\r\n    setToasts((prev) => prev.filter((t) => t.id !== id));\r\n    const timer = timers.current.get(id);\r\n    if (timer) {\r\n      clearTimeout(timer);\r\n      timers.current.",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:5",
+      "kind": "call",
+      "label": "setToasts((prev) => prev.filter((t) => t.id !== id))",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:6",
+      "kind": "call",
+      "label": "prev.filter((t) => t.id !== id)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:7",
+      "kind": "call",
+      "label": "timers.current.get(id)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:8",
+      "kind": "call",
+      "label": "clearTimeout(timer)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:9",
+      "kind": "call",
+      "label": "timers.current.delete(id)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:10",
+      "kind": "call",
+      "label": "useCallback(\r\n    (incoming: Omit<ToastItem, \"id\" | \"addedAt\">) => {\r\n      const id = `toast-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`;\r\n      const item: ToastItem = { ...incoming, id",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:11",
+      "kind": "call",
+      "label": "Date.now()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:12",
+      "kind": "call",
+      "label": "Math.random().toString(36).slice(2, 7)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:13",
+      "kind": "call",
+      "label": "Math.random().toString(36)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:14",
+      "kind": "call",
+      "label": "Math.random()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:15",
+      "kind": "call",
+      "label": "Date.now()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:16",
+      "kind": "call",
+      "label": "pushNotification({\r\n        variant: incoming.variant,\r\n        title: incoming.title,\r\n        description: incoming.description,\r\n      })",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:17",
+      "kind": "call",
+      "label": "setToasts((prev) => {\r\n        const next = [item, ...prev];\r\n        // evict oldest beyond limit\r\n        if (next.length > MAX_VISIBLE) {\r\n          const evicted = next.slice(MAX_VISIBLE);\r\n      ",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:18",
+      "kind": "call",
+      "label": "next.slice(MAX_VISIBLE)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:19",
+      "kind": "call",
+      "label": "evicted.forEach((e) => {\r\n            const t = timers.current.get(e.id);\r\n            if (t) { clearTimeout(t); timers.current.delete(e.id); }\r\n          })",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:20",
+      "kind": "call",
+      "label": "timers.current.get(e.id)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:21",
+      "kind": "call",
+      "label": "clearTimeout(t)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:22",
+      "kind": "call",
+      "label": "timers.current.delete(e.id)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:23",
+      "kind": "call",
+      "label": "next.slice(0, MAX_VISIBLE)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:24",
+      "kind": "call",
+      "label": "setTimeout(() => dismiss(id), ttl)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:25",
+      "kind": "call",
+      "label": "dismiss(id)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/contexts/ToastProvider.tsx:call:26",
+      "kind": "call",
+      "label": "timers.current.set(id, timer)",
+      "payload": {}
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:typescript",
+  "relative_path": "frontend/src/contexts/ToastProvider.tsx",
+  "repository_name": "Cicada-AML",
+  "repository_url": "https://github.com/aroudrasthakur/Cicada-AML",
+  "source_language": "typescript",
+  "warnings": []
+}

@@ -1,0 +1,560 @@
+{
+  "analysis_timestamp": "2026-04-17T22:40:06+00:00",
+  "branch": "main",
+  "commit_sha": "5ad818789483d573d65008302d60e6e0b4cacf5b",
+  "dependency_resolution_status": "manifest_only",
+  "edges": [
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:1",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:import:1",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:2",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:import:2",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:3",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:symbol_def:1",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:4",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:1",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:5",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:2",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:6",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:3",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:7",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:4",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:8",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:5",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:9",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:6",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:10",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:7",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:11",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:8",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:12",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:9",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:13",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:10",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:14",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:11",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:15",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:12",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:16",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:13",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:17",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:14",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:18",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:15",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:19",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:16",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:20",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:17",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:21",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:18",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:22",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:19",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:23",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:20",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:24",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:21",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:25",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:22",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:26",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:23",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:27",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:24",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:28",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:25",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:29",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:26",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:30",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:27",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:31",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:28",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:32",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:29",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:33",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:30",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:34",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:31",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:35",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:32",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:36",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:33",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:37",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:34",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:edge:38",
+      "resolution": null,
+      "source_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "target_id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:35",
+      "type": "calls"
+    }
+  ],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:module:1",
+      "kind": "module",
+      "label": "frontend/src/components/TypologyHeatmap.tsx",
+      "payload": {
+        "path": "frontend/src/components/TypologyHeatmap.tsx"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:import:1",
+      "kind": "import",
+      "label": "import { useEffect, useMemo, useState } from \"react\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:import:2",
+      "kind": "import",
+      "label": "import { fetchHeuristicStats } from \"@/api/heuristics\";",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:symbol_def:1",
+      "kind": "symbol_def",
+      "label": "normalizeToCellKey",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:1",
+      "kind": "call",
+      "label": "raw.trim()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:2",
+      "kind": "call",
+      "label": "/^T-(\\d{1,3})\\b/i.exec(k)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:3",
+      "kind": "call",
+      "label": "parseInt(m[1], 10)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:4",
+      "kind": "call",
+      "label": "String(n).padStart(3, \"0\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:5",
+      "kind": "call",
+      "label": "String(n)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:6",
+      "kind": "call",
+      "label": "/^T-\\d{3}$/i.test(k)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:7",
+      "kind": "call",
+      "label": "parseInt(k.slice(2), 10)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:8",
+      "kind": "call",
+      "label": "k.slice(2)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:9",
+      "kind": "call",
+      "label": "String(n).padStart(3, \"0\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:10",
+      "kind": "call",
+      "label": "String(n)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:11",
+      "kind": "call",
+      "label": "useState<Record<string, number>>({})",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:12",
+      "kind": "call",
+      "label": "useState(true)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:13",
+      "kind": "call",
+      "label": "useState<string | null>(null)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:14",
+      "kind": "call",
+      "label": "useEffect(() => {\r\n    let cancelled = false;\r\n    (async () => {\r\n      setLoading(true);\r\n      setError(null);\r\n      try {\r\n        const data = await fetchHeuristicStats();\r\n        const merged:",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:15",
+      "kind": "call",
+      "label": "(async () => {\r\n      setLoading(true);\r\n      setError(null);\r\n      try {\r\n        const data = await fetchHeuristicStats();\r\n        const merged: Record<string, number> = {};\r\n        const raw = ",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:16",
+      "kind": "call",
+      "label": "setLoading(true)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:17",
+      "kind": "call",
+      "label": "setError(null)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:18",
+      "kind": "call",
+      "label": "fetchHeuristicStats()",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:19",
+      "kind": "call",
+      "label": "Object.entries(raw)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:20",
+      "kind": "call",
+      "label": "normalizeToCellKey(key)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:21",
+      "kind": "call",
+      "label": "setFreqByCell(merged)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:22",
+      "kind": "call",
+      "label": "setFreqByCell({})",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:23",
+      "kind": "call",
+      "label": "setError(\"Could not load typology stats\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:24",
+      "kind": "call",
+      "label": "setLoading(false)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:25",
+      "kind": "call",
+      "label": "useMemo(\r\n    () => Math.max(1, ...Object.values(freqByCell)),\r\n    [freqByCell],\r\n  )",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:26",
+      "kind": "call",
+      "label": "Math.max(1, ...Object.values(freqByCell))",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:27",
+      "kind": "call",
+      "label": "Object.values(freqByCell)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:28",
+      "kind": "call",
+      "label": "useMemo(\r\n    () =>\r\n      Array.from({ length: 90 }, (_, i) => {\r\n        const n = i + 1;\r\n        const key = `T-${String(n).padStart(3, \"0\")}`;\r\n        const raw = freqByCell[key] ?? 0;\r\n        ",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:29",
+      "kind": "call",
+      "label": "Array.from({ length: 90 }, (_, i) => {\r\n        const n = i + 1;\r\n        const key = `T-${String(n).padStart(3, \"0\")}`;\r\n        const raw = freqByCell[key] ?? 0;\r\n        const intensity = raw / max",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:30",
+      "kind": "call",
+      "label": "String(n).padStart(3, \"0\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:31",
+      "kind": "call",
+      "label": "String(n)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:32",
+      "kind": "call",
+      "label": "useState<string | null>(null)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:33",
+      "kind": "call",
+      "label": "setTip(\r\n                    `${key} · ${(intensity * maxFreq).toFixed(0)} hits (${(intensity * 100).toFixed(0)}% of max)`,\r\n                  )",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:34",
+      "kind": "call",
+      "label": "(intensity * maxFreq).toFixed(0)",
+      "payload": {}
+    },
+    {
+      "id": "asg:5ad818789483d573d65008302d60e6e0b4cacf5b:frontend/src/components/TypologyHeatmap.tsx:call:35",
+      "kind": "call",
+      "label": "(intensity * 100).toFixed(0)",
+      "payload": {}
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:typescript",
+  "relative_path": "frontend/src/components/TypologyHeatmap.tsx",
+  "repository_name": "Cicada-AML",
+  "repository_url": "https://github.com/aroudrasthakur/Cicada-AML",
+  "source_language": "typescript",
+  "warnings": []
+}

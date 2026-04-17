@@ -8,8 +8,3 @@ dist/
 build/
 .venv/
 venv/
-
-# Generated analysis output (large; regenerate with: repo_analysis analyze ...)
-dataset/*
-!dataset/.gitkeep
-!dataset/index.json

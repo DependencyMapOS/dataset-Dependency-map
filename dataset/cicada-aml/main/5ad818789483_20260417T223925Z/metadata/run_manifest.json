@@ -1,0 +1,30 @@
+{
+  "analysis_timestamp": "2026-04-17T22:43:57+00:00",
+  "artifacts": {
+    "asg_dir": "asg",
+    "ast_dir": "ast",
+    "functions_jsonl": "functions.jsonl",
+    "gcb_triples_jsonl": "gcb_triples.jsonl"
+  },
+  "artifacts_paths": [
+    "ast",
+    "asg",
+    "functions.jsonl",
+    "gcb_triples.jsonl"
+  ],
+  "branch": "main",
+  "commit_sha": "5ad818789483d573d65008302d60e6e0b4cacf5b",
+  "dependency_resolution_status": "manifest_only",
+  "duration_seconds": 274.26407819997985,
+  "extra": {},
+  "file_counts_by_language": {
+    "javascript": 1,
+    "python": 137,
+    "typescript": 87
+  },
+  "output_root": "cicada-aml\\main\\5ad818789483_20260417T223925Z",
+  "repository_name": "Cicada-AML",
+  "repository_url": "https://github.com/aroudrasthakur/Cicada-AML",
+  "run_id": "1e7ce574-0506-4517-b9a4-71b793b21559",
+  "tool_version": "0.1.0"
+}

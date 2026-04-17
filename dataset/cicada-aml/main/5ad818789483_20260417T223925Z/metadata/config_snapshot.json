@@ -1,0 +1,16 @@
+{
+  "dataset_root": "C:\\Users\\aroud\\OneDrive\\Documents\\GitHub\\Website\\dataset-Dependency-map\\dataset",
+  "ignore_globs": [
+    ".git/**",
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.venv/**",
+    "**/venv/**",
+    "**/target/**",
+    "**/bin/**",
+    "**/obj/**",
+    "**/.cache/**"
+  ],
+  "tool_root": "C:\\Users\\aroud\\OneDrive\\Documents\\GitHub\\Website\\dataset-Dependency-map"
+}

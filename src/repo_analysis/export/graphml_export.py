@@ -21,6 +21,7 @@ def write_graphml(
     edges: list[dict[str, Any]],
     commit_sha: str,
     tool_version: str,
+    compact: bool = False,
 ) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     root = ET.Element("graphml", xmlns="http://graphml.graphdrawing.org/xmlns")
@@ -74,7 +75,8 @@ def write_graphml(
         _add_data(edge, "ext_json", exte if isinstance(exte, str) else "")
 
     tree = ET.ElementTree(root)
-    ET.indent(tree, space="  ")
+    if not compact:
+        ET.indent(tree, space="  ")
     tree.write(path, encoding="unicode", xml_declaration=True)
 
 

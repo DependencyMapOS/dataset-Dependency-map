@@ -58,6 +58,14 @@ def write_gcb_triples(path: Path, records: Iterable[FunctionRecord]) -> None:
             f.write(json.dumps(triple.model_dump(), sort_keys=True) + "\n")
 
 
+def write_gcb_triples_capped(path: Path, records: Iterable[FunctionRecord], max_bytes: int) -> str:
+    """Returns basename: gcb_triples.jsonl or gcb_triples_index.json."""
+    from repo_analysis.persistence.writer import write_jsonl_lines_capped
+
+    lines = [json.dumps(function_to_triple(rec).model_dump(), sort_keys=True) + "\n" for rec in records]
+    return write_jsonl_lines_capped(path, lines, max_bytes)
+
+
 def load_functions_jsonl(path: Path) -> list[FunctionRecord]:
     out: list[FunctionRecord] = []
     with path.open(encoding="utf-8") as f:
@@ -70,6 +78,22 @@ def load_functions_jsonl(path: Path) -> list[FunctionRecord]:
     return out
 
 
-def serialize_run_to_path(*, functions_jsonl: Path, output_jsonl: Path) -> None:
-    records = load_functions_jsonl(functions_jsonl)
-    write_gcb_triples(output_jsonl, records)
+def load_function_records_from_run_dir(run_dir: Path) -> list[FunctionRecord]:
+    idx = run_dir / "functions_index.json"
+    if idx.exists():
+        data = json.loads(idx.read_text(encoding="utf-8"))
+        out: list[FunctionRecord] = []
+        for name in data.get("parts", []):
+            out.extend(load_functions_jsonl(run_dir / name))
+        return out
+    single = run_dir / "functions.jsonl"
+    if single.exists():
+        return load_functions_jsonl(single)
+    return []
+
+
+def serialize_run_to_path(*, run_dir: Path, output_jsonl: Path) -> str:
+    from repo_analysis.export.node_json_partition import DATASET_MAX_FILE_BYTES
+
+    records = load_function_records_from_run_dir(run_dir)
+    return write_gcb_triples_capped(output_jsonl, records, DATASET_MAX_FILE_BYTES)

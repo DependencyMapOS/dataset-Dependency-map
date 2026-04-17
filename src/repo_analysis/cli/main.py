@@ -127,20 +127,20 @@ def datasets_cmd(
 def gcb_export_cmd(run_dir: Path) -> None:
     """Re-run GraphCodeBERT serialization from a completed run."""
     fn = run_dir / "functions.jsonl"
-    if not fn.exists():
-        typer.echo(f"missing {fn}", err=True)
+    fidx = run_dir / "functions_index.json"
+    if not fn.exists() and not fidx.exists():
+        typer.echo(f"missing {fn} or {fidx}", err=True)
         raise typer.Exit(code=1)
     out = run_dir / "gcb_triples.jsonl"
-    serialize_run_to_path(functions_jsonl=fn, output_jsonl=out)
-    # refresh manifest paths if present
+    written = serialize_run_to_path(run_dir=run_dir, output_jsonl=out)
     manifest_path = run_dir / "metadata" / "run_manifest.json"
     if manifest_path.exists():
         data = json.loads(manifest_path.read_text(encoding="utf-8"))
         arts = data.get("artifacts") or {}
-        arts["gcb_triples_jsonl"] = "gcb_triples.jsonl"
+        arts["gcb_triples_jsonl"] = written
         data["artifacts"] = arts
         atomic_write_json(manifest_path, data)
-    typer.echo(str(out))
+    typer.echo(str(run_dir / written))
 
 
 def main() -> None:
