@@ -1,0 +1,25 @@
+{
+  "analysis_timestamp": "2026-04-17T22:51:32+00:00",
+  "branch": "master",
+  "commit_sha": "b31765eb65de5536731b9fd88ead43d33ae502ef",
+  "dependency_resolution_status": "unresolved",
+  "edges": [],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "id": "asg:b31765eb65de5536731b9fd88ead43d33ae502ef:alc-verb/hdaverb.h:module:1",
+      "kind": "module",
+      "label": "alc-verb/hdaverb.h",
+      "payload": {
+        "path": "alc-verb/hdaverb.h"
+      }
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:c",
+  "relative_path": "alc-verb/hdaverb.h",
+  "repository_name": "AppleALC",
+  "repository_url": "https://github.com/acidanthera/AppleALC",
+  "source_language": "c",
+  "warnings": []
+}

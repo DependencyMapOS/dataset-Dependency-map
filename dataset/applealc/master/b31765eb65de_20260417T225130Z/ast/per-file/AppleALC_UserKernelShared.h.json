@@ -1,0 +1,557 @@
+{
+  "analysis_timestamp": "2026-04-17T22:51:36+00:00",
+  "branch": "master",
+  "commit_sha": "b31765eb65de5536731b9fd88ead43d33ae502ef",
+  "dependency_resolution_status": "unresolved",
+  "edges": [
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:304:translation_unit->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:3:comment:0",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:304:translation_unit",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:3:comment",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:304:translation_unit->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:4:27:comment:1",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:304:translation_unit",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:4:27:comment",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:304:translation_unit->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:28:41:comment:2",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:304:translation_unit",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:28:41:comment",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:304:translation_unit->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:42:45:comment:3",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:304:translation_unit",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:42:45:comment",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:304:translation_unit->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:46:79:comment:4",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:304:translation_unit",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:46:79:comment",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:304:translation_unit->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:80:132:comment:5",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:304:translation_unit",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:80:132:comment",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:304:translation_unit->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:133:136:comment:6",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:304:translation_unit",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:133:136:comment",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:139:277:preproc_ifdef->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:147:165:identifier:7",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:139:277:preproc_ifdef",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:147:165:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:167:195:preproc_def->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:175:193:identifier:8",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:167:195:preproc_def",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:175:193:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:139:277:preproc_ifdef->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:167:195:preproc_def:9",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:139:277:preproc_ifdef",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:167:195:preproc_def",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:206:224:enumerator->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:206:224:identifier:10",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:206:224:enumerator",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:206:224:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:202:266:enumerator_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:206:224:enumerator:11",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:202:266:enumerator_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:206:224:enumerator",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:231:247:enumerator->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:231:247:identifier:12",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:231:247:enumerator",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:231:247:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:202:266:enumerator_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:231:247:enumerator:13",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:202:266:enumerator_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:231:247:enumerator",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:202:266:enumerator_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:248:264:comment:14",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:202:266:enumerator_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:248:264:comment",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:197:266:enum_specifier->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:202:266:enumerator_list:15",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:197:266:enum_specifier",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:202:266:enumerator_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:139:277:preproc_ifdef->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:197:266:enum_specifier:16",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:139:277:preproc_ifdef",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:197:266:enum_specifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:304:translation_unit->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:139:277:preproc_ifdef:17",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:304:translation_unit",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:139:277:preproc_ifdef",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:304:translation_unit->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:278:302:comment:18",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:304:translation_unit",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:278:302:comment",
+      "type": "child"
+    }
+  ],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:3:comment",
+      "kind": "comment",
+      "label": "//\r",
+      "span": {
+        "end": {
+          "column": 3,
+          "line": 1
+        },
+        "end_byte": 3,
+        "start": {
+          "column": 0,
+          "line": 1
+        },
+        "start_byte": 0
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:4:27:comment",
+      "kind": "comment",
+      "label": "//  UserKernelShared.h\r",
+      "span": {
+        "end": {
+          "column": 23,
+          "line": 2
+        },
+        "end_byte": 27,
+        "start": {
+          "column": 0,
+          "line": 2
+        },
+        "start_byte": 4
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:28:41:comment",
+      "kind": "comment",
+      "label": "//  AppleALC\r",
+      "span": {
+        "end": {
+          "column": 13,
+          "line": 3
+        },
+        "end_byte": 41,
+        "start": {
+          "column": 0,
+          "line": 3
+        },
+        "start_byte": 28
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:42:45:comment",
+      "kind": "comment",
+      "label": "//\r",
+      "span": {
+        "end": {
+          "column": 3,
+          "line": 4
+        },
+        "end_byte": 45,
+        "start": {
+          "column": 0,
+          "line": 4
+        },
+        "start_byte": 42
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:46:79:comment",
+      "kind": "comment",
+      "label": "//  Created by Nick on 10/14/20.\r",
+      "span": {
+        "end": {
+          "column": 33,
+          "line": 5
+        },
+        "end_byte": 79,
+        "start": {
+          "column": 0,
+          "line": 5
+        },
+        "start_byte": 46
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:80:132:comment",
+      "kind": "comment",
+      "label": "//  Copyright © 2020 vit9696. All rights reserved.\r",
+      "span": {
+        "end": {
+          "column": 52,
+          "line": 6
+        },
+        "end_byte": 132,
+        "start": {
+          "column": 0,
+          "line": 6
+        },
+        "start_byte": 80
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:133:136:comment",
+      "kind": "comment",
+      "label": "//\r",
+      "span": {
+        "end": {
+          "column": 3,
+          "line": 7
+        },
+        "end_byte": 136,
+        "start": {
+          "column": 0,
+          "line": 7
+        },
+        "start_byte": 133
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:147:165:identifier",
+      "kind": "identifier",
+      "label": "UserKernelShared_h",
+      "span": {
+        "end": {
+          "column": 26,
+          "line": 9
+        },
+        "end_byte": 165,
+        "start": {
+          "column": 8,
+          "line": 9
+        },
+        "start_byte": 147
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:175:193:identifier",
+      "kind": "identifier",
+      "label": "UserKernelShared_h",
+      "span": {
+        "end": {
+          "column": 26,
+          "line": 10
+        },
+        "end_byte": 193,
+        "start": {
+          "column": 8,
+          "line": 10
+        },
+        "start_byte": 175
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:175:193:identifier"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:167:195:preproc_def",
+      "kind": "preproc_def",
+      "label": "#define UserKernelShared_h\r\n",
+      "span": {
+        "end": {
+          "column": 0,
+          "line": 11
+        },
+        "end_byte": 195,
+        "start": {
+          "column": 0,
+          "line": 10
+        },
+        "start_byte": 167
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:206:224:identifier",
+      "kind": "identifier",
+      "label": "kMethodExecuteVerb",
+      "span": {
+        "end": {
+          "column": 19,
+          "line": 13
+        },
+        "end_byte": 224,
+        "start": {
+          "column": 1,
+          "line": 13
+        },
+        "start_byte": 206
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:206:224:identifier"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:206:224:enumerator",
+      "kind": "enumerator",
+      "label": "kMethodExecuteVerb",
+      "span": {
+        "end": {
+          "column": 19,
+          "line": 13
+        },
+        "end_byte": 224,
+        "start": {
+          "column": 1,
+          "line": 13
+        },
+        "start_byte": 206
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:231:247:identifier",
+      "kind": "identifier",
+      "label": "kNumberOfMethods",
+      "span": {
+        "end": {
+          "column": 17,
+          "line": 15
+        },
+        "end_byte": 247,
+        "start": {
+          "column": 1,
+          "line": 15
+        },
+        "start_byte": 231
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:231:247:identifier"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:231:247:enumerator",
+      "kind": "enumerator",
+      "label": "kNumberOfMethods",
+      "span": {
+        "end": {
+          "column": 17,
+          "line": 15
+        },
+        "end_byte": 247,
+        "start": {
+          "column": 1,
+          "line": 15
+        },
+        "start_byte": 231
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:248:264:comment",
+      "kind": "comment",
+      "label": "// Must be last\r",
+      "span": {
+        "end": {
+          "column": 34,
+          "line": 15
+        },
+        "end_byte": 264,
+        "start": {
+          "column": 18,
+          "line": 15
+        },
+        "start_byte": 248
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:206:224:enumerator",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:231:247:enumerator",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:248:264:comment"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:202:266:enumerator_list",
+      "kind": "enumerator_list",
+      "label": "{\r\n\tkMethodExecuteVerb,\r\n\t\r\n\tkNumberOfMethods // Must be last\r\n}",
+      "span": {
+        "end": {
+          "column": 1,
+          "line": 16
+        },
+        "end_byte": 266,
+        "start": {
+          "column": 5,
+          "line": 12
+        },
+        "start_byte": 202
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:202:266:enumerator_list"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:197:266:enum_specifier",
+      "kind": "enum_specifier",
+      "label": "enum {\r\n\tkMethodExecuteVerb,\r\n\t\r\n\tkNumberOfMethods // Must be last\r\n}",
+      "span": {
+        "end": {
+          "column": 1,
+          "line": 16
+        },
+        "end_byte": 266,
+        "start": {
+          "column": 0,
+          "line": 12
+        },
+        "start_byte": 197
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:147:165:identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:167:195:preproc_def",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:197:266:enum_specifier"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:139:277:preproc_ifdef",
+      "kind": "preproc_ifdef",
+      "label": "#ifndef UserKernelShared_h\r\n#define UserKernelShared_h\r\n\r\nenum {\r\n\tkMethodExecuteVerb,\r\n\t\r\n\tkNumberOfMethods // Must be last\r\n};\r\n\r\n#endif",
+      "span": {
+        "end": {
+          "column": 6,
+          "line": 18
+        },
+        "end_byte": 277,
+        "start": {
+          "column": 0,
+          "line": 9
+        },
+        "start_byte": 139
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:278:302:comment",
+      "kind": "comment",
+      "label": "/* UserKernelShared_h */",
+      "span": {
+        "end": {
+          "column": 31,
+          "line": 18
+        },
+        "end_byte": 302,
+        "start": {
+          "column": 7,
+          "line": 18
+        },
+        "start_byte": 278
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:3:comment",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:4:27:comment",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:28:41:comment",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:42:45:comment",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:46:79:comment",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:80:132:comment",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:133:136:comment",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:139:277:preproc_ifdef",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:278:302:comment"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:0:304:translation_unit",
+      "kind": "translation_unit",
+      "label": "//\r\n//  UserKernelShared.h\r\n//  AppleALC\r\n//\r\n//  Created by Nick on 10/14/20.\r\n//  Copyright © 2020 vit9696. All rights reserved.\r\n//\r\n\r\n#ifndef UserKernelShared_h\r\n#define UserKernelShared_h\r\n\r\nenum",
+      "span": {
+        "end": {
+          "column": 0,
+          "line": 19
+        },
+        "end_byte": 304,
+        "start": {
+          "column": 0,
+          "line": 1
+        },
+        "start_byte": 0
+      },
+      "text_digest": null
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:c",
+  "relative_path": "AppleALC/UserKernelShared.h",
+  "repository_name": "AppleALC",
+  "repository_url": "https://github.com/acidanthera/AppleALC",
+  "source_language": "c",
+  "warnings": []
+}

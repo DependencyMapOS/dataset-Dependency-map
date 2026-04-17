@@ -1,0 +1,26 @@
+{
+  "analysis_timestamp": "2026-04-17T22:51:32+00:00",
+  "branch": "master",
+  "commit_sha": "b31765eb65de5536731b9fd88ead43d33ae502ef",
+  "dependency_resolution_status": "unresolved",
+  "errors": [],
+  "generation_version": "0.1.0",
+  "graph_kind": "asg",
+  "max_part_bytes": 52428800,
+  "parser_id": "tree-sitter-language-pack:c",
+  "part_count": 1,
+  "parts": [
+    {
+      "graphml": "combined_part000.graphml",
+      "json": "combined_part000.json"
+    }
+  ],
+  "relative_path": "",
+  "repository_name": "AppleALC",
+  "repository_url": "https://github.com/acidanthera/AppleALC",
+  "shard_format_version": 1,
+  "source_language": "multi",
+  "total_edges": 0,
+  "total_nodes": 11,
+  "warnings": []
+}

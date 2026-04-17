@@ -1,0 +1,25 @@
+{
+  "analysis_timestamp": "2026-04-17T22:51:34+00:00",
+  "branch": "master",
+  "commit_sha": "b31765eb65de5536731b9fd88ead43d33ae502ef",
+  "dependency_resolution_status": "unresolved",
+  "edges": [],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "id": "asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/ALCUserClient/ALCUserClient.cpp:module:1",
+      "kind": "module",
+      "label": "AppleALC/ALCUserClient/ALCUserClient.cpp",
+      "payload": {
+        "path": "AppleALC/ALCUserClient/ALCUserClient.cpp"
+      }
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:cpp",
+  "relative_path": "AppleALC/ALCUserClient/ALCUserClient.cpp",
+  "repository_name": "AppleALC",
+  "repository_url": "https://github.com/acidanthera/AppleALC",
+  "source_language": "cpp",
+  "warnings": []
+}

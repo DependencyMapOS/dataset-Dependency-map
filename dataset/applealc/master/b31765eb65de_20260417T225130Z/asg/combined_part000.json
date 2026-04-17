@@ -1,0 +1,109 @@
+{
+  "analysis_timestamp": "2026-04-17T22:51:32+00:00",
+  "branch": "master",
+  "commit_sha": "b31765eb65de5536731b9fd88ead43d33ae502ef",
+  "dependency_resolution_status": "unresolved",
+  "edges": [],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "graph_kind": "asg",
+  "nodes": [
+    {
+      "id": "asg:b31765eb65de5536731b9fd88ead43d33ae502ef:alc-verb/hdaverb.h:module:1",
+      "kind": "module",
+      "label": "alc-verb/hdaverb.h",
+      "payload": {
+        "path": "alc-verb/hdaverb.h"
+      }
+    },
+    {
+      "id": "asg:b31765eb65de5536731b9fd88ead43d33ae502ef:alc-verb/main.c:module:1",
+      "kind": "module",
+      "label": "alc-verb/main.c",
+      "payload": {
+        "path": "alc-verb/main.c"
+      }
+    },
+    {
+      "id": "asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/ALCUserClient/ALCUserClient.cpp:module:1",
+      "kind": "module",
+      "label": "AppleALC/ALCUserClient/ALCUserClient.cpp",
+      "payload": {
+        "path": "AppleALC/ALCUserClient/ALCUserClient.cpp"
+      }
+    },
+    {
+      "id": "asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/ALCUserClient/ALCUserClient.hpp:module:1",
+      "kind": "module",
+      "label": "AppleALC/ALCUserClient/ALCUserClient.hpp",
+      "payload": {
+        "path": "AppleALC/ALCUserClient/ALCUserClient.hpp"
+      }
+    },
+    {
+      "id": "asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/ALCUserClientProvider/ALCUserClientProvider.cpp:module:1",
+      "kind": "module",
+      "label": "AppleALC/ALCUserClientProvider/ALCUserClientProvider.cpp",
+      "payload": {
+        "path": "AppleALC/ALCUserClientProvider/ALCUserClientProvider.cpp"
+      }
+    },
+    {
+      "id": "asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/ALCUserClientProvider/ALCUserClientProvider.hpp:module:1",
+      "kind": "module",
+      "label": "AppleALC/ALCUserClientProvider/ALCUserClientProvider.hpp",
+      "payload": {
+        "path": "AppleALC/ALCUserClientProvider/ALCUserClientProvider.hpp"
+      }
+    },
+    {
+      "id": "asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_alc.cpp:module:1",
+      "kind": "module",
+      "label": "AppleALC/kern_alc.cpp",
+      "payload": {
+        "path": "AppleALC/kern_alc.cpp"
+      }
+    },
+    {
+      "id": "asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_alc.hpp:module:1",
+      "kind": "module",
+      "label": "AppleALC/kern_alc.hpp",
+      "payload": {
+        "path": "AppleALC/kern_alc.hpp"
+      }
+    },
+    {
+      "id": "asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_resources.hpp:module:1",
+      "kind": "module",
+      "label": "AppleALC/kern_resources.hpp",
+      "payload": {
+        "path": "AppleALC/kern_resources.hpp"
+      }
+    },
+    {
+      "id": "asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:module:1",
+      "kind": "module",
+      "label": "AppleALC/kern_start.cpp",
+      "payload": {
+        "path": "AppleALC/kern_start.cpp"
+      }
+    },
+    {
+      "id": "asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:module:1",
+      "kind": "module",
+      "label": "AppleALC/UserKernelShared.h",
+      "payload": {
+        "path": "AppleALC/UserKernelShared.h"
+      }
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:c",
+  "part_count": 1,
+  "part_index": 0,
+  "relative_path": "",
+  "repository_name": "AppleALC",
+  "repository_url": "https://github.com/acidanthera/AppleALC",
+  "shard_format_version": 1,
+  "source_language": "multi",
+  "warnings": []
+}

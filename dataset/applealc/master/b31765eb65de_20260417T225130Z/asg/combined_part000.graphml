@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="node_id" for="node" attr.name="node_id" attr.type="string" />
+  <key id="kind" for="node" attr.name="kind" attr.type="string" />
+  <key id="language" for="node" attr.name="language" attr.type="string" />
+  <key id="source_path" for="node" attr.name="source_path" attr.type="string" />
+  <key id="label" for="node" attr.name="label" attr.type="string" />
+  <key id="commit_sha" for="node" attr.name="commit_sha" attr.type="string" />
+  <key id="tool_version" for="node" attr.name="tool_version" attr.type="string" />
+  <key id="ext_json" for="node" attr.name="ext_json" attr.type="string" />
+  <key id="edge_kind" for="edge" attr.name="edge_kind" attr.type="string" />
+  <key id="confidence" for="edge" attr.name="confidence" attr.type="string" />
+  <key id="ext_json" for="edge" attr.name="ext_json" attr.type="string" />
+  <key id="graph_kind" for="graph" attr.name="graph_kind" attr.type="string" />
+  <graph edgedefault="directed">
+    <data key="graph_kind">asg</data>
+    <node id="asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/ALCUserClient/ALCUserClient.cpp:module:1">
+      <data key="node_id">asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/ALCUserClient/ALCUserClient.cpp:module:1</data>
+      <data key="kind">module</data>
+      <data key="language">multi</data>
+      <data key="source_path" />
+      <data key="label">AppleALC/ALCUserClient/ALCUserClient.cpp</data>
+      <data key="commit_sha">b31765eb65de5536731b9fd88ead43d33ae502ef</data>
+      <data key="tool_version">0.1.0</data>
+      <data key="ext_json" />
+    </node>
+    <node id="asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/ALCUserClient/ALCUserClient.hpp:module:1">
+      <data key="node_id">asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/ALCUserClient/ALCUserClient.hpp:module:1</data>
+      <data key="kind">module</data>
+      <data key="language">multi</data>
+      <data key="source_path" />
+      <data key="label">AppleALC/ALCUserClient/ALCUserClient.hpp</data>
+      <data key="commit_sha">b31765eb65de5536731b9fd88ead43d33ae502ef</data>
+      <data key="tool_version">0.1.0</data>
+      <data key="ext_json" />
+    </node>
+    <node id="asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/ALCUserClientProvider/ALCUserClientProvider.cpp:module:1">
+      <data key="node_id">asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/ALCUserClientProvider/ALCUserClientProvider.cpp:module:1</data>
+      <data key="kind">module</data>
+      <data key="language">multi</data>
+      <data key="source_path" />
+      <data key="label">AppleALC/ALCUserClientProvider/ALCUserClientProvider.cpp</data>
+      <data key="commit_sha">b31765eb65de5536731b9fd88ead43d33ae502ef</data>
+      <data key="tool_version">0.1.0</data>
+      <data key="ext_json" />
+    </node>
+    <node id="asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/ALCUserClientProvider/ALCUserClientProvider.hpp:module:1">
+      <data key="node_id">asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/ALCUserClientProvider/ALCUserClientProvider.hpp:module:1</data>
+      <data key="kind">module</data>
+      <data key="language">multi</data>
+      <data key="source_path" />
+      <data key="label">AppleALC/ALCUserClientProvider/ALCUserClientProvider.hpp</data>
+      <data key="commit_sha">b31765eb65de5536731b9fd88ead43d33ae502ef</data>
+      <data key="tool_version">0.1.0</data>
+      <data key="ext_json" />
+    </node>
+    <node id="asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:module:1">
+      <data key="node_id">asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/UserKernelShared.h:module:1</data>
+      <data key="kind">module</data>
+      <data key="language">multi</data>
+      <data key="source_path" />
+      <data key="label">AppleALC/UserKernelShared.h</data>
+      <data key="commit_sha">b31765eb65de5536731b9fd88ead43d33ae502ef</data>
+      <data key="tool_version">0.1.0</data>
+      <data key="ext_json" />
+    </node>
+    <node id="asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_alc.cpp:module:1">
+      <data key="node_id">asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_alc.cpp:module:1</data>
+      <data key="kind">module</data>
+      <data key="language">multi</data>
+      <data key="source_path" />
+      <data key="label">AppleALC/kern_alc.cpp</data>
+      <data key="commit_sha">b31765eb65de5536731b9fd88ead43d33ae502ef</data>
+      <data key="tool_version">0.1.0</data>
+      <data key="ext_json" />
+    </node>
+    <node id="asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_alc.hpp:module:1">
+      <data key="node_id">asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_alc.hpp:module:1</data>
+      <data key="kind">module</data>
+      <data key="language">multi</data>
+      <data key="source_path" />
+      <data key="label">AppleALC/kern_alc.hpp</data>
+      <data key="commit_sha">b31765eb65de5536731b9fd88ead43d33ae502ef</data>
+      <data key="tool_version">0.1.0</data>
+      <data key="ext_json" />
+    </node>
+    <node id="asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_resources.hpp:module:1">
+      <data key="node_id">asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_resources.hpp:module:1</data>
+      <data key="kind">module</data>
+      <data key="language">multi</data>
+      <data key="source_path" />
+      <data key="label">AppleALC/kern_resources.hpp</data>
+      <data key="commit_sha">b31765eb65de5536731b9fd88ead43d33ae502ef</data>
+      <data key="tool_version">0.1.0</data>
+      <data key="ext_json" />
+    </node>
+    <node id="asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:module:1">
+      <data key="node_id">asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:module:1</data>
+      <data key="kind">module</data>
+      <data key="language">multi</data>
+      <data key="source_path" />
+      <data key="label">AppleALC/kern_start.cpp</data>
+      <data key="commit_sha">b31765eb65de5536731b9fd88ead43d33ae502ef</data>
+      <data key="tool_version">0.1.0</data>
+      <data key="ext_json" />
+    </node>
+    <node id="asg:b31765eb65de5536731b9fd88ead43d33ae502ef:alc-verb/hdaverb.h:module:1">
+      <data key="node_id">asg:b31765eb65de5536731b9fd88ead43d33ae502ef:alc-verb/hdaverb.h:module:1</data>
+      <data key="kind">module</data>
+      <data key="language">multi</data>
+      <data key="source_path" />
+      <data key="label">alc-verb/hdaverb.h</data>
+      <data key="commit_sha">b31765eb65de5536731b9fd88ead43d33ae502ef</data>
+      <data key="tool_version">0.1.0</data>
+      <data key="ext_json" />
+    </node>
+    <node id="asg:b31765eb65de5536731b9fd88ead43d33ae502ef:alc-verb/main.c:module:1">
+      <data key="node_id">asg:b31765eb65de5536731b9fd88ead43d33ae502ef:alc-verb/main.c:module:1</data>
+      <data key="kind">module</data>
+      <data key="language">multi</data>
+      <data key="source_path" />
+      <data key="label">alc-verb/main.c</data>
+      <data key="commit_sha">b31765eb65de5536731b9fd88ead43d33ae502ef</data>
+      <data key="tool_version">0.1.0</data>
+      <data key="ext_json" />
+    </node>
+  </graph>
+</graphml>

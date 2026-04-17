@@ -1,0 +1,3199 @@
+{
+  "analysis_timestamp": "2026-04-17T22:51:36+00:00",
+  "branch": "master",
+  "commit_sha": "b31765eb65de5536731b9fd88ead43d33ae502ef",
+  "dependency_resolution_status": "unresolved",
+  "edges": [
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:3:comment:0",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:3:comment",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:4:23:comment:1",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:4:23:comment",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:24:37:comment:2",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:24:37:comment",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:38:41:comment:3",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:38:41:comment",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:42:99:comment:4",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:42:99:comment",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:100:103:comment:5",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:100:103:comment",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:106:143:preproc_include->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:115:141:system_lib_string:6",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:106:143:preproc_include",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:115:141:system_lib_string",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:106:143:preproc_include:7",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:106:143:preproc_include",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:143:176:preproc_include->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:152:174:system_lib_string:8",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:143:176:preproc_include",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:152:174:system_lib_string",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:143:176:preproc_include:9",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:143:176:preproc_include",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:187:201:string_literal->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:188:200:string_content:10",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:187:201:string_literal",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:188:200:string_content",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:178:203:preproc_include->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:187:201:string_literal:11",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:178:203:preproc_include",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:187:201:string_literal",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:178:203:preproc_include:12",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:178:203:preproc_include",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:205:254:declaration->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:205:211:storage_class_specifier:13",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:205:254:declaration",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:205:211:storage_class_specifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:205:254:declaration->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:212:217:type_qualifier:14",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:205:254:declaration",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:212:217:type_qualifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:205:254:declaration->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:218:222:primitive_type:15",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:205:254:declaration",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:218:222:primitive_type",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:224:236:array_declarator->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:224:234:identifier:16",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:224:236:array_declarator",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:224:234:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:223:236:pointer_declarator->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:224:236:array_declarator:17",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:223:236:pointer_declarator",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:224:236:array_declarator",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:223:253:init_declarator->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:223:236:pointer_declarator:18",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:223:253:init_declarator",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:223:236:pointer_declarator",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:241:250:string_literal->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:242:249:string_content:19",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:241:250:string_literal",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:242:249:string_content",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:237:253:initializer_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:241:250:string_literal:20",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:237:253:initializer_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:241:250:string_literal",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:223:253:init_declarator->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:237:253:initializer_list:21",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:223:253:init_declarator",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:237:253:initializer_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:205:254:declaration->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:223:253:init_declarator:22",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:205:254:declaration",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:223:253:init_declarator",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:205:254:declaration:23",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:205:254:declaration",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:258:309:declaration->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:258:264:storage_class_specifier:24",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:258:309:declaration",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:258:264:storage_class_specifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:258:309:declaration->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:265:270:type_qualifier:25",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:258:309:declaration",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:265:270:type_qualifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:258:309:declaration->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:271:275:primitive_type:26",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:258:309:declaration",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:271:275:primitive_type",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:277:291:array_declarator->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:277:289:identifier:27",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:277:291:array_declarator",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:277:289:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:276:291:pointer_declarator->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:277:291:array_declarator:28",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:276:291:pointer_declarator",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:277:291:array_declarator",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:276:308:init_declarator->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:276:291:pointer_declarator:29",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:276:308:init_declarator",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:276:291:pointer_declarator",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:296:305:string_literal->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:297:304:string_content:30",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:296:305:string_literal",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:297:304:string_content",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:292:308:initializer_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:296:305:string_literal:31",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:292:308:initializer_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:296:305:string_literal",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:276:308:init_declarator->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:292:308:initializer_list:32",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:276:308:init_declarator",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:292:308:initializer_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:258:309:declaration->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:276:308:init_declarator:33",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:258:309:declaration",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:276:308:init_declarator",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:258:309:declaration:34",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:258:309:declaration",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:313:364:declaration->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:313:319:storage_class_specifier:35",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:313:364:declaration",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:313:319:storage_class_specifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:313:364:declaration->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:320:325:type_qualifier:36",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:313:364:declaration",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:320:325:type_qualifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:313:364:declaration->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:326:330:primitive_type:37",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:313:364:declaration",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:326:330:primitive_type",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:332:345:array_declarator->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:332:343:identifier:38",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:332:345:array_declarator",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:332:343:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:331:345:pointer_declarator->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:332:345:array_declarator:39",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:331:345:pointer_declarator",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:332:345:array_declarator",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:331:363:init_declarator->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:331:345:pointer_declarator:40",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:331:363:init_declarator",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:331:345:pointer_declarator",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:350:360:string_literal->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:351:359:string_content:41",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:350:360:string_literal",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:351:359:string_content",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:346:363:initializer_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:350:360:string_literal:42",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:346:363:initializer_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:350:360:string_literal",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:331:363:init_declarator->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:346:363:initializer_list:43",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:331:363:init_declarator",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:346:363:initializer_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:313:364:declaration->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:331:363:init_declarator:44",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:313:364:declaration",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:331:363:init_declarator",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:313:364:declaration:45",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:313:364:declaration",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:368:788:declaration->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:368:387:type_identifier:46",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:368:788:declaration",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:368:387:type_identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:388:401:function_declarator->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:388:393:identifier:47",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:388:401:function_declarator",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:388:393:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:394:400:parameter_declaration->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:394:400:type_identifier:48",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:394:400:parameter_declaration",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:394:400:type_identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:393:401:parameter_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:394:400:parameter_declaration:49",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:393:401:parameter_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:394:400:parameter_declaration",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:388:401:function_declarator->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:393:401:parameter_list:50",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:388:401:function_declarator",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:393:401:parameter_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:388:787:init_declarator->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:388:401:function_declarator:51",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:388:787:init_declarator",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:388:401:function_declarator",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:406:430:call_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:406:416:identifier:52",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:406:430:call_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:406:416:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:416:430:argument_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:417:429:identifier:53",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:416:430:argument_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:417:429:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:406:430:call_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:416:430:argument_list:54",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:406:430:call_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:416:430:argument_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:406:430:call_expression:55",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:406:430:call_expression",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:434:480:call_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:434:452:identifier:56",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:434:480:call_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:434:452:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:453:479:call_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:453:463:identifier:57",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:453:479:call_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:453:463:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:463:479:argument_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:464:478:identifier:58",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:463:479:argument_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:464:478:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:453:479:call_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:463:479:argument_list:59",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:453:479:call_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:463:479:argument_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:452:480:argument_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:453:479:call_expression:60",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:452:480:argument_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:453:479:call_expression",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:434:480:call_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:452:480:argument_list:61",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:434:480:call_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:452:480:argument_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:434:480:call_expression:62",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:434:480:call_expression",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:484:504:qualified_identifier->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:484:491:namespace_identifier:63",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:484:504:qualified_identifier",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:484:491:namespace_identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:484:504:qualified_identifier->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:493:504:identifier:64",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:484:504:qualified_identifier",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:493:504:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:484:538:binary_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:484:504:qualified_identifier:65",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:484:538:binary_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:484:504:qualified_identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:507:538:qualified_identifier->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:507:514:namespace_identifier:66",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:507:538:qualified_identifier",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:507:514:namespace_identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:507:538:qualified_identifier->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:516:538:identifier:67",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:507:538:qualified_identifier",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:516:538:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:484:538:binary_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:507:538:qualified_identifier:68",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:484:538:binary_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:507:538:qualified_identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:484:538:binary_expression:69",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:484:538:binary_expression",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:542:552:identifier:70",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:542:552:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:556:575:call_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:556:563:identifier:71",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:556:575:call_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:556:563:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:563:575:argument_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:564:574:identifier:72",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:563:575:argument_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:564:574:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:556:575:call_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:563:575:argument_list:73",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:556:575:call_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:563:575:argument_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:556:575:call_expression:74",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:556:575:call_expression",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:579:591:identifier:75",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:579:591:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:595:616:call_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:595:602:identifier:76",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:595:616:call_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:595:602:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:602:616:argument_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:603:615:identifier:77",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:602:616:argument_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:603:615:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:595:616:call_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:602:616:argument_list:78",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:595:616:call_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:602:616:argument_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:595:616:call_expression:79",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:595:616:call_expression",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:620:631:identifier:80",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:620:631:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:635:655:call_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:635:642:identifier:81",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:635:655:call_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:635:642:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:642:655:argument_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:643:654:identifier:82",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:642:655:argument_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:643:654:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:635:655:call_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:642:655:argument_list:83",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:635:655:call_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:642:655:argument_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:635:655:call_expression:84",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:635:655:call_expression",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:659:679:qualified_identifier->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:659:672:namespace_identifier:85",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:659:679:qualified_identifier",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:659:672:namespace_identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:659:679:qualified_identifier->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:674:679:identifier:86",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:659:679:qualified_identifier",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:674:679:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:659:679:qualified_identifier:87",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:659:679:qualified_identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:683:703:qualified_identifier->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:683:696:namespace_identifier:88",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:683:703:qualified_identifier",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:683:696:namespace_identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:683:703:qualified_identifier->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:698:703:identifier:89",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:683:703:qualified_identifier",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:698:703:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:683:703:qualified_identifier:90",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:683:703:qualified_identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:707:784:lambda_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:707:709:lambda_capture_specifier:91",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:707:784:lambda_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:707:709:lambda_capture_specifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:709:711:lambda_declarator->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:709:711:parameter_list:92",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:709:711:lambda_declarator",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:709:711:parameter_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:707:784:lambda_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:709:711:lambda_declarator:93",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:707:784:lambda_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:709:711:lambda_declarator",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:741:qualified_identifier->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:727:namespace_identifier:94",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:741:qualified_identifier",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:727:namespace_identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:741:qualified_identifier->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:729:741:identifier:95",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:741:qualified_identifier",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:729:741:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:743:call_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:741:qualified_identifier:96",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:743:call_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:741:qualified_identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:743:call_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:741:743:argument_list:97",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:743:call_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:741:743:argument_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:744:expression_statement->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:743:call_expression:98",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:744:expression_statement",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:743:call_expression",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:712:784:compound_statement->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:744:expression_statement:99",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:712:784:compound_statement",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:744:expression_statement",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:769:qualified_identifier->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:758:namespace_identifier:100",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:769:qualified_identifier",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:758:namespace_identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:769:qualified_identifier->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:760:769:identifier:101",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:769:qualified_identifier",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:760:769:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:771:call_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:769:qualified_identifier:102",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:771:call_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:769:qualified_identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:771:call_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:769:771:argument_list:103",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:771:call_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:769:771:argument_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:777:field_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:771:call_expression:104",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:777:field_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:771:call_expression",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:777:field_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:773:777:field_identifier:105",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:777:field_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:773:777:field_identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:779:call_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:777:field_expression:106",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:779:call_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:777:field_expression",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:779:call_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:777:779:argument_list:107",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:779:call_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:777:779:argument_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:780:expression_statement->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:779:call_expression:108",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:780:expression_statement",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:779:call_expression",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:712:784:compound_statement->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:780:expression_statement:109",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:712:784:compound_statement",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:780:expression_statement",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:707:784:lambda_expression->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:712:784:compound_statement:110",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:707:784:lambda_expression",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:712:784:compound_statement",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:707:784:lambda_expression:111",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:707:784:lambda_expression",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:388:787:init_declarator->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list:112",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:388:787:init_declarator",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:368:788:declaration->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:388:787:init_declarator:113",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:368:788:declaration",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:388:787:init_declarator",
+      "type": "child"
+    },
+    {
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:edge:ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit->ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:368:788:declaration:114",
+      "role": "child",
+      "source_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit",
+      "target_id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:368:788:declaration",
+      "type": "child"
+    }
+  ],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:3:comment",
+      "kind": "comment",
+      "label": "//\r",
+      "span": {
+        "end": {
+          "column": 3,
+          "line": 1
+        },
+        "end_byte": 3,
+        "start": {
+          "column": 0,
+          "line": 1
+        },
+        "start_byte": 0
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:4:23:comment",
+      "kind": "comment",
+      "label": "//  kern_start.cpp\r",
+      "span": {
+        "end": {
+          "column": 19,
+          "line": 2
+        },
+        "end_byte": 23,
+        "start": {
+          "column": 0,
+          "line": 2
+        },
+        "start_byte": 4
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:24:37:comment",
+      "kind": "comment",
+      "label": "//  AppleALC\r",
+      "span": {
+        "end": {
+          "column": 13,
+          "line": 3
+        },
+        "end_byte": 37,
+        "start": {
+          "column": 0,
+          "line": 3
+        },
+        "start_byte": 24
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:38:41:comment",
+      "kind": "comment",
+      "label": "//\r",
+      "span": {
+        "end": {
+          "column": 3,
+          "line": 4
+        },
+        "end_byte": 41,
+        "start": {
+          "column": 0,
+          "line": 4
+        },
+        "start_byte": 38
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:42:99:comment",
+      "kind": "comment",
+      "label": "//  Copyright © 2016-2017 vit9696. All rights reserved.\r",
+      "span": {
+        "end": {
+          "column": 57,
+          "line": 5
+        },
+        "end_byte": 99,
+        "start": {
+          "column": 0,
+          "line": 5
+        },
+        "start_byte": 42
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:100:103:comment",
+      "kind": "comment",
+      "label": "//\r",
+      "span": {
+        "end": {
+          "column": 3,
+          "line": 6
+        },
+        "end_byte": 103,
+        "start": {
+          "column": 0,
+          "line": 6
+        },
+        "start_byte": 100
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:115:141:system_lib_string",
+      "kind": "system_lib_string",
+      "label": "<Headers/plugin_start.hpp>",
+      "span": {
+        "end": {
+          "column": 35,
+          "line": 8
+        },
+        "end_byte": 141,
+        "start": {
+          "column": 9,
+          "line": 8
+        },
+        "start_byte": 115
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:115:141:system_lib_string"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:106:143:preproc_include",
+      "kind": "preproc_include",
+      "label": "#include <Headers/plugin_start.hpp>\r\n",
+      "span": {
+        "end": {
+          "column": 0,
+          "line": 9
+        },
+        "end_byte": 143,
+        "start": {
+          "column": 0,
+          "line": 8
+        },
+        "start_byte": 106
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:152:174:system_lib_string",
+      "kind": "system_lib_string",
+      "label": "<Headers/kern_api.hpp>",
+      "span": {
+        "end": {
+          "column": 31,
+          "line": 9
+        },
+        "end_byte": 174,
+        "start": {
+          "column": 9,
+          "line": 9
+        },
+        "start_byte": 152
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:152:174:system_lib_string"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:143:176:preproc_include",
+      "kind": "preproc_include",
+      "label": "#include <Headers/kern_api.hpp>\r\n",
+      "span": {
+        "end": {
+          "column": 0,
+          "line": 10
+        },
+        "end_byte": 176,
+        "start": {
+          "column": 0,
+          "line": 9
+        },
+        "start_byte": 143
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:188:200:string_content",
+      "kind": "string_content",
+      "label": "kern_alc.hpp",
+      "span": {
+        "end": {
+          "column": 22,
+          "line": 11
+        },
+        "end_byte": 200,
+        "start": {
+          "column": 10,
+          "line": 11
+        },
+        "start_byte": 188
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:188:200:string_content"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:187:201:string_literal",
+      "kind": "string_literal",
+      "label": "\"kern_alc.hpp\"",
+      "span": {
+        "end": {
+          "column": 23,
+          "line": 11
+        },
+        "end_byte": 201,
+        "start": {
+          "column": 9,
+          "line": 11
+        },
+        "start_byte": 187
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:187:201:string_literal"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:178:203:preproc_include",
+      "kind": "preproc_include",
+      "label": "#include \"kern_alc.hpp\"\r\n",
+      "span": {
+        "end": {
+          "column": 0,
+          "line": 12
+        },
+        "end_byte": 203,
+        "start": {
+          "column": 0,
+          "line": 11
+        },
+        "start_byte": 178
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:205:211:storage_class_specifier",
+      "kind": "storage_class_specifier",
+      "label": "static",
+      "span": {
+        "end": {
+          "column": 6,
+          "line": 13
+        },
+        "end_byte": 211,
+        "start": {
+          "column": 0,
+          "line": 13
+        },
+        "start_byte": 205
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:212:217:type_qualifier",
+      "kind": "type_qualifier",
+      "label": "const",
+      "span": {
+        "end": {
+          "column": 12,
+          "line": 13
+        },
+        "end_byte": 217,
+        "start": {
+          "column": 7,
+          "line": 13
+        },
+        "start_byte": 212
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:218:222:primitive_type",
+      "kind": "primitive_type",
+      "label": "char",
+      "span": {
+        "end": {
+          "column": 17,
+          "line": 13
+        },
+        "end_byte": 222,
+        "start": {
+          "column": 13,
+          "line": 13
+        },
+        "start_byte": 218
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:224:234:identifier",
+      "kind": "identifier",
+      "label": "bootargOff",
+      "span": {
+        "end": {
+          "column": 29,
+          "line": 13
+        },
+        "end_byte": 234,
+        "start": {
+          "column": 19,
+          "line": 13
+        },
+        "start_byte": 224
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:224:234:identifier"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:224:236:array_declarator",
+      "kind": "array_declarator",
+      "label": "bootargOff[]",
+      "span": {
+        "end": {
+          "column": 31,
+          "line": 13
+        },
+        "end_byte": 236,
+        "start": {
+          "column": 19,
+          "line": 13
+        },
+        "start_byte": 224
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:224:236:array_declarator"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:223:236:pointer_declarator",
+      "kind": "pointer_declarator",
+      "label": "*bootargOff[]",
+      "span": {
+        "end": {
+          "column": 31,
+          "line": 13
+        },
+        "end_byte": 236,
+        "start": {
+          "column": 18,
+          "line": 13
+        },
+        "start_byte": 223
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:242:249:string_content",
+      "kind": "string_content",
+      "label": "-alcoff",
+      "span": {
+        "end": {
+          "column": 9,
+          "line": 14
+        },
+        "end_byte": 249,
+        "start": {
+          "column": 2,
+          "line": 14
+        },
+        "start_byte": 242
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:242:249:string_content"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:241:250:string_literal",
+      "kind": "string_literal",
+      "label": "\"-alcoff\"",
+      "span": {
+        "end": {
+          "column": 10,
+          "line": 14
+        },
+        "end_byte": 250,
+        "start": {
+          "column": 1,
+          "line": 14
+        },
+        "start_byte": 241
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:241:250:string_literal"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:237:253:initializer_list",
+      "kind": "initializer_list",
+      "label": "{\r\n\t\"-alcoff\"\r\n}",
+      "span": {
+        "end": {
+          "column": 1,
+          "line": 15
+        },
+        "end_byte": 253,
+        "start": {
+          "column": 32,
+          "line": 13
+        },
+        "start_byte": 237
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:223:236:pointer_declarator",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:237:253:initializer_list"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:223:253:init_declarator",
+      "kind": "init_declarator",
+      "label": "*bootargOff[] {\r\n\t\"-alcoff\"\r\n}",
+      "span": {
+        "end": {
+          "column": 1,
+          "line": 15
+        },
+        "end_byte": 253,
+        "start": {
+          "column": 18,
+          "line": 13
+        },
+        "start_byte": 223
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:205:211:storage_class_specifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:212:217:type_qualifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:218:222:primitive_type",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:223:253:init_declarator"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:205:254:declaration",
+      "kind": "declaration",
+      "label": "static const char *bootargOff[] {\r\n\t\"-alcoff\"\r\n};",
+      "span": {
+        "end": {
+          "column": 2,
+          "line": 15
+        },
+        "end_byte": 254,
+        "start": {
+          "column": 0,
+          "line": 13
+        },
+        "start_byte": 205
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:258:264:storage_class_specifier",
+      "kind": "storage_class_specifier",
+      "label": "static",
+      "span": {
+        "end": {
+          "column": 6,
+          "line": 17
+        },
+        "end_byte": 264,
+        "start": {
+          "column": 0,
+          "line": 17
+        },
+        "start_byte": 258
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:265:270:type_qualifier",
+      "kind": "type_qualifier",
+      "label": "const",
+      "span": {
+        "end": {
+          "column": 12,
+          "line": 17
+        },
+        "end_byte": 270,
+        "start": {
+          "column": 7,
+          "line": 17
+        },
+        "start_byte": 265
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:271:275:primitive_type",
+      "kind": "primitive_type",
+      "label": "char",
+      "span": {
+        "end": {
+          "column": 17,
+          "line": 17
+        },
+        "end_byte": 275,
+        "start": {
+          "column": 13,
+          "line": 17
+        },
+        "start_byte": 271
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:277:289:identifier",
+      "kind": "identifier",
+      "label": "bootargDebug",
+      "span": {
+        "end": {
+          "column": 31,
+          "line": 17
+        },
+        "end_byte": 289,
+        "start": {
+          "column": 19,
+          "line": 17
+        },
+        "start_byte": 277
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:277:289:identifier"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:277:291:array_declarator",
+      "kind": "array_declarator",
+      "label": "bootargDebug[]",
+      "span": {
+        "end": {
+          "column": 33,
+          "line": 17
+        },
+        "end_byte": 291,
+        "start": {
+          "column": 19,
+          "line": 17
+        },
+        "start_byte": 277
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:277:291:array_declarator"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:276:291:pointer_declarator",
+      "kind": "pointer_declarator",
+      "label": "*bootargDebug[]",
+      "span": {
+        "end": {
+          "column": 33,
+          "line": 17
+        },
+        "end_byte": 291,
+        "start": {
+          "column": 18,
+          "line": 17
+        },
+        "start_byte": 276
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:297:304:string_content",
+      "kind": "string_content",
+      "label": "-alcdbg",
+      "span": {
+        "end": {
+          "column": 9,
+          "line": 18
+        },
+        "end_byte": 304,
+        "start": {
+          "column": 2,
+          "line": 18
+        },
+        "start_byte": 297
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:297:304:string_content"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:296:305:string_literal",
+      "kind": "string_literal",
+      "label": "\"-alcdbg\"",
+      "span": {
+        "end": {
+          "column": 10,
+          "line": 18
+        },
+        "end_byte": 305,
+        "start": {
+          "column": 1,
+          "line": 18
+        },
+        "start_byte": 296
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:296:305:string_literal"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:292:308:initializer_list",
+      "kind": "initializer_list",
+      "label": "{\r\n\t\"-alcdbg\"\r\n}",
+      "span": {
+        "end": {
+          "column": 1,
+          "line": 19
+        },
+        "end_byte": 308,
+        "start": {
+          "column": 34,
+          "line": 17
+        },
+        "start_byte": 292
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:276:291:pointer_declarator",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:292:308:initializer_list"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:276:308:init_declarator",
+      "kind": "init_declarator",
+      "label": "*bootargDebug[] {\r\n\t\"-alcdbg\"\r\n}",
+      "span": {
+        "end": {
+          "column": 1,
+          "line": 19
+        },
+        "end_byte": 308,
+        "start": {
+          "column": 18,
+          "line": 17
+        },
+        "start_byte": 276
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:258:264:storage_class_specifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:265:270:type_qualifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:271:275:primitive_type",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:276:308:init_declarator"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:258:309:declaration",
+      "kind": "declaration",
+      "label": "static const char *bootargDebug[] {\r\n\t\"-alcdbg\"\r\n};",
+      "span": {
+        "end": {
+          "column": 2,
+          "line": 19
+        },
+        "end_byte": 309,
+        "start": {
+          "column": 0,
+          "line": 17
+        },
+        "start_byte": 258
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:313:319:storage_class_specifier",
+      "kind": "storage_class_specifier",
+      "label": "static",
+      "span": {
+        "end": {
+          "column": 6,
+          "line": 21
+        },
+        "end_byte": 319,
+        "start": {
+          "column": 0,
+          "line": 21
+        },
+        "start_byte": 313
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:320:325:type_qualifier",
+      "kind": "type_qualifier",
+      "label": "const",
+      "span": {
+        "end": {
+          "column": 12,
+          "line": 21
+        },
+        "end_byte": 325,
+        "start": {
+          "column": 7,
+          "line": 21
+        },
+        "start_byte": 320
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:326:330:primitive_type",
+      "kind": "primitive_type",
+      "label": "char",
+      "span": {
+        "end": {
+          "column": 17,
+          "line": 21
+        },
+        "end_byte": 330,
+        "start": {
+          "column": 13,
+          "line": 21
+        },
+        "start_byte": 326
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:332:343:identifier",
+      "kind": "identifier",
+      "label": "bootargBeta",
+      "span": {
+        "end": {
+          "column": 30,
+          "line": 21
+        },
+        "end_byte": 343,
+        "start": {
+          "column": 19,
+          "line": 21
+        },
+        "start_byte": 332
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:332:343:identifier"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:332:345:array_declarator",
+      "kind": "array_declarator",
+      "label": "bootargBeta[]",
+      "span": {
+        "end": {
+          "column": 32,
+          "line": 21
+        },
+        "end_byte": 345,
+        "start": {
+          "column": 19,
+          "line": 21
+        },
+        "start_byte": 332
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:332:345:array_declarator"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:331:345:pointer_declarator",
+      "kind": "pointer_declarator",
+      "label": "*bootargBeta[]",
+      "span": {
+        "end": {
+          "column": 32,
+          "line": 21
+        },
+        "end_byte": 345,
+        "start": {
+          "column": 18,
+          "line": 21
+        },
+        "start_byte": 331
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:351:359:string_content",
+      "kind": "string_content",
+      "label": "-alcbeta",
+      "span": {
+        "end": {
+          "column": 10,
+          "line": 22
+        },
+        "end_byte": 359,
+        "start": {
+          "column": 2,
+          "line": 22
+        },
+        "start_byte": 351
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:351:359:string_content"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:350:360:string_literal",
+      "kind": "string_literal",
+      "label": "\"-alcbeta\"",
+      "span": {
+        "end": {
+          "column": 11,
+          "line": 22
+        },
+        "end_byte": 360,
+        "start": {
+          "column": 1,
+          "line": 22
+        },
+        "start_byte": 350
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:350:360:string_literal"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:346:363:initializer_list",
+      "kind": "initializer_list",
+      "label": "{\r\n\t\"-alcbeta\"\r\n}",
+      "span": {
+        "end": {
+          "column": 1,
+          "line": 23
+        },
+        "end_byte": 363,
+        "start": {
+          "column": 33,
+          "line": 21
+        },
+        "start_byte": 346
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:331:345:pointer_declarator",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:346:363:initializer_list"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:331:363:init_declarator",
+      "kind": "init_declarator",
+      "label": "*bootargBeta[] {\r\n\t\"-alcbeta\"\r\n}",
+      "span": {
+        "end": {
+          "column": 1,
+          "line": 23
+        },
+        "end_byte": 363,
+        "start": {
+          "column": 18,
+          "line": 21
+        },
+        "start_byte": 331
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:313:319:storage_class_specifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:320:325:type_qualifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:326:330:primitive_type",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:331:363:init_declarator"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:313:364:declaration",
+      "kind": "declaration",
+      "label": "static const char *bootargBeta[] {\r\n\t\"-alcbeta\"\r\n};",
+      "span": {
+        "end": {
+          "column": 2,
+          "line": 23
+        },
+        "end_byte": 364,
+        "start": {
+          "column": 0,
+          "line": 21
+        },
+        "start_byte": 313
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:368:387:type_identifier",
+      "kind": "type_identifier",
+      "label": "PluginConfiguration",
+      "span": {
+        "end": {
+          "column": 19,
+          "line": 25
+        },
+        "end_byte": 387,
+        "start": {
+          "column": 0,
+          "line": 25
+        },
+        "start_byte": 368
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:388:393:identifier",
+      "kind": "identifier",
+      "label": "ADDPR",
+      "span": {
+        "end": {
+          "column": 25,
+          "line": 25
+        },
+        "end_byte": 393,
+        "start": {
+          "column": 20,
+          "line": 25
+        },
+        "start_byte": 388
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:394:400:type_identifier",
+      "kind": "type_identifier",
+      "label": "config",
+      "span": {
+        "end": {
+          "column": 32,
+          "line": 25
+        },
+        "end_byte": 400,
+        "start": {
+          "column": 26,
+          "line": 25
+        },
+        "start_byte": 394
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:394:400:type_identifier"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:394:400:parameter_declaration",
+      "kind": "parameter_declaration",
+      "label": "config",
+      "span": {
+        "end": {
+          "column": 32,
+          "line": 25
+        },
+        "end_byte": 400,
+        "start": {
+          "column": 26,
+          "line": 25
+        },
+        "start_byte": 394
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:394:400:parameter_declaration"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:393:401:parameter_list",
+      "kind": "parameter_list",
+      "label": "(config)",
+      "span": {
+        "end": {
+          "column": 33,
+          "line": 25
+        },
+        "end_byte": 401,
+        "start": {
+          "column": 25,
+          "line": 25
+        },
+        "start_byte": 393
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:388:393:identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:393:401:parameter_list"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:388:401:function_declarator",
+      "kind": "function_declarator",
+      "label": "ADDPR(config)",
+      "span": {
+        "end": {
+          "column": 33,
+          "line": 25
+        },
+        "end_byte": 401,
+        "start": {
+          "column": 20,
+          "line": 25
+        },
+        "start_byte": 388
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:406:416:identifier",
+      "kind": "identifier",
+      "label": "xStringify",
+      "span": {
+        "end": {
+          "column": 11,
+          "line": 26
+        },
+        "end_byte": 416,
+        "start": {
+          "column": 1,
+          "line": 26
+        },
+        "start_byte": 406
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:417:429:identifier",
+      "kind": "identifier",
+      "label": "PRODUCT_NAME",
+      "span": {
+        "end": {
+          "column": 24,
+          "line": 26
+        },
+        "end_byte": 429,
+        "start": {
+          "column": 12,
+          "line": 26
+        },
+        "start_byte": 417
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:417:429:identifier"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:416:430:argument_list",
+      "kind": "argument_list",
+      "label": "(PRODUCT_NAME)",
+      "span": {
+        "end": {
+          "column": 25,
+          "line": 26
+        },
+        "end_byte": 430,
+        "start": {
+          "column": 11,
+          "line": 26
+        },
+        "start_byte": 416
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:406:416:identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:416:430:argument_list"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:406:430:call_expression",
+      "kind": "call_expression",
+      "label": "xStringify(PRODUCT_NAME)",
+      "span": {
+        "end": {
+          "column": 25,
+          "line": 26
+        },
+        "end_byte": 430,
+        "start": {
+          "column": 1,
+          "line": 26
+        },
+        "start_byte": 406
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:434:452:identifier",
+      "kind": "identifier",
+      "label": "parseModuleVersion",
+      "span": {
+        "end": {
+          "column": 19,
+          "line": 27
+        },
+        "end_byte": 452,
+        "start": {
+          "column": 1,
+          "line": 27
+        },
+        "start_byte": 434
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:453:463:identifier",
+      "kind": "identifier",
+      "label": "xStringify",
+      "span": {
+        "end": {
+          "column": 30,
+          "line": 27
+        },
+        "end_byte": 463,
+        "start": {
+          "column": 20,
+          "line": 27
+        },
+        "start_byte": 453
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:464:478:identifier",
+      "kind": "identifier",
+      "label": "MODULE_VERSION",
+      "span": {
+        "end": {
+          "column": 45,
+          "line": 27
+        },
+        "end_byte": 478,
+        "start": {
+          "column": 31,
+          "line": 27
+        },
+        "start_byte": 464
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:464:478:identifier"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:463:479:argument_list",
+      "kind": "argument_list",
+      "label": "(MODULE_VERSION)",
+      "span": {
+        "end": {
+          "column": 46,
+          "line": 27
+        },
+        "end_byte": 479,
+        "start": {
+          "column": 30,
+          "line": 27
+        },
+        "start_byte": 463
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:453:463:identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:463:479:argument_list"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:453:479:call_expression",
+      "kind": "call_expression",
+      "label": "xStringify(MODULE_VERSION)",
+      "span": {
+        "end": {
+          "column": 46,
+          "line": 27
+        },
+        "end_byte": 479,
+        "start": {
+          "column": 20,
+          "line": 27
+        },
+        "start_byte": 453
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:453:479:call_expression"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:452:480:argument_list",
+      "kind": "argument_list",
+      "label": "(xStringify(MODULE_VERSION))",
+      "span": {
+        "end": {
+          "column": 47,
+          "line": 27
+        },
+        "end_byte": 480,
+        "start": {
+          "column": 19,
+          "line": 27
+        },
+        "start_byte": 452
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:434:452:identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:452:480:argument_list"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:434:480:call_expression",
+      "kind": "call_expression",
+      "label": "parseModuleVersion(xStringify(MODULE_VERSION))",
+      "span": {
+        "end": {
+          "column": 47,
+          "line": 27
+        },
+        "end_byte": 480,
+        "start": {
+          "column": 1,
+          "line": 27
+        },
+        "start_byte": 434
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:484:491:namespace_identifier",
+      "kind": "namespace_identifier",
+      "label": "LiluAPI",
+      "span": {
+        "end": {
+          "column": 8,
+          "line": 28
+        },
+        "end_byte": 491,
+        "start": {
+          "column": 1,
+          "line": 28
+        },
+        "start_byte": 484
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:493:504:identifier",
+      "kind": "identifier",
+      "label": "AllowNormal",
+      "span": {
+        "end": {
+          "column": 21,
+          "line": 28
+        },
+        "end_byte": 504,
+        "start": {
+          "column": 10,
+          "line": 28
+        },
+        "start_byte": 493
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:484:491:namespace_identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:493:504:identifier"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:484:504:qualified_identifier",
+      "kind": "qualified_identifier",
+      "label": "LiluAPI::AllowNormal",
+      "span": {
+        "end": {
+          "column": 21,
+          "line": 28
+        },
+        "end_byte": 504,
+        "start": {
+          "column": 1,
+          "line": 28
+        },
+        "start_byte": 484
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:507:514:namespace_identifier",
+      "kind": "namespace_identifier",
+      "label": "LiluAPI",
+      "span": {
+        "end": {
+          "column": 31,
+          "line": 28
+        },
+        "end_byte": 514,
+        "start": {
+          "column": 24,
+          "line": 28
+        },
+        "start_byte": 507
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:516:538:identifier",
+      "kind": "identifier",
+      "label": "AllowInstallerRecovery",
+      "span": {
+        "end": {
+          "column": 55,
+          "line": 28
+        },
+        "end_byte": 538,
+        "start": {
+          "column": 33,
+          "line": 28
+        },
+        "start_byte": 516
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:507:514:namespace_identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:516:538:identifier"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:507:538:qualified_identifier",
+      "kind": "qualified_identifier",
+      "label": "LiluAPI::AllowInstallerRecovery",
+      "span": {
+        "end": {
+          "column": 55,
+          "line": 28
+        },
+        "end_byte": 538,
+        "start": {
+          "column": 24,
+          "line": 28
+        },
+        "start_byte": 507
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:484:504:qualified_identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:507:538:qualified_identifier"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:484:538:binary_expression",
+      "kind": "binary_expression",
+      "label": "LiluAPI::AllowNormal | LiluAPI::AllowInstallerRecovery",
+      "span": {
+        "end": {
+          "column": 55,
+          "line": 28
+        },
+        "end_byte": 538,
+        "start": {
+          "column": 1,
+          "line": 28
+        },
+        "start_byte": 484
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:542:552:identifier",
+      "kind": "identifier",
+      "label": "bootargOff",
+      "span": {
+        "end": {
+          "column": 11,
+          "line": 29
+        },
+        "end_byte": 552,
+        "start": {
+          "column": 1,
+          "line": 29
+        },
+        "start_byte": 542
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:556:563:identifier",
+      "kind": "identifier",
+      "label": "arrsize",
+      "span": {
+        "end": {
+          "column": 8,
+          "line": 30
+        },
+        "end_byte": 563,
+        "start": {
+          "column": 1,
+          "line": 30
+        },
+        "start_byte": 556
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:564:574:identifier",
+      "kind": "identifier",
+      "label": "bootargOff",
+      "span": {
+        "end": {
+          "column": 19,
+          "line": 30
+        },
+        "end_byte": 574,
+        "start": {
+          "column": 9,
+          "line": 30
+        },
+        "start_byte": 564
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:564:574:identifier"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:563:575:argument_list",
+      "kind": "argument_list",
+      "label": "(bootargOff)",
+      "span": {
+        "end": {
+          "column": 20,
+          "line": 30
+        },
+        "end_byte": 575,
+        "start": {
+          "column": 8,
+          "line": 30
+        },
+        "start_byte": 563
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:556:563:identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:563:575:argument_list"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:556:575:call_expression",
+      "kind": "call_expression",
+      "label": "arrsize(bootargOff)",
+      "span": {
+        "end": {
+          "column": 20,
+          "line": 30
+        },
+        "end_byte": 575,
+        "start": {
+          "column": 1,
+          "line": 30
+        },
+        "start_byte": 556
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:579:591:identifier",
+      "kind": "identifier",
+      "label": "bootargDebug",
+      "span": {
+        "end": {
+          "column": 13,
+          "line": 31
+        },
+        "end_byte": 591,
+        "start": {
+          "column": 1,
+          "line": 31
+        },
+        "start_byte": 579
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:595:602:identifier",
+      "kind": "identifier",
+      "label": "arrsize",
+      "span": {
+        "end": {
+          "column": 8,
+          "line": 32
+        },
+        "end_byte": 602,
+        "start": {
+          "column": 1,
+          "line": 32
+        },
+        "start_byte": 595
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:603:615:identifier",
+      "kind": "identifier",
+      "label": "bootargDebug",
+      "span": {
+        "end": {
+          "column": 21,
+          "line": 32
+        },
+        "end_byte": 615,
+        "start": {
+          "column": 9,
+          "line": 32
+        },
+        "start_byte": 603
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:603:615:identifier"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:602:616:argument_list",
+      "kind": "argument_list",
+      "label": "(bootargDebug)",
+      "span": {
+        "end": {
+          "column": 22,
+          "line": 32
+        },
+        "end_byte": 616,
+        "start": {
+          "column": 8,
+          "line": 32
+        },
+        "start_byte": 602
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:595:602:identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:602:616:argument_list"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:595:616:call_expression",
+      "kind": "call_expression",
+      "label": "arrsize(bootargDebug)",
+      "span": {
+        "end": {
+          "column": 22,
+          "line": 32
+        },
+        "end_byte": 616,
+        "start": {
+          "column": 1,
+          "line": 32
+        },
+        "start_byte": 595
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:620:631:identifier",
+      "kind": "identifier",
+      "label": "bootargBeta",
+      "span": {
+        "end": {
+          "column": 12,
+          "line": 33
+        },
+        "end_byte": 631,
+        "start": {
+          "column": 1,
+          "line": 33
+        },
+        "start_byte": 620
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:635:642:identifier",
+      "kind": "identifier",
+      "label": "arrsize",
+      "span": {
+        "end": {
+          "column": 8,
+          "line": 34
+        },
+        "end_byte": 642,
+        "start": {
+          "column": 1,
+          "line": 34
+        },
+        "start_byte": 635
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:643:654:identifier",
+      "kind": "identifier",
+      "label": "bootargBeta",
+      "span": {
+        "end": {
+          "column": 20,
+          "line": 34
+        },
+        "end_byte": 654,
+        "start": {
+          "column": 9,
+          "line": 34
+        },
+        "start_byte": 643
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:643:654:identifier"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:642:655:argument_list",
+      "kind": "argument_list",
+      "label": "(bootargBeta)",
+      "span": {
+        "end": {
+          "column": 21,
+          "line": 34
+        },
+        "end_byte": 655,
+        "start": {
+          "column": 8,
+          "line": 34
+        },
+        "start_byte": 642
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:635:642:identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:642:655:argument_list"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:635:655:call_expression",
+      "kind": "call_expression",
+      "label": "arrsize(bootargBeta)",
+      "span": {
+        "end": {
+          "column": 21,
+          "line": 34
+        },
+        "end_byte": 655,
+        "start": {
+          "column": 1,
+          "line": 34
+        },
+        "start_byte": 635
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:659:672:namespace_identifier",
+      "kind": "namespace_identifier",
+      "label": "KernelVersion",
+      "span": {
+        "end": {
+          "column": 14,
+          "line": 35
+        },
+        "end_byte": 672,
+        "start": {
+          "column": 1,
+          "line": 35
+        },
+        "start_byte": 659
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:674:679:identifier",
+      "kind": "identifier",
+      "label": "Tiger",
+      "span": {
+        "end": {
+          "column": 21,
+          "line": 35
+        },
+        "end_byte": 679,
+        "start": {
+          "column": 16,
+          "line": 35
+        },
+        "start_byte": 674
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:659:672:namespace_identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:674:679:identifier"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:659:679:qualified_identifier",
+      "kind": "qualified_identifier",
+      "label": "KernelVersion::Tiger",
+      "span": {
+        "end": {
+          "column": 21,
+          "line": 35
+        },
+        "end_byte": 679,
+        "start": {
+          "column": 1,
+          "line": 35
+        },
+        "start_byte": 659
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:683:696:namespace_identifier",
+      "kind": "namespace_identifier",
+      "label": "KernelVersion",
+      "span": {
+        "end": {
+          "column": 14,
+          "line": 36
+        },
+        "end_byte": 696,
+        "start": {
+          "column": 1,
+          "line": 36
+        },
+        "start_byte": 683
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:698:703:identifier",
+      "kind": "identifier",
+      "label": "Tahoe",
+      "span": {
+        "end": {
+          "column": 21,
+          "line": 36
+        },
+        "end_byte": 703,
+        "start": {
+          "column": 16,
+          "line": 36
+        },
+        "start_byte": 698
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:683:696:namespace_identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:698:703:identifier"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:683:703:qualified_identifier",
+      "kind": "qualified_identifier",
+      "label": "KernelVersion::Tahoe",
+      "span": {
+        "end": {
+          "column": 21,
+          "line": 36
+        },
+        "end_byte": 703,
+        "start": {
+          "column": 1,
+          "line": 36
+        },
+        "start_byte": 683
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:707:709:lambda_capture_specifier",
+      "kind": "lambda_capture_specifier",
+      "label": "[]",
+      "span": {
+        "end": {
+          "column": 3,
+          "line": 37
+        },
+        "end_byte": 709,
+        "start": {
+          "column": 1,
+          "line": 37
+        },
+        "start_byte": 707
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:709:711:parameter_list",
+      "kind": "parameter_list",
+      "label": "()",
+      "span": {
+        "end": {
+          "column": 5,
+          "line": 37
+        },
+        "end_byte": 711,
+        "start": {
+          "column": 3,
+          "line": 37
+        },
+        "start_byte": 709
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:709:711:parameter_list"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:709:711:lambda_declarator",
+      "kind": "lambda_declarator",
+      "label": "()",
+      "span": {
+        "end": {
+          "column": 5,
+          "line": 37
+        },
+        "end_byte": 711,
+        "start": {
+          "column": 3,
+          "line": 37
+        },
+        "start_byte": 709
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:727:namespace_identifier",
+      "kind": "namespace_identifier",
+      "label": "AlcEnabler",
+      "span": {
+        "end": {
+          "column": 12,
+          "line": 38
+        },
+        "end_byte": 727,
+        "start": {
+          "column": 2,
+          "line": 38
+        },
+        "start_byte": 717
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:729:741:identifier",
+      "kind": "identifier",
+      "label": "createShared",
+      "span": {
+        "end": {
+          "column": 26,
+          "line": 38
+        },
+        "end_byte": 741,
+        "start": {
+          "column": 14,
+          "line": 38
+        },
+        "start_byte": 729
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:727:namespace_identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:729:741:identifier"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:741:qualified_identifier",
+      "kind": "qualified_identifier",
+      "label": "AlcEnabler::createShared",
+      "span": {
+        "end": {
+          "column": 26,
+          "line": 38
+        },
+        "end_byte": 741,
+        "start": {
+          "column": 2,
+          "line": 38
+        },
+        "start_byte": 717
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:741:743:argument_list",
+      "kind": "argument_list",
+      "label": "()",
+      "span": {
+        "end": {
+          "column": 28,
+          "line": 38
+        },
+        "end_byte": 743,
+        "start": {
+          "column": 26,
+          "line": 38
+        },
+        "start_byte": 741
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:741:qualified_identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:741:743:argument_list"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:743:call_expression",
+      "kind": "call_expression",
+      "label": "AlcEnabler::createShared()",
+      "span": {
+        "end": {
+          "column": 28,
+          "line": 38
+        },
+        "end_byte": 743,
+        "start": {
+          "column": 2,
+          "line": 38
+        },
+        "start_byte": 717
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:743:call_expression"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:744:expression_statement",
+      "kind": "expression_statement",
+      "label": "AlcEnabler::createShared();",
+      "span": {
+        "end": {
+          "column": 29,
+          "line": 38
+        },
+        "end_byte": 744,
+        "start": {
+          "column": 2,
+          "line": 38
+        },
+        "start_byte": 717
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:758:namespace_identifier",
+      "kind": "namespace_identifier",
+      "label": "AlcEnabler",
+      "span": {
+        "end": {
+          "column": 12,
+          "line": 39
+        },
+        "end_byte": 758,
+        "start": {
+          "column": 2,
+          "line": 39
+        },
+        "start_byte": 748
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:760:769:identifier",
+      "kind": "identifier",
+      "label": "getShared",
+      "span": {
+        "end": {
+          "column": 23,
+          "line": 39
+        },
+        "end_byte": 769,
+        "start": {
+          "column": 14,
+          "line": 39
+        },
+        "start_byte": 760
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:758:namespace_identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:760:769:identifier"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:769:qualified_identifier",
+      "kind": "qualified_identifier",
+      "label": "AlcEnabler::getShared",
+      "span": {
+        "end": {
+          "column": 23,
+          "line": 39
+        },
+        "end_byte": 769,
+        "start": {
+          "column": 2,
+          "line": 39
+        },
+        "start_byte": 748
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:769:771:argument_list",
+      "kind": "argument_list",
+      "label": "()",
+      "span": {
+        "end": {
+          "column": 25,
+          "line": 39
+        },
+        "end_byte": 771,
+        "start": {
+          "column": 23,
+          "line": 39
+        },
+        "start_byte": 769
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:769:qualified_identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:769:771:argument_list"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:771:call_expression",
+      "kind": "call_expression",
+      "label": "AlcEnabler::getShared()",
+      "span": {
+        "end": {
+          "column": 25,
+          "line": 39
+        },
+        "end_byte": 771,
+        "start": {
+          "column": 2,
+          "line": 39
+        },
+        "start_byte": 748
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:773:777:field_identifier",
+      "kind": "field_identifier",
+      "label": "init",
+      "span": {
+        "end": {
+          "column": 31,
+          "line": 39
+        },
+        "end_byte": 777,
+        "start": {
+          "column": 27,
+          "line": 39
+        },
+        "start_byte": 773
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:771:call_expression",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:773:777:field_identifier"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:777:field_expression",
+      "kind": "field_expression",
+      "label": "AlcEnabler::getShared()->init",
+      "span": {
+        "end": {
+          "column": 31,
+          "line": 39
+        },
+        "end_byte": 777,
+        "start": {
+          "column": 2,
+          "line": 39
+        },
+        "start_byte": 748
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:777:779:argument_list",
+      "kind": "argument_list",
+      "label": "()",
+      "span": {
+        "end": {
+          "column": 33,
+          "line": 39
+        },
+        "end_byte": 779,
+        "start": {
+          "column": 31,
+          "line": 39
+        },
+        "start_byte": 777
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:777:field_expression",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:777:779:argument_list"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:779:call_expression",
+      "kind": "call_expression",
+      "label": "AlcEnabler::getShared()->init()",
+      "span": {
+        "end": {
+          "column": 33,
+          "line": 39
+        },
+        "end_byte": 779,
+        "start": {
+          "column": 2,
+          "line": 39
+        },
+        "start_byte": 748
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:779:call_expression"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:780:expression_statement",
+      "kind": "expression_statement",
+      "label": "AlcEnabler::getShared()->init();",
+      "span": {
+        "end": {
+          "column": 34,
+          "line": 39
+        },
+        "end_byte": 780,
+        "start": {
+          "column": 2,
+          "line": 39
+        },
+        "start_byte": 748
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:717:744:expression_statement",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:748:780:expression_statement"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:712:784:compound_statement",
+      "kind": "compound_statement",
+      "label": "{\r\n\t\tAlcEnabler::createShared();\r\n\t\tAlcEnabler::getShared()->init();\r\n\t}",
+      "span": {
+        "end": {
+          "column": 2,
+          "line": 40
+        },
+        "end_byte": 784,
+        "start": {
+          "column": 6,
+          "line": 37
+        },
+        "start_byte": 712
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:707:709:lambda_capture_specifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:709:711:lambda_declarator",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:712:784:compound_statement"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:707:784:lambda_expression",
+      "kind": "lambda_expression",
+      "label": "[]() {\r\n\t\tAlcEnabler::createShared();\r\n\t\tAlcEnabler::getShared()->init();\r\n\t}",
+      "span": {
+        "end": {
+          "column": 2,
+          "line": 40
+        },
+        "end_byte": 784,
+        "start": {
+          "column": 1,
+          "line": 37
+        },
+        "start_byte": 707
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:406:430:call_expression",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:434:480:call_expression",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:484:538:binary_expression",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:542:552:identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:556:575:call_expression",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:579:591:identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:595:616:call_expression",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:620:631:identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:635:655:call_expression",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:659:679:qualified_identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:683:703:qualified_identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:707:784:lambda_expression"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list",
+      "kind": "initializer_list",
+      "label": "{\r\n\txStringify(PRODUCT_NAME),\r\n\tparseModuleVersion(xStringify(MODULE_VERSION)),\r\n\tLiluAPI::AllowNormal | LiluAPI::AllowInstallerRecovery,\r\n\tbootargOff,\r\n\tarrsize(bootargOff),\r\n\tbootargDebug,\r\n\tarrsize",
+      "span": {
+        "end": {
+          "column": 1,
+          "line": 41
+        },
+        "end_byte": 787,
+        "start": {
+          "column": 34,
+          "line": 25
+        },
+        "start_byte": 402
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:388:401:function_declarator",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:402:787:initializer_list"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:388:787:init_declarator",
+      "kind": "init_declarator",
+      "label": "ADDPR(config) {\r\n\txStringify(PRODUCT_NAME),\r\n\tparseModuleVersion(xStringify(MODULE_VERSION)),\r\n\tLiluAPI::AllowNormal | LiluAPI::AllowInstallerRecovery,\r\n\tbootargOff,\r\n\tarrsize(bootargOff),\r\n\tbootargDe",
+      "span": {
+        "end": {
+          "column": 1,
+          "line": 41
+        },
+        "end_byte": 787,
+        "start": {
+          "column": 20,
+          "line": 25
+        },
+        "start_byte": 388
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:368:387:type_identifier",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:388:787:init_declarator"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:368:788:declaration",
+      "kind": "declaration",
+      "label": "PluginConfiguration ADDPR(config) {\r\n\txStringify(PRODUCT_NAME),\r\n\tparseModuleVersion(xStringify(MODULE_VERSION)),\r\n\tLiluAPI::AllowNormal | LiluAPI::AllowInstallerRecovery,\r\n\tbootargOff,\r\n\tarrsize(boot",
+      "span": {
+        "end": {
+          "column": 2,
+          "line": 41
+        },
+        "end_byte": 788,
+        "start": {
+          "column": 0,
+          "line": 25
+        },
+        "start_byte": 368
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:3:comment",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:4:23:comment",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:24:37:comment",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:38:41:comment",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:42:99:comment",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:100:103:comment",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:106:143:preproc_include",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:143:176:preproc_include",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:178:203:preproc_include",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:205:254:declaration",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:258:309:declaration",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:313:364:declaration",
+        "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:368:788:declaration"
+      ],
+      "id": "ast:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_start.cpp:0:790:translation_unit",
+      "kind": "translation_unit",
+      "label": "//\r\n//  kern_start.cpp\r\n//  AppleALC\r\n//\r\n//  Copyright © 2016-2017 vit9696. All rights reserved.\r\n//\r\n\r\n#include <Headers/plugin_start.hpp>\r\n#include <Headers/kern_api.hpp>\r\n\r\n#include \"kern_alc.hpp\"",
+      "span": {
+        "end": {
+          "column": 0,
+          "line": 42
+        },
+        "end_byte": 790,
+        "start": {
+          "column": 0,
+          "line": 1
+        },
+        "start_byte": 0
+      },
+      "text_digest": null
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:cpp",
+  "relative_path": "AppleALC/kern_start.cpp",
+  "repository_name": "AppleALC",
+  "repository_url": "https://github.com/acidanthera/AppleALC",
+  "source_language": "cpp",
+  "warnings": []
+}

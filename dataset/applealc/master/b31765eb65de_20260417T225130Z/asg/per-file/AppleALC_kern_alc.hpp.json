@@ -1,0 +1,25 @@
+{
+  "analysis_timestamp": "2026-04-17T22:51:36+00:00",
+  "branch": "master",
+  "commit_sha": "b31765eb65de5536731b9fd88ead43d33ae502ef",
+  "dependency_resolution_status": "unresolved",
+  "edges": [],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "id": "asg:b31765eb65de5536731b9fd88ead43d33ae502ef:AppleALC/kern_alc.hpp:module:1",
+      "kind": "module",
+      "label": "AppleALC/kern_alc.hpp",
+      "payload": {
+        "path": "AppleALC/kern_alc.hpp"
+      }
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:cpp",
+  "relative_path": "AppleALC/kern_alc.hpp",
+  "repository_name": "AppleALC",
+  "repository_url": "https://github.com/acidanthera/AppleALC",
+  "source_language": "cpp",
+  "warnings": []
+}
