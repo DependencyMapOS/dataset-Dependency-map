@@ -1,0 +1,210 @@
+{
+  "analysis_timestamp": "2026-04-17T22:55:07+00:00",
+  "branch": "dev/rust",
+  "commit_sha": "7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc",
+  "dependency_resolution_status": "manifest_only",
+  "edges": [
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:edge:1",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:import:1",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:edge:2",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:import:2",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:edge:3",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:import:3",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:edge:4",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:symbol_def:1",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:edge:5",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:call:1",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:edge:6",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:call:2",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:edge:7",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:call:3",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:edge:8",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:call:4",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:edge:9",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:call:5",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:edge:10",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:call:6",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:edge:11",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:call:7",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:edge:12",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:call:8",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:edge:13",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:call:9",
+      "type": "calls"
+    }
+  ],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:module:1",
+      "kind": "module",
+      "label": "src/system_init.py",
+      "payload": {
+        "path": "src/system_init.py"
+      }
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:import:1",
+      "kind": "import",
+      "label": "from .commands import built_in_command_names, get_commands",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:import:2",
+      "kind": "import",
+      "label": "from .setup import run_setup",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:import:3",
+      "kind": "import",
+      "label": "from .tools import get_tools",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:symbol_def:1",
+      "kind": "symbol_def",
+      "label": "build_system_init_message",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:call:1",
+      "kind": "call",
+      "label": "run_setup(trusted=trusted)",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:call:2",
+      "kind": "call",
+      "label": "get_commands()",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:call:3",
+      "kind": "call",
+      "label": "get_tools()",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:call:4",
+      "kind": "call",
+      "label": "len(built_in_command_names())",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:call:5",
+      "kind": "call",
+      "label": "built_in_command_names()",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:call:6",
+      "kind": "call",
+      "label": "len(commands)",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:call:7",
+      "kind": "call",
+      "label": "len(tools)",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:call:8",
+      "kind": "call",
+      "label": "setup.setup.startup_steps()",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/system_init.py:call:9",
+      "kind": "call",
+      "label": "'\\n'.join(lines)",
+      "payload": {}
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:python",
+  "relative_path": "src/system_init.py",
+  "repository_name": "claw-code",
+  "repository_url": "https://github.com/ultraworkers/claw-code",
+  "source_language": "python",
+  "warnings": []
+}

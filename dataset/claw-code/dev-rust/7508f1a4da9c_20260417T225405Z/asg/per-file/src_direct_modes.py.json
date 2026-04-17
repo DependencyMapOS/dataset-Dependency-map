@@ -1,0 +1,146 @@
+{
+  "analysis_timestamp": "2026-04-17T22:55:04+00:00",
+  "branch": "dev/rust",
+  "commit_sha": "7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc",
+  "dependency_resolution_status": "manifest_only",
+  "edges": [
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:edge:1",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:import:1",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:edge:2",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:symbol_def:1",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:edge:3",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:symbol_def:2",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:edge:4",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:symbol_def:3",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:edge:5",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:symbol_def:4",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:edge:6",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:call:1",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:edge:7",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:call:2",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:edge:8",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:call:3",
+      "type": "calls"
+    }
+  ],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:module:1",
+      "kind": "module",
+      "label": "src/direct_modes.py",
+      "payload": {
+        "path": "src/direct_modes.py"
+      }
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:import:1",
+      "kind": "import",
+      "label": "from dataclasses import dataclass",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:symbol_def:1",
+      "kind": "symbol_def",
+      "label": "as_text",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:symbol_def:2",
+      "kind": "symbol_def",
+      "label": "run_direct_connect",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:symbol_def:3",
+      "kind": "symbol_def",
+      "label": "run_deep_link",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:symbol_def:4",
+      "kind": "symbol_def",
+      "label": "DirectModeReport",
+      "payload": {
+        "construct": "class"
+      }
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:call:1",
+      "kind": "call",
+      "label": "dataclass(frozen=True)",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:call:2",
+      "kind": "call",
+      "label": "DirectModeReport(mode='direct-connect', target=target, active=True)",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/direct_modes.py:call:3",
+      "kind": "call",
+      "label": "DirectModeReport(mode='deep-link', target=target, active=True)",
+      "payload": {}
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:python",
+  "relative_path": "src/direct_modes.py",
+  "repository_name": "claw-code",
+  "repository_url": "https://github.com/ultraworkers/claw-code",
+  "source_language": "python",
+  "warnings": []
+}

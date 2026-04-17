@@ -1,0 +1,368 @@
+{
+  "analysis_timestamp": "2026-04-17T23:06:48+00:00",
+  "branch": "main",
+  "commit_sha": "00d0eb61d4cfc1abd345dc76023dd21e420f6488",
+  "dependency_resolution_status": "manifest_only",
+  "edges": [
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:1",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:import:1",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:2",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:import:2",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:3",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:import:3",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:4",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:import:4",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:5",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:symbol_def:1",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:6",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:symbol_def:2",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:7",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:symbol_def:3",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:8",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:1",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:9",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:2",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:10",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:3",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:11",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:4",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:12",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:5",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:13",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:6",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:14",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:7",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:15",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:8",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:16",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:9",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:17",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:10",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:18",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:11",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:19",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:12",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:20",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:13",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:21",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:14",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:22",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:15",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:23",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:16",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:edge:24",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:17",
+      "type": "calls"
+    }
+  ],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:module:1",
+      "kind": "module",
+      "label": "src/port_manifest.py",
+      "payload": {
+        "path": "src/port_manifest.py"
+      }
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:import:1",
+      "kind": "import",
+      "label": "from collections import Counter",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:import:2",
+      "kind": "import",
+      "label": "from dataclasses import dataclass",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:import:3",
+      "kind": "import",
+      "label": "from pathlib import Path",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:import:4",
+      "kind": "import",
+      "label": "from .models import Subsystem",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:symbol_def:1",
+      "kind": "symbol_def",
+      "label": "to_markdown",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:symbol_def:2",
+      "kind": "symbol_def",
+      "label": "build_port_manifest",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:symbol_def:3",
+      "kind": "symbol_def",
+      "label": "PortManifest",
+      "payload": {
+        "construct": "class"
+      }
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:1",
+      "kind": "call",
+      "label": "Path(__file__).resolve()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:2",
+      "kind": "call",
+      "label": "Path(__file__)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:3",
+      "kind": "call",
+      "label": "dataclass(frozen=True)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:4",
+      "kind": "call",
+      "label": "lines.append(f'- `{module.name}` ({module.file_count} files) — {module.notes}')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:5",
+      "kind": "call",
+      "label": "'\\n'.join(lines)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:6",
+      "kind": "call",
+      "label": "root.rglob('*.py')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:7",
+      "kind": "call",
+      "label": "path.is_file()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:8",
+      "kind": "call",
+      "label": "Counter(\r\n        path.relative_to(root).parts[0] if len(path.relative_to(root).parts) > 1 else path.name\r\n        for path in files\r\n        if path.name != '__pycache__'\r\n    )",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:9",
+      "kind": "call",
+      "label": "path.relative_to(root)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:10",
+      "kind": "call",
+      "label": "len(path.relative_to(root).parts)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:11",
+      "kind": "call",
+      "label": "path.relative_to(root)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:12",
+      "kind": "call",
+      "label": "tuple(\r\n        Subsystem(name=name, path=f'src/{name}', file_count=count, notes=notes.get(name, 'Python port support module'))\r\n        for name, count in counter.most_common()\r\n    )",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:13",
+      "kind": "call",
+      "label": "Subsystem(name=name, path=f'src/{name}', file_count=count, notes=notes.get(name, 'Python port support module'))",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:14",
+      "kind": "call",
+      "label": "notes.get(name, 'Python port support module')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:15",
+      "kind": "call",
+      "label": "counter.most_common()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:16",
+      "kind": "call",
+      "label": "PortManifest(src_root=root, total_python_files=len(files), top_level_modules=modules)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/port_manifest.py:call:17",
+      "kind": "call",
+      "label": "len(files)",
+      "payload": {}
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:python",
+  "relative_path": "src/port_manifest.py",
+  "repository_name": "claw-code",
+  "repository_url": "https://github.com/ultraworkers/claw-code",
+  "source_language": "python",
+  "warnings": []
+}

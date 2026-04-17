@@ -1,0 +1,174 @@
+{
+  "analysis_timestamp": "2026-04-17T22:55:06+00:00",
+  "branch": "dev/rust",
+  "commit_sha": "7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc",
+  "dependency_resolution_status": "manifest_only",
+  "edges": [
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:edge:1",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:import:1",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:edge:2",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:import:2",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:edge:3",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:symbol_def:1",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:edge:4",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:symbol_def:2",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:edge:5",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:symbol_def:3",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:edge:6",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:symbol_def:4",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:edge:7",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:call:1",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:edge:8",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:call:2",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:edge:9",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:call:3",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:edge:10",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:call:4",
+      "type": "calls"
+    }
+  ],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:module:1",
+      "kind": "module",
+      "label": "src/prefetch.py",
+      "payload": {
+        "path": "src/prefetch.py"
+      }
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:import:1",
+      "kind": "import",
+      "label": "from dataclasses import dataclass",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:import:2",
+      "kind": "import",
+      "label": "from pathlib import Path",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:symbol_def:1",
+      "kind": "symbol_def",
+      "label": "start_mdm_raw_read",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:symbol_def:2",
+      "kind": "symbol_def",
+      "label": "start_keychain_prefetch",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:symbol_def:3",
+      "kind": "symbol_def",
+      "label": "start_project_scan",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:symbol_def:4",
+      "kind": "symbol_def",
+      "label": "PrefetchResult",
+      "payload": {
+        "construct": "class"
+      }
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:call:1",
+      "kind": "call",
+      "label": "dataclass(frozen=True)",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:call:2",
+      "kind": "call",
+      "label": "PrefetchResult('mdm_raw_read', True, 'Simulated MDM raw-read prefetch for workspace bootstrap')",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:call:3",
+      "kind": "call",
+      "label": "PrefetchResult('keychain_prefetch', True, 'Simulated keychain prefetch for trusted startup path')",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/prefetch.py:call:4",
+      "kind": "call",
+      "label": "PrefetchResult('project_scan', True, f'Scanned project root {root}')",
+      "payload": {}
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:python",
+  "relative_path": "src/prefetch.py",
+  "repository_name": "claw-code",
+  "repository_url": "https://github.com/ultraworkers/claw-code",
+  "source_language": "python",
+  "warnings": []
+}

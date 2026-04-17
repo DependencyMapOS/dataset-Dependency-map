@@ -4,6 +4,17 @@ import subprocess
 from urllib.parse import urlparse
 
 
+def repo_display_name_from_url(url: str) -> str:
+    """Last path segment of the URL, with ``.git`` stripped (for ``--repo-name`` / dataset paths)."""
+    u = url.strip().rstrip("/")
+    if not u:
+        return "repo"
+    last = u.split("/")[-1]
+    if last.endswith(".git"):
+        last = last[:-4]
+    return last or "repo"
+
+
 def list_remote_branches(url: str) -> list[str]:
     """Return branch names (without refs/heads/ prefix) for a public Git remote."""
     _validate_public_https(url)

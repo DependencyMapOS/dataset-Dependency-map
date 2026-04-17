@@ -1,0 +1,2354 @@
+{
+  "analysis_timestamp": "2026-04-17T23:06:38+00:00",
+  "branch": "main",
+  "commit_sha": "00d0eb61d4cfc1abd345dc76023dd21e420f6488",
+  "dependency_resolution_status": "manifest_only",
+  "edges": [
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:1",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:1",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:2",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:2",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:3",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:3",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:4",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:4",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:5",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:5",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:6",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:6",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:7",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:7",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:8",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:8",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:9",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:9",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:10",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:10",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:11",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:11",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:12",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:12",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:13",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:13",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:14",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:14",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:15",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:15",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:16",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:symbol_def:1",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:17",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:symbol_def:2",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:18",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:1",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:19",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:2",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:20",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:3",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:21",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:4",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:22",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:5",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:23",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:6",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:24",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:7",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:25",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:8",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:26",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:9",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:27",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:10",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:28",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:11",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:29",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:12",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:30",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:13",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:31",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:14",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:32",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:15",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:33",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:16",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:34",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:17",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:35",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:18",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:36",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:19",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:37",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:20",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:38",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:21",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:39",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:22",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:40",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:23",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:41",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:24",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:42",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:25",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:43",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:26",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:44",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:27",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:45",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:28",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:46",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:29",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:47",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:30",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:48",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:31",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:49",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:32",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:50",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:33",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:51",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:34",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:52",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:35",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:53",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:36",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:54",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:37",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:55",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:38",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:56",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:39",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:57",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:40",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:58",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:41",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:59",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:42",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:60",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:43",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:61",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:44",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:62",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:45",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:63",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:46",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:64",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:47",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:65",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:48",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:66",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:49",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:67",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:50",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:68",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:51",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:69",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:52",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:70",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:53",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:71",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:54",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:72",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:55",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:73",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:56",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:74",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:57",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:75",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:58",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:76",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:59",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:77",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:60",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:78",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:61",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:79",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:62",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:80",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:63",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:81",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:64",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:82",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:65",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:83",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:66",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:84",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:67",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:85",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:68",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:86",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:69",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:87",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:70",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:88",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:71",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:89",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:72",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:90",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:73",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:91",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:74",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:92",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:75",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:93",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:76",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:94",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:77",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:95",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:78",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:96",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:79",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:97",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:80",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:98",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:81",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:99",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:82",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:100",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:83",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:101",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:84",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:102",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:85",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:103",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:86",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:104",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:87",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:105",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:88",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:106",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:89",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:107",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:90",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:108",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:91",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:109",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:92",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:110",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:93",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:111",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:94",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:112",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:95",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:113",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:96",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:114",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:97",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:115",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:98",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:116",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:99",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:117",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:100",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:118",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:101",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:119",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:102",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:120",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:103",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:121",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:104",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:122",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:105",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:123",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:106",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:124",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:107",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:125",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:108",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:126",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:109",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:127",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:110",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:128",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:111",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:129",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:112",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:130",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:113",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:131",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:114",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:132",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:115",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:133",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:116",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:134",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:117",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:135",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:118",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:136",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:119",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:137",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:120",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:138",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:121",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:139",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:122",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:140",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:123",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:141",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:124",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:142",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:125",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:143",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:126",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:144",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:127",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:145",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:128",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:146",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:129",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:147",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:130",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:148",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:131",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:149",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:132",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:150",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:133",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:151",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:134",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:152",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:135",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:153",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:136",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:154",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:137",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:155",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:138",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:156",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:139",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:157",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:140",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:158",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:141",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:159",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:142",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:160",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:143",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:161",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:144",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:162",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:145",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:163",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:146",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:164",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:147",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:165",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:148",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:edge:166",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:149",
+      "type": "calls"
+    }
+  ],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:module:1",
+      "kind": "module",
+      "label": "src/main.py",
+      "payload": {
+        "path": "src/main.py"
+      }
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:1",
+      "kind": "import",
+      "label": "import argparse",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:2",
+      "kind": "import",
+      "label": "from .bootstrap_graph import build_bootstrap_graph",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:3",
+      "kind": "import",
+      "label": "from .command_graph import build_command_graph",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:4",
+      "kind": "import",
+      "label": "from .commands import execute_command, get_command, get_commands, render_command_index",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:5",
+      "kind": "import",
+      "label": "from .direct_modes import run_deep_link, run_direct_connect",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:6",
+      "kind": "import",
+      "label": "from .parity_audit import run_parity_audit",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:7",
+      "kind": "import",
+      "label": "from .permissions import ToolPermissionContext",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:8",
+      "kind": "import",
+      "label": "from .port_manifest import build_port_manifest",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:9",
+      "kind": "import",
+      "label": "from .query_engine import QueryEnginePort",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:10",
+      "kind": "import",
+      "label": "from .remote_runtime import run_remote_mode, run_ssh_mode, run_teleport_mode",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:11",
+      "kind": "import",
+      "label": "from .runtime import PortRuntime",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:12",
+      "kind": "import",
+      "label": "from .session_store import load_session",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:13",
+      "kind": "import",
+      "label": "from .setup import run_setup",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:14",
+      "kind": "import",
+      "label": "from .tool_pool import assemble_tool_pool",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:import:15",
+      "kind": "import",
+      "label": "from .tools import execute_tool, get_tool, get_tools, render_tool_index",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:symbol_def:1",
+      "kind": "symbol_def",
+      "label": "build_parser",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:symbol_def:2",
+      "kind": "symbol_def",
+      "label": "main",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:1",
+      "kind": "call",
+      "label": "argparse.ArgumentParser(description='Python porting workspace for the Claude Code rewrite effort')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:2",
+      "kind": "call",
+      "label": "parser.add_subparsers(dest='command', required=True)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:3",
+      "kind": "call",
+      "label": "subparsers.add_parser('summary', help='render a Markdown summary of the Python porting workspace')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:4",
+      "kind": "call",
+      "label": "subparsers.add_parser('manifest', help='print the current Python workspace manifest')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:5",
+      "kind": "call",
+      "label": "subparsers.add_parser('parity-audit', help='compare the Python workspace against the local ignored TypeScript archive when available')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:6",
+      "kind": "call",
+      "label": "subparsers.add_parser('setup-report', help='render the startup/prefetch setup report')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:7",
+      "kind": "call",
+      "label": "subparsers.add_parser('command-graph', help='show command graph segmentation')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:8",
+      "kind": "call",
+      "label": "subparsers.add_parser('tool-pool', help='show assembled tool pool with default settings')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:9",
+      "kind": "call",
+      "label": "subparsers.add_parser('bootstrap-graph', help='show the mirrored bootstrap/runtime graph stages')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:10",
+      "kind": "call",
+      "label": "subparsers.add_parser('subsystems', help='list the current Python modules in the workspace')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:11",
+      "kind": "call",
+      "label": "list_parser.add_argument('--limit', type=int, default=32)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:12",
+      "kind": "call",
+      "label": "subparsers.add_parser('commands', help='list mirrored command entries from the archived snapshot')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:13",
+      "kind": "call",
+      "label": "commands_parser.add_argument('--limit', type=int, default=20)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:14",
+      "kind": "call",
+      "label": "commands_parser.add_argument('--query')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:15",
+      "kind": "call",
+      "label": "commands_parser.add_argument('--no-plugin-commands', action='store_true')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:16",
+      "kind": "call",
+      "label": "commands_parser.add_argument('--no-skill-commands', action='store_true')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:17",
+      "kind": "call",
+      "label": "subparsers.add_parser('tools', help='list mirrored tool entries from the archived snapshot')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:18",
+      "kind": "call",
+      "label": "tools_parser.add_argument('--limit', type=int, default=20)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:19",
+      "kind": "call",
+      "label": "tools_parser.add_argument('--query')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:20",
+      "kind": "call",
+      "label": "tools_parser.add_argument('--simple-mode', action='store_true')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:21",
+      "kind": "call",
+      "label": "tools_parser.add_argument('--no-mcp', action='store_true')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:22",
+      "kind": "call",
+      "label": "tools_parser.add_argument('--deny-tool', action='append', default=[])",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:23",
+      "kind": "call",
+      "label": "tools_parser.add_argument('--deny-prefix', action='append', default=[])",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:24",
+      "kind": "call",
+      "label": "subparsers.add_parser('route', help='route a prompt across mirrored command/tool inventories')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:25",
+      "kind": "call",
+      "label": "route_parser.add_argument('prompt')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:26",
+      "kind": "call",
+      "label": "route_parser.add_argument('--limit', type=int, default=5)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:27",
+      "kind": "call",
+      "label": "subparsers.add_parser('bootstrap', help='build a runtime-style session report from the mirrored inventories')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:28",
+      "kind": "call",
+      "label": "bootstrap_parser.add_argument('prompt')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:29",
+      "kind": "call",
+      "label": "bootstrap_parser.add_argument('--limit', type=int, default=5)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:30",
+      "kind": "call",
+      "label": "subparsers.add_parser('turn-loop', help='run a small stateful turn loop for the mirrored runtime')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:31",
+      "kind": "call",
+      "label": "loop_parser.add_argument('prompt')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:32",
+      "kind": "call",
+      "label": "loop_parser.add_argument('--limit', type=int, default=5)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:33",
+      "kind": "call",
+      "label": "loop_parser.add_argument('--max-turns', type=int, default=3)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:34",
+      "kind": "call",
+      "label": "loop_parser.add_argument('--structured-output', action='store_true')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:35",
+      "kind": "call",
+      "label": "subparsers.add_parser('flush-transcript', help='persist and flush a temporary session transcript')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:36",
+      "kind": "call",
+      "label": "flush_parser.add_argument('prompt')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:37",
+      "kind": "call",
+      "label": "subparsers.add_parser('load-session', help='load a previously persisted session')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:38",
+      "kind": "call",
+      "label": "load_session_parser.add_argument('session_id')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:39",
+      "kind": "call",
+      "label": "subparsers.add_parser('remote-mode', help='simulate remote-control runtime branching')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:40",
+      "kind": "call",
+      "label": "remote_parser.add_argument('target')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:41",
+      "kind": "call",
+      "label": "subparsers.add_parser('ssh-mode', help='simulate SSH runtime branching')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:42",
+      "kind": "call",
+      "label": "ssh_parser.add_argument('target')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:43",
+      "kind": "call",
+      "label": "subparsers.add_parser('teleport-mode', help='simulate teleport runtime branching')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:44",
+      "kind": "call",
+      "label": "teleport_parser.add_argument('target')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:45",
+      "kind": "call",
+      "label": "subparsers.add_parser('direct-connect-mode', help='simulate direct-connect runtime branching')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:46",
+      "kind": "call",
+      "label": "direct_parser.add_argument('target')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:47",
+      "kind": "call",
+      "label": "subparsers.add_parser('deep-link-mode', help='simulate deep-link runtime branching')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:48",
+      "kind": "call",
+      "label": "deep_link_parser.add_argument('target')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:49",
+      "kind": "call",
+      "label": "subparsers.add_parser('show-command', help='show one mirrored command entry by exact name')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:50",
+      "kind": "call",
+      "label": "show_command.add_argument('name')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:51",
+      "kind": "call",
+      "label": "subparsers.add_parser('show-tool', help='show one mirrored tool entry by exact name')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:52",
+      "kind": "call",
+      "label": "show_tool.add_argument('name')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:53",
+      "kind": "call",
+      "label": "subparsers.add_parser('exec-command', help='execute a mirrored command shim by exact name')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:54",
+      "kind": "call",
+      "label": "exec_command_parser.add_argument('name')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:55",
+      "kind": "call",
+      "label": "exec_command_parser.add_argument('prompt')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:56",
+      "kind": "call",
+      "label": "subparsers.add_parser('exec-tool', help='execute a mirrored tool shim by exact name')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:57",
+      "kind": "call",
+      "label": "exec_tool_parser.add_argument('name')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:58",
+      "kind": "call",
+      "label": "exec_tool_parser.add_argument('payload')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:59",
+      "kind": "call",
+      "label": "build_parser()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:60",
+      "kind": "call",
+      "label": "parser.parse_args(argv)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:61",
+      "kind": "call",
+      "label": "build_port_manifest()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:62",
+      "kind": "call",
+      "label": "print(QueryEnginePort(manifest).render_summary())",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:63",
+      "kind": "call",
+      "label": "QueryEnginePort(manifest).render_summary()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:64",
+      "kind": "call",
+      "label": "QueryEnginePort(manifest)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:65",
+      "kind": "call",
+      "label": "print(manifest.to_markdown())",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:66",
+      "kind": "call",
+      "label": "manifest.to_markdown()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:67",
+      "kind": "call",
+      "label": "print(run_parity_audit().to_markdown())",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:68",
+      "kind": "call",
+      "label": "run_parity_audit().to_markdown()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:69",
+      "kind": "call",
+      "label": "run_parity_audit()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:70",
+      "kind": "call",
+      "label": "print(run_setup().as_markdown())",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:71",
+      "kind": "call",
+      "label": "run_setup().as_markdown()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:72",
+      "kind": "call",
+      "label": "run_setup()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:73",
+      "kind": "call",
+      "label": "print(build_command_graph().as_markdown())",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:74",
+      "kind": "call",
+      "label": "build_command_graph().as_markdown()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:75",
+      "kind": "call",
+      "label": "build_command_graph()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:76",
+      "kind": "call",
+      "label": "print(assemble_tool_pool().as_markdown())",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:77",
+      "kind": "call",
+      "label": "assemble_tool_pool().as_markdown()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:78",
+      "kind": "call",
+      "label": "assemble_tool_pool()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:79",
+      "kind": "call",
+      "label": "print(build_bootstrap_graph().as_markdown())",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:80",
+      "kind": "call",
+      "label": "build_bootstrap_graph().as_markdown()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:81",
+      "kind": "call",
+      "label": "build_bootstrap_graph()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:82",
+      "kind": "call",
+      "label": "print(f'{subsystem.name}\\t{subsystem.file_count}\\t{subsystem.notes}')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:83",
+      "kind": "call",
+      "label": "print(render_command_index(limit=args.limit, query=args.query))",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:84",
+      "kind": "call",
+      "label": "render_command_index(limit=args.limit, query=args.query)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:85",
+      "kind": "call",
+      "label": "get_commands(include_plugin_commands=not args.no_plugin_commands, include_skill_commands=not args.no_skill_commands)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:86",
+      "kind": "call",
+      "label": "len(commands)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:87",
+      "kind": "call",
+      "label": "output_lines.extend(f'- {module.name} — {module.source_hint}' for module in commands[: args.limit])",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:88",
+      "kind": "call",
+      "label": "print('\\n'.join(output_lines))",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:89",
+      "kind": "call",
+      "label": "'\\n'.join(output_lines)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:90",
+      "kind": "call",
+      "label": "print(render_tool_index(limit=args.limit, query=args.query))",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:91",
+      "kind": "call",
+      "label": "render_tool_index(limit=args.limit, query=args.query)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:92",
+      "kind": "call",
+      "label": "ToolPermissionContext.from_iterables(args.deny_tool, args.deny_prefix)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:93",
+      "kind": "call",
+      "label": "get_tools(simple_mode=args.simple_mode, include_mcp=not args.no_mcp, permission_context=permission_context)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:94",
+      "kind": "call",
+      "label": "len(tools)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:95",
+      "kind": "call",
+      "label": "output_lines.extend(f'- {module.name} — {module.source_hint}' for module in tools[: args.limit])",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:96",
+      "kind": "call",
+      "label": "print('\\n'.join(output_lines))",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:97",
+      "kind": "call",
+      "label": "'\\n'.join(output_lines)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:98",
+      "kind": "call",
+      "label": "PortRuntime().route_prompt(args.prompt, limit=args.limit)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:99",
+      "kind": "call",
+      "label": "PortRuntime()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:100",
+      "kind": "call",
+      "label": "print('No mirrored command/tool matches found.')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:101",
+      "kind": "call",
+      "label": "print(f'{match.kind}\\t{match.name}\\t{match.score}\\t{match.source_hint}')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:102",
+      "kind": "call",
+      "label": "print(PortRuntime().bootstrap_session(args.prompt, limit=args.limit).as_markdown())",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:103",
+      "kind": "call",
+      "label": "PortRuntime().bootstrap_session(args.prompt, limit=args.limit).as_markdown()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:104",
+      "kind": "call",
+      "label": "PortRuntime().bootstrap_session(args.prompt, limit=args.limit)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:105",
+      "kind": "call",
+      "label": "PortRuntime()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:106",
+      "kind": "call",
+      "label": "PortRuntime().run_turn_loop(args.prompt, limit=args.limit, max_turns=args.max_turns, structured_output=args.structured_output)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:107",
+      "kind": "call",
+      "label": "PortRuntime()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:108",
+      "kind": "call",
+      "label": "enumerate(results, start=1)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:109",
+      "kind": "call",
+      "label": "print(f'## Turn {idx}')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:110",
+      "kind": "call",
+      "label": "print(result.output)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:111",
+      "kind": "call",
+      "label": "print(f'stop_reason={result.stop_reason}')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:112",
+      "kind": "call",
+      "label": "QueryEnginePort.from_workspace()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:113",
+      "kind": "call",
+      "label": "engine.submit_message(args.prompt)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:114",
+      "kind": "call",
+      "label": "engine.persist_session()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:115",
+      "kind": "call",
+      "label": "print(path)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:116",
+      "kind": "call",
+      "label": "print(f'flushed={engine.transcript_store.flushed}')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:117",
+      "kind": "call",
+      "label": "load_session(args.session_id)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:118",
+      "kind": "call",
+      "label": "print(f'{session.session_id}\\n{len(session.messages)} messages\\nin={session.input_tokens} out={session.output_tokens}')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:119",
+      "kind": "call",
+      "label": "len(session.messages)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:120",
+      "kind": "call",
+      "label": "print(run_remote_mode(args.target).as_text())",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:121",
+      "kind": "call",
+      "label": "run_remote_mode(args.target).as_text()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:122",
+      "kind": "call",
+      "label": "run_remote_mode(args.target)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:123",
+      "kind": "call",
+      "label": "print(run_ssh_mode(args.target).as_text())",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:124",
+      "kind": "call",
+      "label": "run_ssh_mode(args.target).as_text()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:125",
+      "kind": "call",
+      "label": "run_ssh_mode(args.target)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:126",
+      "kind": "call",
+      "label": "print(run_teleport_mode(args.target).as_text())",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:127",
+      "kind": "call",
+      "label": "run_teleport_mode(args.target).as_text()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:128",
+      "kind": "call",
+      "label": "run_teleport_mode(args.target)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:129",
+      "kind": "call",
+      "label": "print(run_direct_connect(args.target).as_text())",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:130",
+      "kind": "call",
+      "label": "run_direct_connect(args.target).as_text()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:131",
+      "kind": "call",
+      "label": "run_direct_connect(args.target)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:132",
+      "kind": "call",
+      "label": "print(run_deep_link(args.target).as_text())",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:133",
+      "kind": "call",
+      "label": "run_deep_link(args.target).as_text()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:134",
+      "kind": "call",
+      "label": "run_deep_link(args.target)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:135",
+      "kind": "call",
+      "label": "get_command(args.name)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:136",
+      "kind": "call",
+      "label": "print(f'Command not found: {args.name}')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:137",
+      "kind": "call",
+      "label": "print('\\n'.join([module.name, module.source_hint, module.responsibility]))",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:138",
+      "kind": "call",
+      "label": "'\\n'.join([module.name, module.source_hint, module.responsibility])",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:139",
+      "kind": "call",
+      "label": "get_tool(args.name)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:140",
+      "kind": "call",
+      "label": "print(f'Tool not found: {args.name}')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:141",
+      "kind": "call",
+      "label": "print('\\n'.join([module.name, module.source_hint, module.responsibility]))",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:142",
+      "kind": "call",
+      "label": "'\\n'.join([module.name, module.source_hint, module.responsibility])",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:143",
+      "kind": "call",
+      "label": "execute_command(args.name, args.prompt)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:144",
+      "kind": "call",
+      "label": "print(result.message)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:145",
+      "kind": "call",
+      "label": "execute_tool(args.name, args.payload)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:146",
+      "kind": "call",
+      "label": "print(result.message)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:147",
+      "kind": "call",
+      "label": "parser.error(f'unknown command: {args.command}')",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:148",
+      "kind": "call",
+      "label": "SystemExit(main())",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/main.py:call:149",
+      "kind": "call",
+      "label": "main()",
+      "payload": {}
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:python",
+  "relative_path": "src/main.py",
+  "repository_name": "claw-code",
+  "repository_url": "https://github.com/ultraworkers/claw-code",
+  "source_language": "python",
+  "warnings": []
+}

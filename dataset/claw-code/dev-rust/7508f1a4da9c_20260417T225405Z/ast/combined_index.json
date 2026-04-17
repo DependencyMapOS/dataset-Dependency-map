@@ -1,0 +1,42 @@
+{
+  "analysis_timestamp": "2026-04-17T22:54:07+00:00",
+  "branch": "dev/rust",
+  "commit_sha": "7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc",
+  "dependency_resolution_status": "manifest_only",
+  "errors": [],
+  "generation_version": "0.1.0",
+  "graph_kind": "ast",
+  "max_part_bytes": 52428800,
+  "parser_id": "tree-sitter-language-pack:rust",
+  "part_count": 5,
+  "parts": [
+    {
+      "graphml": "combined_part000.graphml",
+      "json": "combined_part000.json"
+    },
+    {
+      "graphml": "combined_part001.graphml",
+      "json": "combined_part001.json"
+    },
+    {
+      "graphml": "combined_part002.graphml",
+      "json": "combined_part002.json"
+    },
+    {
+      "graphml": "combined_part003.graphml",
+      "json": "combined_part003.json"
+    },
+    {
+      "graphml": "combined_part004.graphml",
+      "json": "combined_part004.json"
+    }
+  ],
+  "relative_path": "",
+  "repository_name": "claw-code",
+  "repository_url": "https://github.com/ultraworkers/claw-code",
+  "shard_format_version": 1,
+  "source_language": "multi",
+  "total_edges": 172095,
+  "total_nodes": 172199,
+  "warnings": []
+}

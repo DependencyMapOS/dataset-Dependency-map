@@ -1,0 +1,62 @@
+{
+  "analysis_timestamp": "2026-04-17T23:00:42+00:00",
+  "branch": "main",
+  "commit_sha": "00d0eb61d4cfc1abd345dc76023dd21e420f6488",
+  "dependency_resolution_status": "manifest_only",
+  "errors": [],
+  "generation_version": "0.1.0",
+  "graph_kind": "ast",
+  "max_part_bytes": 52428800,
+  "parser_id": "tree-sitter-language-pack:python",
+  "part_count": 10,
+  "parts": [
+    {
+      "graphml": "combined_part000.graphml",
+      "json": "combined_part000.json"
+    },
+    {
+      "graphml": "combined_part001.graphml",
+      "json": "combined_part001.json"
+    },
+    {
+      "graphml": "combined_part002.graphml",
+      "json": "combined_part002.json"
+    },
+    {
+      "graphml": "combined_part003.graphml",
+      "json": "combined_part003.json"
+    },
+    {
+      "graphml": "combined_part004.graphml",
+      "json": "combined_part004.json"
+    },
+    {
+      "graphml": "combined_part005.graphml",
+      "json": "combined_part005.json"
+    },
+    {
+      "graphml": "combined_part006.graphml",
+      "json": "combined_part006.json"
+    },
+    {
+      "graphml": "combined_part007.graphml",
+      "json": "combined_part007.json"
+    },
+    {
+      "graphml": "combined_part008.graphml",
+      "json": "combined_part008.json"
+    },
+    {
+      "graphml": "combined_part009.graphml",
+      "json": "combined_part009.json"
+    }
+  ],
+  "relative_path": "",
+  "repository_name": "claw-code",
+  "repository_url": "https://github.com/ultraworkers/claw-code",
+  "shard_format_version": 1,
+  "source_language": "multi",
+  "total_edges": 397417,
+  "total_nodes": 397567,
+  "warnings": []
+}

@@ -1,0 +1,42 @@
+{
+  "analysis_timestamp": "2026-04-17T23:06:49+00:00",
+  "branch": "main",
+  "commit_sha": "00d0eb61d4cfc1abd345dc76023dd21e420f6488",
+  "dependency_resolution_status": "manifest_only",
+  "edges": [
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/replLauncher.py:edge:1",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/replLauncher.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/replLauncher.py:symbol_def:1",
+      "type": "defines"
+    }
+  ],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/replLauncher.py:module:1",
+      "kind": "module",
+      "label": "src/replLauncher.py",
+      "payload": {
+        "path": "src/replLauncher.py"
+      }
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/replLauncher.py:symbol_def:1",
+      "kind": "symbol_def",
+      "label": "build_repl_banner",
+      "payload": {
+        "construct": "function"
+      }
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:python",
+  "relative_path": "src/replLauncher.py",
+  "repository_name": "claw-code",
+  "repository_url": "https://github.com/ultraworkers/claw-code",
+  "source_language": "python",
+  "warnings": []
+}

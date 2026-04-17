@@ -1,0 +1,1016 @@
+{
+  "analysis_timestamp": "2026-04-17T23:06:35+00:00",
+  "branch": "main",
+  "commit_sha": "00d0eb61d4cfc1abd345dc76023dd21e420f6488",
+  "dependency_resolution_status": "manifest_only",
+  "edges": [
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:1",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:import:1",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:2",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:import:2",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:3",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:import:3",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:4",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:import:4",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:5",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:import:5",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:6",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:import:6",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:7",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:import:7",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:8",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:symbol_def:1",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:9",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:symbol_def:2",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:10",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:symbol_def:3",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:11",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:symbol_def:4",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:12",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:symbol_def:5",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:13",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:1",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:14",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:2",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:15",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:3",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:16",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:4",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:17",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:5",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:18",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:6",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:19",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:7",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:20",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:8",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:21",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:9",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:22",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:10",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:23",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:11",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:24",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:12",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:25",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:13",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:26",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:14",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:27",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:15",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:28",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:16",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:29",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:17",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:30",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:18",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:31",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:19",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:32",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:20",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:33",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:21",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:34",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:22",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:35",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:23",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:36",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:24",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:37",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:25",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:38",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:26",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:39",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:27",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:40",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:28",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:41",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:29",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:42",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:30",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:43",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:31",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:44",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:32",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:45",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:33",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:46",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:34",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:47",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:35",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:48",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:36",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:49",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:37",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:50",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:38",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:51",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:39",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:52",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:40",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:53",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:41",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:54",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:42",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:55",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:43",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:56",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:44",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:57",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:45",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:58",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:46",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:59",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:47",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:60",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:48",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:61",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:49",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:62",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:50",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:63",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:51",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:64",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:52",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:65",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:53",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:66",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:54",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:67",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:55",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:68",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:56",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:69",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:57",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:edge:70",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:58",
+      "type": "calls"
+    }
+  ],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:module:1",
+      "kind": "module",
+      "label": "rust/scripts/run_mock_parity_diff.py",
+      "payload": {
+        "path": "rust/scripts/run_mock_parity_diff.py"
+      }
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:import:1",
+      "kind": "import",
+      "label": "import json",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:import:2",
+      "kind": "import",
+      "label": "import os",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:import:3",
+      "kind": "import",
+      "label": "import subprocess",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:import:4",
+      "kind": "import",
+      "label": "import sys",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:import:5",
+      "kind": "import",
+      "label": "import tempfile",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:import:6",
+      "kind": "import",
+      "label": "from collections import defaultdict",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:import:7",
+      "kind": "import",
+      "label": "from pathlib import Path",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:symbol_def:1",
+      "kind": "symbol_def",
+      "label": "load_manifest",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:symbol_def:2",
+      "kind": "symbol_def",
+      "label": "load_parity_text",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:symbol_def:3",
+      "kind": "symbol_def",
+      "label": "ensure_refs_exist",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:symbol_def:4",
+      "kind": "symbol_def",
+      "label": "run_harness",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:symbol_def:5",
+      "kind": "symbol_def",
+      "label": "main",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:1",
+      "kind": "call",
+      "label": "json.loads(path.read_text())",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:2",
+      "kind": "call",
+      "label": "path.read_text()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:3",
+      "kind": "call",
+      "label": "path.read_text()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:4",
+      "kind": "call",
+      "label": "entry.get(\"parity_refs\", [])",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:5",
+      "kind": "call",
+      "label": "missing.append((entry[\"name\"], ref))",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:6",
+      "kind": "call",
+      "label": "tempfile.TemporaryDirectory(prefix=\"mock-parity-report-\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:7",
+      "kind": "call",
+      "label": "Path(temp_dir)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:8",
+      "kind": "call",
+      "label": "os.environ.copy()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:9",
+      "kind": "call",
+      "label": "str(report_path)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:10",
+      "kind": "call",
+      "label": "subprocess.run(\r\n            [\r\n                \"cargo\",\r\n                \"test\",\r\n                \"-p\",\r\n                \"rusty-claude-cli\",\r\n                \"--test\",\r\n                \"mock_parity_h",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:11",
+      "kind": "call",
+      "label": "json.loads(report_path.read_text())",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:12",
+      "kind": "call",
+      "label": "report_path.read_text()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:13",
+      "kind": "call",
+      "label": "Path(__file__).resolve()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:14",
+      "kind": "call",
+      "label": "Path(__file__)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:15",
+      "kind": "call",
+      "label": "load_manifest(rust_root / \"mock_parity_scenarios.json\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:16",
+      "kind": "call",
+      "label": "load_parity_text(repo_root / \"PARITY.md\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:17",
+      "kind": "call",
+      "label": "ensure_refs_exist(manifest, parity_text)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:18",
+      "kind": "call",
+      "label": "print(\"Missing PARITY.md references:\", file=sys.stderr)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:19",
+      "kind": "call",
+      "label": "print(f\"  - {scenario_name}: {ref}\", file=sys.stderr)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:20",
+      "kind": "call",
+      "label": "run_harness(rust_root)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:21",
+      "kind": "call",
+      "label": "report.get(\"scenarios\", [])",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:22",
+      "kind": "call",
+      "label": "print(\"Mock parity diff checklist\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:23",
+      "kind": "call",
+      "label": "print(f\"Repo root: {repo_root}\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:24",
+      "kind": "call",
+      "label": "print(f\"Scenario manifest: {rust_root / 'mock_parity_scenarios.json'}\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:25",
+      "kind": "call",
+      "label": "print(f\"PARITY source: {repo_root / 'PARITY.md'}\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:26",
+      "kind": "call",
+      "label": "print()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:27",
+      "kind": "call",
+      "label": "report_by_name.get(scenario_name)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:28",
+      "kind": "call",
+      "label": "print(f\"[{status}] {scenario_name} ({entry['category']})\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:29",
+      "kind": "call",
+      "label": "print(f\"  description: {entry['description']}\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:30",
+      "kind": "call",
+      "label": "print(f\"  parity refs: {' | '.join(entry['parity_refs'])}\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:31",
+      "kind": "call",
+      "label": "' | '.join(entry['parity_refs'])",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:32",
+      "kind": "call",
+      "label": "print(\r\n                \"  result: iterations={iterations} requests={requests} tool_uses={tool_uses} tool_errors={tool_errors}\".format(\r\n                    iterations=scenario_report[\"iterations\"],\r\n",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:33",
+      "kind": "call",
+      "label": "\"  result: iterations={iterations} requests={requests} tool_uses={tool_uses} tool_errors={tool_errors}\".format(\r\n                    iterations=scenario_report[\"iterations\"],\r\n                    requ",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:34",
+      "kind": "call",
+      "label": "\", \".join(scenario_report[\"tool_uses\"])",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:35",
+      "kind": "call",
+      "label": "print(f\"  final: {scenario_report['final_message']}\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:36",
+      "kind": "call",
+      "label": "print()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:37",
+      "kind": "call",
+      "label": "defaultdict(list)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:38",
+      "kind": "call",
+      "label": "coverage[ref].append(entry[\"name\"])",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:39",
+      "kind": "call",
+      "label": "print(\"PARITY coverage map\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:40",
+      "kind": "call",
+      "label": "coverage.items()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:41",
+      "kind": "call",
+      "label": "print(f\"- {ref}\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:42",
+      "kind": "call",
+      "label": "print(f\"  scenarios: {', '.join(scenarios)}\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:43",
+      "kind": "call",
+      "label": "', '.join(scenarios)",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:44",
+      "kind": "call",
+      "label": "report.get(\"scenarios\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:45",
+      "kind": "call",
+      "label": "print()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:46",
+      "kind": "call",
+      "label": "print(\"First scenario result\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:47",
+      "kind": "call",
+      "label": "print(f\"- name: {first['name']}\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:48",
+      "kind": "call",
+      "label": "print(f\"- iterations: {first['iterations']}\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:49",
+      "kind": "call",
+      "label": "print(f\"- requests: {first['request_count']}\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:50",
+      "kind": "call",
+      "label": "print(f\"- tool_uses: {', '.join(first['tool_uses']) or 'none'}\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:51",
+      "kind": "call",
+      "label": "', '.join(first['tool_uses'])",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:52",
+      "kind": "call",
+      "label": "print(f\"- tool_errors: {first['tool_error_count']}\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:53",
+      "kind": "call",
+      "label": "print(f\"- final_message: {first['final_message']}\")",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:54",
+      "kind": "call",
+      "label": "print()",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:55",
+      "kind": "call",
+      "label": "print(\r\n            \"Harness summary: {scenario_count} scenarios, {request_count} requests\".format(\r\n                scenario_count=report[\"scenario_count\"],\r\n                request_count=report[\"req",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:56",
+      "kind": "call",
+      "label": "\"Harness summary: {scenario_count} scenarios, {request_count} requests\".format(\r\n                scenario_count=report[\"scenario_count\"],\r\n                request_count=report[\"request_count\"],\r\n     ",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:57",
+      "kind": "call",
+      "label": "SystemExit(main())",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:rust/scripts/run_mock_parity_diff.py:call:58",
+      "kind": "call",
+      "label": "main()",
+      "payload": {}
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:python",
+  "relative_path": "rust/scripts/run_mock_parity_diff.py",
+  "repository_name": "claw-code",
+  "repository_url": "https://github.com/ultraworkers/claw-code",
+  "source_language": "python",
+  "warnings": []
+}

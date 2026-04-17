@@ -1,0 +1,138 @@
+{
+  "analysis_timestamp": "2026-04-17T23:06:36+00:00",
+  "branch": "main",
+  "commit_sha": "00d0eb61d4cfc1abd345dc76023dd21e420f6488",
+  "dependency_resolution_status": "manifest_only",
+  "edges": [
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:edge:1",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:import:1",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:edge:2",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:import:2",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:edge:3",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:import:3",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:edge:4",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:import:4",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:edge:5",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:import:5",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:edge:6",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:import:6",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:edge:7",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:import:7",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:edge:8",
+      "resolution": null,
+      "source_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:module:1",
+      "target_id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:import:8",
+      "type": "imports"
+    }
+  ],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:module:1",
+      "kind": "module",
+      "label": "src/__init__.py",
+      "payload": {
+        "path": "src/__init__.py"
+      }
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:import:1",
+      "kind": "import",
+      "label": "from .commands import PORTED_COMMANDS, build_command_backlog",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:import:2",
+      "kind": "import",
+      "label": "from .parity_audit import ParityAuditResult, run_parity_audit",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:import:3",
+      "kind": "import",
+      "label": "from .port_manifest import PortManifest, build_port_manifest",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:import:4",
+      "kind": "import",
+      "label": "from .query_engine import QueryEnginePort, TurnResult",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:import:5",
+      "kind": "import",
+      "label": "from .runtime import PortRuntime, RuntimeSession",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:import:6",
+      "kind": "import",
+      "label": "from .session_store import StoredSession, load_session, save_session",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:import:7",
+      "kind": "import",
+      "label": "from .system_init import build_system_init_message",
+      "payload": {}
+    },
+    {
+      "id": "asg:00d0eb61d4cfc1abd345dc76023dd21e420f6488:src/__init__.py:import:8",
+      "kind": "import",
+      "label": "from .tools import PORTED_TOOLS, build_tool_backlog",
+      "payload": {}
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:python",
+  "relative_path": "src/__init__.py",
+  "repository_name": "claw-code",
+  "repository_url": "https://github.com/ultraworkers/claw-code",
+  "source_language": "python",
+  "warnings": []
+}

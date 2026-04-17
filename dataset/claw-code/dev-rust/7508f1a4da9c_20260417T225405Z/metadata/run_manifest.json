@@ -1,0 +1,29 @@
+{
+  "analysis_timestamp": "2026-04-17T23:00:18+00:00",
+  "artifacts": {
+    "asg_dir": "asg",
+    "ast_dir": "ast",
+    "functions_jsonl": "functions.jsonl",
+    "gcb_triples_jsonl": "gcb_triples.jsonl"
+  },
+  "artifacts_paths": [
+    "ast",
+    "asg",
+    "functions.jsonl",
+    "gcb_triples.jsonl"
+  ],
+  "branch": "dev/rust",
+  "commit_sha": "7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc",
+  "dependency_resolution_status": "manifest_only",
+  "duration_seconds": 374.2968677999452,
+  "extra": {},
+  "file_counts_by_language": {
+    "python": 67,
+    "rust": 37
+  },
+  "output_root": "claw-code\\dev-rust\\7508f1a4da9c_20260417T225405Z",
+  "repository_name": "claw-code",
+  "repository_url": "https://github.com/ultraworkers/claw-code",
+  "run_id": "e0b191a8-32ed-471e-9016-b156d2b2bb72",
+  "tool_version": "0.1.0"
+}

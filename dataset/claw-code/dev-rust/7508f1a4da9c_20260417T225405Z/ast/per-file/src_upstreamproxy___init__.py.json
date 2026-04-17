@@ -1,0 +1,3164 @@
+{
+  "analysis_timestamp": "2026-04-17T22:55:08+00:00",
+  "branch": "dev/rust",
+  "commit_sha": "7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc",
+  "dependency_resolution_status": "manifest_only",
+  "edges": [
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:76:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:3:string_start:0",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:76:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:3:string_start",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:76:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:3:73:string_content:1",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:76:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:3:73:string_content",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:76:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:73:76:string_end:2",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:76:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:73:76:string_end",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:76:string:3",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:76:string",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:103:114:dotted_name->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:103:114:identifier:4",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:103:114:dotted_name",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:103:114:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:80:114:future_import_statement->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:103:114:dotted_name:5",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:80:114:future_import_statement",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:103:114:dotted_name",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:80:114:future_import_statement:6",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:80:114:future_import_statement",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:125:129:dotted_name->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:125:129:identifier:7",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:125:129:dotted_name",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:125:129:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:118:129:import_statement->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:125:129:dotted_name:8",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:118:129:import_statement",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:125:129:dotted_name",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:118:129:import_statement:9",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:118:129:import_statement",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:136:143:dotted_name->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:136:143:identifier:10",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:136:143:dotted_name",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:136:143:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:131:155:import_from_statement->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:136:143:dotted_name:11",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:131:155:import_from_statement",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:136:143:dotted_name",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:151:155:dotted_name->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:151:155:identifier:12",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:151:155:dotted_name",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:151:155:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:131:155:import_from_statement->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:151:155:dotted_name:13",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:131:155:import_from_statement",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:151:155:dotted_name",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:131:155:import_from_statement:14",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:131:155:import_from_statement",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:159:270:assignment->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:159:172:identifier:15",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:159:270:assignment",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:159:172:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:189:call->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:179:identifier:16",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:189:call",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:179:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:179:189:argument_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:180:188:identifier:17",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:179:189:argument_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:180:188:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:189:call->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:179:189:argument_list:18",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:189:call",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:179:189:argument_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:197:attribute->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:189:call:19",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:197:attribute",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:189:call",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:197:attribute->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:190:197:identifier:20",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:197:attribute",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:190:197:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:199:call->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:197:attribute:21",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:199:call",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:197:attribute",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:199:call->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:197:199:argument_list:22",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:199:call",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:197:199:argument_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:206:attribute->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:199:call:23",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:206:attribute",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:199:call",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:206:attribute->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:200:206:identifier:24",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:206:attribute",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:200:206:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:213:attribute->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:206:attribute:25",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:213:attribute",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:206:attribute",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:213:attribute->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:207:213:identifier:26",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:213:attribute",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:207:213:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:232:binary_operator->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:213:attribute:27",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:232:binary_operator",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:213:attribute",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:216:232:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:216:217:string_start:28",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:216:232:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:216:217:string_start",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:216:232:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:217:231:string_content:29",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:216:232:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:217:231:string_content",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:216:232:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:231:232:string_end:30",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:216:232:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:231:232:string_end",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:232:binary_operator->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:216:232:string:31",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:232:binary_operator",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:216:232:string",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:247:binary_operator->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:232:binary_operator:32",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:247:binary_operator",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:232:binary_operator",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:235:247:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:235:236:string_start:33",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:235:247:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:235:236:string_start",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:235:247:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:236:246:string_content:34",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:235:247:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:236:246:string_content",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:235:247:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:246:247:string_end:35",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:235:247:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:246:247:string_end",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:247:binary_operator->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:235:247:string:36",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:247:binary_operator",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:235:247:string",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:270:binary_operator->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:247:binary_operator:37",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:270:binary_operator",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:247:binary_operator",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:250:270:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:250:251:string_start:38",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:250:270:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:250:251:string_start",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:250:270:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:251:269:string_content:39",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:250:270:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:251:269:string_content",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:250:270:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:269:270:string_end:40",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:250:270:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:269:270:string_end",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:270:binary_operator->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:250:270:string:41",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:270:binary_operator",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:250:270:string",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:159:270:assignment->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:270:binary_operator:42",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:159:270:assignment",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:270:binary_operator",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:159:270:assignment:43",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:159:270:assignment",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:272:321:assignment->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:272:281:identifier:44",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:272:321:assignment",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:272:281:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:284:294:attribute->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:284:288:identifier:45",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:284:294:attribute",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:284:288:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:284:294:attribute->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:289:294:identifier:46",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:284:294:attribute",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:289:294:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:284:321:call->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:284:294:attribute:47",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:284:321:call",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:284:294:attribute",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:295:318:attribute->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:295:308:identifier:48",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:295:318:attribute",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:295:308:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:295:318:attribute->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:309:318:identifier:49",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:295:318:attribute",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:309:318:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:295:320:call->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:295:318:attribute:50",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:295:320:call",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:295:318:attribute",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:295:320:call->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:318:320:argument_list:51",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:295:320:call",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:318:320:argument_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:294:321:argument_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:295:320:call:52",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:294:321:argument_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:295:320:call",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:284:321:call->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:294:321:argument_list:53",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:284:321:call",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:294:321:argument_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:272:321:assignment->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:284:321:call:54",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:272:321:assignment",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:284:321:call",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:272:321:assignment:55",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:272:321:assignment",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:325:365:assignment->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:325:337:identifier:56",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:325:365:assignment",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:325:337:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:340:365:subscript->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:340:349:identifier:57",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:340:365:subscript",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:340:349:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:350:364:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:350:351:string_start:58",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:350:364:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:350:351:string_start",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:350:364:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:351:363:string_content:59",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:350:364:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:351:363:string_content",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:350:364:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:363:364:string_end:60",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:350:364:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:363:364:string_end",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:340:365:subscript->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:350:364:string:61",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:340:365:subscript",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:350:364:string",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:325:365:assignment->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:340:365:subscript:62",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:325:365:assignment",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:340:365:subscript",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:325:365:assignment:63",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:325:365:assignment",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:367:407:assignment->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:367:379:identifier:64",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:367:407:assignment",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:367:379:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:382:407:subscript->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:382:391:identifier:65",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:382:407:subscript",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:382:391:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:392:406:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:392:393:string_start:66",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:392:406:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:392:393:string_start",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:392:406:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:393:405:string_content:67",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:392:406:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:393:405:string_content",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:392:406:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:405:406:string_end:68",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:392:406:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:405:406:string_end",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:382:407:subscript->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:392:406:string:69",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:382:407:subscript",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:392:406:string",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:367:407:assignment->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:382:407:subscript:70",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:367:407:assignment",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:382:407:subscript",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:367:407:assignment:71",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:367:407:assignment",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:409:456:assignment->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:409:421:identifier:72",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:409:456:assignment",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:409:421:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:424:456:call->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:424:429:identifier:73",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:424:456:call",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:424:429:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:430:455:subscript->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:430:439:identifier:74",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:430:455:subscript",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:430:439:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:440:454:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:440:441:string_start:75",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:440:454:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:440:441:string_start",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:440:454:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:441:453:string_content:76",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:440:454:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:441:453:string_content",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:440:454:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:453:454:string_end:77",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:440:454:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:453:454:string_end",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:430:455:subscript->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:440:454:string:78",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:430:455:subscript",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:440:454:string",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:429:456:argument_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:430:455:subscript:79",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:429:456:argument_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:430:455:subscript",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:424:456:call->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:429:456:argument_list:80",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:424:456:call",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:429:456:argument_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:409:456:assignment->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:424:456:call:81",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:409:456:assignment",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:424:456:call",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:409:456:assignment:82",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:409:456:assignment",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:458:571:assignment->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:458:470:identifier:83",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:458:571:assignment",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:458:470:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:473:571:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:473:475:string_start:84",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:473:571:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:473:475:string_start",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:473:571:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:475:507:string_content:85",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:473:571:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:475:507:string_content",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:507:521:interpolation->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:508:520:identifier:86",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:507:521:interpolation",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:508:520:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:473:571:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:507:521:interpolation:87",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:473:571:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:507:521:interpolation",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:473:571:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:521:528:string_content:88",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:473:571:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:521:528:string_content",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:528:542:interpolation->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:529:541:identifier:89",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:528:542:interpolation",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:529:541:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:473:571:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:528:542:interpolation:90",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:473:571:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:528:542:interpolation",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:473:571:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:542:570:string_content:91",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:473:571:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:542:570:string_content",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:473:571:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:570:571:string_end:92",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:473:571:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:570:571:string_end",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:458:571:assignment->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:473:571:string:93",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:458:571:assignment",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:473:571:string",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:458:571:assignment:94",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:458:571:assignment",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:575:649:assignment->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:575:582:identifier:95",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:575:649:assignment",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:575:582:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:586:600:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:586:587:string_start:96",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:586:600:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:586:587:string_start",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:586:600:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:587:599:string_content:97",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:586:600:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:587:599:string_content",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:586:600:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:599:600:string_end:98",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:586:600:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:599:600:string_end",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:585:649:list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:586:600:string:99",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:585:649:list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:586:600:string",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:602:616:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:602:603:string_start:100",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:602:616:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:602:603:string_start",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:602:616:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:603:615:string_content:101",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:602:616:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:603:615:string_content",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:602:616:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:615:616:string_end:102",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:602:616:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:615:616:string_end",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:585:649:list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:602:616:string:103",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:585:649:list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:602:616:string",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:618:632:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:618:619:string_start:104",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:618:632:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:618:619:string_start",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:618:632:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:619:631:string_content:105",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:618:632:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:619:631:string_content",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:618:632:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:631:632:string_end:106",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:618:632:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:631:632:string_end",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:585:649:list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:618:632:string:107",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:585:649:list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:618:632:string",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:634:648:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:634:635:string_start:108",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:634:648:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:634:635:string_start",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:634:648:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:635:647:string_content:109",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:634:648:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:635:647:string_content",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:634:648:string->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:647:648:string_end:110",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:634:648:string",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:647:648:string_end",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:585:649:list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:634:648:string:111",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:585:649:list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:634:648:string",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:575:649:assignment->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:585:649:list:112",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:575:649:assignment",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:585:649:list",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:575:649:assignment:113",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:575:649:assignment",
+      "type": "child"
+    }
+  ],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:3:string_start",
+      "kind": "string_start",
+      "label": "\"\"\"",
+      "span": {
+        "end": {
+          "column": 3,
+          "line": 1
+        },
+        "end_byte": 3,
+        "start": {
+          "column": 0,
+          "line": 1
+        },
+        "start_byte": 0
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:3:73:string_content",
+      "kind": "string_content",
+      "label": "Python package placeholder for the archived `upstreamproxy` subsystem.",
+      "span": {
+        "end": {
+          "column": 73,
+          "line": 1
+        },
+        "end_byte": 73,
+        "start": {
+          "column": 3,
+          "line": 1
+        },
+        "start_byte": 3
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:73:76:string_end",
+      "kind": "string_end",
+      "label": "\"\"\"",
+      "span": {
+        "end": {
+          "column": 76,
+          "line": 1
+        },
+        "end_byte": 76,
+        "start": {
+          "column": 73,
+          "line": 1
+        },
+        "start_byte": 73
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:3:string_start",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:3:73:string_content",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:73:76:string_end"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:76:string",
+      "kind": "string",
+      "label": "\"\"\"Python package placeholder for the archived `upstreamproxy` subsystem.\"\"\"",
+      "span": {
+        "end": {
+          "column": 76,
+          "line": 1
+        },
+        "end_byte": 76,
+        "start": {
+          "column": 0,
+          "line": 1
+        },
+        "start_byte": 0
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:103:114:identifier",
+      "kind": "identifier",
+      "label": "annotations",
+      "span": {
+        "end": {
+          "column": 34,
+          "line": 3
+        },
+        "end_byte": 114,
+        "start": {
+          "column": 23,
+          "line": 3
+        },
+        "start_byte": 103
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:103:114:identifier"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:103:114:dotted_name",
+      "kind": "dotted_name",
+      "label": "annotations",
+      "span": {
+        "end": {
+          "column": 34,
+          "line": 3
+        },
+        "end_byte": 114,
+        "start": {
+          "column": 23,
+          "line": 3
+        },
+        "start_byte": 103
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:103:114:dotted_name"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:80:114:future_import_statement",
+      "kind": "future_import_statement",
+      "label": "from __future__ import annotations",
+      "span": {
+        "end": {
+          "column": 34,
+          "line": 3
+        },
+        "end_byte": 114,
+        "start": {
+          "column": 0,
+          "line": 3
+        },
+        "start_byte": 80
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:125:129:identifier",
+      "kind": "identifier",
+      "label": "json",
+      "span": {
+        "end": {
+          "column": 11,
+          "line": 5
+        },
+        "end_byte": 129,
+        "start": {
+          "column": 7,
+          "line": 5
+        },
+        "start_byte": 125
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:125:129:identifier"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:125:129:dotted_name",
+      "kind": "dotted_name",
+      "label": "json",
+      "span": {
+        "end": {
+          "column": 11,
+          "line": 5
+        },
+        "end_byte": 129,
+        "start": {
+          "column": 7,
+          "line": 5
+        },
+        "start_byte": 125
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:125:129:dotted_name"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:118:129:import_statement",
+      "kind": "import_statement",
+      "label": "import json",
+      "span": {
+        "end": {
+          "column": 11,
+          "line": 5
+        },
+        "end_byte": 129,
+        "start": {
+          "column": 0,
+          "line": 5
+        },
+        "start_byte": 118
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:136:143:identifier",
+      "kind": "identifier",
+      "label": "pathlib",
+      "span": {
+        "end": {
+          "column": 12,
+          "line": 6
+        },
+        "end_byte": 143,
+        "start": {
+          "column": 5,
+          "line": 6
+        },
+        "start_byte": 136
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:136:143:identifier"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:136:143:dotted_name",
+      "kind": "dotted_name",
+      "label": "pathlib",
+      "span": {
+        "end": {
+          "column": 12,
+          "line": 6
+        },
+        "end_byte": 143,
+        "start": {
+          "column": 5,
+          "line": 6
+        },
+        "start_byte": 136
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:151:155:identifier",
+      "kind": "identifier",
+      "label": "Path",
+      "span": {
+        "end": {
+          "column": 24,
+          "line": 6
+        },
+        "end_byte": 155,
+        "start": {
+          "column": 20,
+          "line": 6
+        },
+        "start_byte": 151
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:151:155:identifier"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:151:155:dotted_name",
+      "kind": "dotted_name",
+      "label": "Path",
+      "span": {
+        "end": {
+          "column": 24,
+          "line": 6
+        },
+        "end_byte": 155,
+        "start": {
+          "column": 20,
+          "line": 6
+        },
+        "start_byte": 151
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:136:143:dotted_name",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:151:155:dotted_name"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:131:155:import_from_statement",
+      "kind": "import_from_statement",
+      "label": "from pathlib import Path",
+      "span": {
+        "end": {
+          "column": 24,
+          "line": 6
+        },
+        "end_byte": 155,
+        "start": {
+          "column": 0,
+          "line": 6
+        },
+        "start_byte": 131
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:159:172:identifier",
+      "kind": "identifier",
+      "label": "SNAPSHOT_PATH",
+      "span": {
+        "end": {
+          "column": 13,
+          "line": 8
+        },
+        "end_byte": 172,
+        "start": {
+          "column": 0,
+          "line": 8
+        },
+        "start_byte": 159
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:179:identifier",
+      "kind": "identifier",
+      "label": "Path",
+      "span": {
+        "end": {
+          "column": 20,
+          "line": 8
+        },
+        "end_byte": 179,
+        "start": {
+          "column": 16,
+          "line": 8
+        },
+        "start_byte": 175
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:180:188:identifier",
+      "kind": "identifier",
+      "label": "__file__",
+      "span": {
+        "end": {
+          "column": 29,
+          "line": 8
+        },
+        "end_byte": 188,
+        "start": {
+          "column": 21,
+          "line": 8
+        },
+        "start_byte": 180
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:180:188:identifier"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:179:189:argument_list",
+      "kind": "argument_list",
+      "label": "(__file__)",
+      "span": {
+        "end": {
+          "column": 30,
+          "line": 8
+        },
+        "end_byte": 189,
+        "start": {
+          "column": 20,
+          "line": 8
+        },
+        "start_byte": 179
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:179:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:179:189:argument_list"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:189:call",
+      "kind": "call",
+      "label": "Path(__file__)",
+      "span": {
+        "end": {
+          "column": 30,
+          "line": 8
+        },
+        "end_byte": 189,
+        "start": {
+          "column": 16,
+          "line": 8
+        },
+        "start_byte": 175
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:190:197:identifier",
+      "kind": "identifier",
+      "label": "resolve",
+      "span": {
+        "end": {
+          "column": 38,
+          "line": 8
+        },
+        "end_byte": 197,
+        "start": {
+          "column": 31,
+          "line": 8
+        },
+        "start_byte": 190
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:189:call",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:190:197:identifier"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:197:attribute",
+      "kind": "attribute",
+      "label": "Path(__file__).resolve",
+      "span": {
+        "end": {
+          "column": 38,
+          "line": 8
+        },
+        "end_byte": 197,
+        "start": {
+          "column": 16,
+          "line": 8
+        },
+        "start_byte": 175
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:197:199:argument_list",
+      "kind": "argument_list",
+      "label": "()",
+      "span": {
+        "end": {
+          "column": 40,
+          "line": 8
+        },
+        "end_byte": 199,
+        "start": {
+          "column": 38,
+          "line": 8
+        },
+        "start_byte": 197
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:197:attribute",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:197:199:argument_list"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:199:call",
+      "kind": "call",
+      "label": "Path(__file__).resolve()",
+      "span": {
+        "end": {
+          "column": 40,
+          "line": 8
+        },
+        "end_byte": 199,
+        "start": {
+          "column": 16,
+          "line": 8
+        },
+        "start_byte": 175
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:200:206:identifier",
+      "kind": "identifier",
+      "label": "parent",
+      "span": {
+        "end": {
+          "column": 47,
+          "line": 8
+        },
+        "end_byte": 206,
+        "start": {
+          "column": 41,
+          "line": 8
+        },
+        "start_byte": 200
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:199:call",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:200:206:identifier"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:206:attribute",
+      "kind": "attribute",
+      "label": "Path(__file__).resolve().parent",
+      "span": {
+        "end": {
+          "column": 47,
+          "line": 8
+        },
+        "end_byte": 206,
+        "start": {
+          "column": 16,
+          "line": 8
+        },
+        "start_byte": 175
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:207:213:identifier",
+      "kind": "identifier",
+      "label": "parent",
+      "span": {
+        "end": {
+          "column": 54,
+          "line": 8
+        },
+        "end_byte": 213,
+        "start": {
+          "column": 48,
+          "line": 8
+        },
+        "start_byte": 207
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:206:attribute",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:207:213:identifier"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:213:attribute",
+      "kind": "attribute",
+      "label": "Path(__file__).resolve().parent.parent",
+      "span": {
+        "end": {
+          "column": 54,
+          "line": 8
+        },
+        "end_byte": 213,
+        "start": {
+          "column": 16,
+          "line": 8
+        },
+        "start_byte": 175
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:216:217:string_start",
+      "kind": "string_start",
+      "label": "'",
+      "span": {
+        "end": {
+          "column": 58,
+          "line": 8
+        },
+        "end_byte": 217,
+        "start": {
+          "column": 57,
+          "line": 8
+        },
+        "start_byte": 216
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:217:231:string_content",
+      "kind": "string_content",
+      "label": "reference_data",
+      "span": {
+        "end": {
+          "column": 72,
+          "line": 8
+        },
+        "end_byte": 231,
+        "start": {
+          "column": 58,
+          "line": 8
+        },
+        "start_byte": 217
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:231:232:string_end",
+      "kind": "string_end",
+      "label": "'",
+      "span": {
+        "end": {
+          "column": 73,
+          "line": 8
+        },
+        "end_byte": 232,
+        "start": {
+          "column": 72,
+          "line": 8
+        },
+        "start_byte": 231
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:216:217:string_start",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:217:231:string_content",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:231:232:string_end"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:216:232:string",
+      "kind": "string",
+      "label": "'reference_data'",
+      "span": {
+        "end": {
+          "column": 73,
+          "line": 8
+        },
+        "end_byte": 232,
+        "start": {
+          "column": 57,
+          "line": 8
+        },
+        "start_byte": 216
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:213:attribute",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:216:232:string"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:232:binary_operator",
+      "kind": "binary_operator",
+      "label": "Path(__file__).resolve().parent.parent / 'reference_data'",
+      "span": {
+        "end": {
+          "column": 73,
+          "line": 8
+        },
+        "end_byte": 232,
+        "start": {
+          "column": 16,
+          "line": 8
+        },
+        "start_byte": 175
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:235:236:string_start",
+      "kind": "string_start",
+      "label": "'",
+      "span": {
+        "end": {
+          "column": 77,
+          "line": 8
+        },
+        "end_byte": 236,
+        "start": {
+          "column": 76,
+          "line": 8
+        },
+        "start_byte": 235
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:236:246:string_content",
+      "kind": "string_content",
+      "label": "subsystems",
+      "span": {
+        "end": {
+          "column": 87,
+          "line": 8
+        },
+        "end_byte": 246,
+        "start": {
+          "column": 77,
+          "line": 8
+        },
+        "start_byte": 236
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:246:247:string_end",
+      "kind": "string_end",
+      "label": "'",
+      "span": {
+        "end": {
+          "column": 88,
+          "line": 8
+        },
+        "end_byte": 247,
+        "start": {
+          "column": 87,
+          "line": 8
+        },
+        "start_byte": 246
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:235:236:string_start",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:236:246:string_content",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:246:247:string_end"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:235:247:string",
+      "kind": "string",
+      "label": "'subsystems'",
+      "span": {
+        "end": {
+          "column": 88,
+          "line": 8
+        },
+        "end_byte": 247,
+        "start": {
+          "column": 76,
+          "line": 8
+        },
+        "start_byte": 235
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:232:binary_operator",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:235:247:string"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:247:binary_operator",
+      "kind": "binary_operator",
+      "label": "Path(__file__).resolve().parent.parent / 'reference_data' / 'subsystems'",
+      "span": {
+        "end": {
+          "column": 88,
+          "line": 8
+        },
+        "end_byte": 247,
+        "start": {
+          "column": 16,
+          "line": 8
+        },
+        "start_byte": 175
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:250:251:string_start",
+      "kind": "string_start",
+      "label": "'",
+      "span": {
+        "end": {
+          "column": 92,
+          "line": 8
+        },
+        "end_byte": 251,
+        "start": {
+          "column": 91,
+          "line": 8
+        },
+        "start_byte": 250
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:251:269:string_content",
+      "kind": "string_content",
+      "label": "upstreamproxy.json",
+      "span": {
+        "end": {
+          "column": 110,
+          "line": 8
+        },
+        "end_byte": 269,
+        "start": {
+          "column": 92,
+          "line": 8
+        },
+        "start_byte": 251
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:269:270:string_end",
+      "kind": "string_end",
+      "label": "'",
+      "span": {
+        "end": {
+          "column": 111,
+          "line": 8
+        },
+        "end_byte": 270,
+        "start": {
+          "column": 110,
+          "line": 8
+        },
+        "start_byte": 269
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:250:251:string_start",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:251:269:string_content",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:269:270:string_end"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:250:270:string",
+      "kind": "string",
+      "label": "'upstreamproxy.json'",
+      "span": {
+        "end": {
+          "column": 111,
+          "line": 8
+        },
+        "end_byte": 270,
+        "start": {
+          "column": 91,
+          "line": 8
+        },
+        "start_byte": 250
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:247:binary_operator",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:250:270:string"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:270:binary_operator",
+      "kind": "binary_operator",
+      "label": "Path(__file__).resolve().parent.parent / 'reference_data' / 'subsystems' / 'upstreamproxy.json'",
+      "span": {
+        "end": {
+          "column": 111,
+          "line": 8
+        },
+        "end_byte": 270,
+        "start": {
+          "column": 16,
+          "line": 8
+        },
+        "start_byte": 175
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:159:172:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:175:270:binary_operator"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:159:270:assignment",
+      "kind": "assignment",
+      "label": "SNAPSHOT_PATH = Path(__file__).resolve().parent.parent / 'reference_data' / 'subsystems' / 'upstreamproxy.json'",
+      "span": {
+        "end": {
+          "column": 111,
+          "line": 8
+        },
+        "end_byte": 270,
+        "start": {
+          "column": 0,
+          "line": 8
+        },
+        "start_byte": 159
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:272:281:identifier",
+      "kind": "identifier",
+      "label": "_SNAPSHOT",
+      "span": {
+        "end": {
+          "column": 9,
+          "line": 9
+        },
+        "end_byte": 281,
+        "start": {
+          "column": 0,
+          "line": 9
+        },
+        "start_byte": 272
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:284:288:identifier",
+      "kind": "identifier",
+      "label": "json",
+      "span": {
+        "end": {
+          "column": 16,
+          "line": 9
+        },
+        "end_byte": 288,
+        "start": {
+          "column": 12,
+          "line": 9
+        },
+        "start_byte": 284
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:289:294:identifier",
+      "kind": "identifier",
+      "label": "loads",
+      "span": {
+        "end": {
+          "column": 22,
+          "line": 9
+        },
+        "end_byte": 294,
+        "start": {
+          "column": 17,
+          "line": 9
+        },
+        "start_byte": 289
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:284:288:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:289:294:identifier"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:284:294:attribute",
+      "kind": "attribute",
+      "label": "json.loads",
+      "span": {
+        "end": {
+          "column": 22,
+          "line": 9
+        },
+        "end_byte": 294,
+        "start": {
+          "column": 12,
+          "line": 9
+        },
+        "start_byte": 284
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:295:308:identifier",
+      "kind": "identifier",
+      "label": "SNAPSHOT_PATH",
+      "span": {
+        "end": {
+          "column": 36,
+          "line": 9
+        },
+        "end_byte": 308,
+        "start": {
+          "column": 23,
+          "line": 9
+        },
+        "start_byte": 295
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:309:318:identifier",
+      "kind": "identifier",
+      "label": "read_text",
+      "span": {
+        "end": {
+          "column": 46,
+          "line": 9
+        },
+        "end_byte": 318,
+        "start": {
+          "column": 37,
+          "line": 9
+        },
+        "start_byte": 309
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:295:308:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:309:318:identifier"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:295:318:attribute",
+      "kind": "attribute",
+      "label": "SNAPSHOT_PATH.read_text",
+      "span": {
+        "end": {
+          "column": 46,
+          "line": 9
+        },
+        "end_byte": 318,
+        "start": {
+          "column": 23,
+          "line": 9
+        },
+        "start_byte": 295
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:318:320:argument_list",
+      "kind": "argument_list",
+      "label": "()",
+      "span": {
+        "end": {
+          "column": 48,
+          "line": 9
+        },
+        "end_byte": 320,
+        "start": {
+          "column": 46,
+          "line": 9
+        },
+        "start_byte": 318
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:295:318:attribute",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:318:320:argument_list"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:295:320:call",
+      "kind": "call",
+      "label": "SNAPSHOT_PATH.read_text()",
+      "span": {
+        "end": {
+          "column": 48,
+          "line": 9
+        },
+        "end_byte": 320,
+        "start": {
+          "column": 23,
+          "line": 9
+        },
+        "start_byte": 295
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:295:320:call"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:294:321:argument_list",
+      "kind": "argument_list",
+      "label": "(SNAPSHOT_PATH.read_text())",
+      "span": {
+        "end": {
+          "column": 49,
+          "line": 9
+        },
+        "end_byte": 321,
+        "start": {
+          "column": 22,
+          "line": 9
+        },
+        "start_byte": 294
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:284:294:attribute",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:294:321:argument_list"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:284:321:call",
+      "kind": "call",
+      "label": "json.loads(SNAPSHOT_PATH.read_text())",
+      "span": {
+        "end": {
+          "column": 49,
+          "line": 9
+        },
+        "end_byte": 321,
+        "start": {
+          "column": 12,
+          "line": 9
+        },
+        "start_byte": 284
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:272:281:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:284:321:call"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:272:321:assignment",
+      "kind": "assignment",
+      "label": "_SNAPSHOT = json.loads(SNAPSHOT_PATH.read_text())",
+      "span": {
+        "end": {
+          "column": 49,
+          "line": 9
+        },
+        "end_byte": 321,
+        "start": {
+          "column": 0,
+          "line": 9
+        },
+        "start_byte": 272
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:325:337:identifier",
+      "kind": "identifier",
+      "label": "ARCHIVE_NAME",
+      "span": {
+        "end": {
+          "column": 12,
+          "line": 11
+        },
+        "end_byte": 337,
+        "start": {
+          "column": 0,
+          "line": 11
+        },
+        "start_byte": 325
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:340:349:identifier",
+      "kind": "identifier",
+      "label": "_SNAPSHOT",
+      "span": {
+        "end": {
+          "column": 24,
+          "line": 11
+        },
+        "end_byte": 349,
+        "start": {
+          "column": 15,
+          "line": 11
+        },
+        "start_byte": 340
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:350:351:string_start",
+      "kind": "string_start",
+      "label": "'",
+      "span": {
+        "end": {
+          "column": 26,
+          "line": 11
+        },
+        "end_byte": 351,
+        "start": {
+          "column": 25,
+          "line": 11
+        },
+        "start_byte": 350
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:351:363:string_content",
+      "kind": "string_content",
+      "label": "archive_name",
+      "span": {
+        "end": {
+          "column": 38,
+          "line": 11
+        },
+        "end_byte": 363,
+        "start": {
+          "column": 26,
+          "line": 11
+        },
+        "start_byte": 351
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:363:364:string_end",
+      "kind": "string_end",
+      "label": "'",
+      "span": {
+        "end": {
+          "column": 39,
+          "line": 11
+        },
+        "end_byte": 364,
+        "start": {
+          "column": 38,
+          "line": 11
+        },
+        "start_byte": 363
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:350:351:string_start",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:351:363:string_content",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:363:364:string_end"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:350:364:string",
+      "kind": "string",
+      "label": "'archive_name'",
+      "span": {
+        "end": {
+          "column": 39,
+          "line": 11
+        },
+        "end_byte": 364,
+        "start": {
+          "column": 25,
+          "line": 11
+        },
+        "start_byte": 350
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:340:349:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:350:364:string"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:340:365:subscript",
+      "kind": "subscript",
+      "label": "_SNAPSHOT['archive_name']",
+      "span": {
+        "end": {
+          "column": 40,
+          "line": 11
+        },
+        "end_byte": 365,
+        "start": {
+          "column": 15,
+          "line": 11
+        },
+        "start_byte": 340
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:325:337:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:340:365:subscript"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:325:365:assignment",
+      "kind": "assignment",
+      "label": "ARCHIVE_NAME = _SNAPSHOT['archive_name']",
+      "span": {
+        "end": {
+          "column": 40,
+          "line": 11
+        },
+        "end_byte": 365,
+        "start": {
+          "column": 0,
+          "line": 11
+        },
+        "start_byte": 325
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:367:379:identifier",
+      "kind": "identifier",
+      "label": "MODULE_COUNT",
+      "span": {
+        "end": {
+          "column": 12,
+          "line": 12
+        },
+        "end_byte": 379,
+        "start": {
+          "column": 0,
+          "line": 12
+        },
+        "start_byte": 367
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:382:391:identifier",
+      "kind": "identifier",
+      "label": "_SNAPSHOT",
+      "span": {
+        "end": {
+          "column": 24,
+          "line": 12
+        },
+        "end_byte": 391,
+        "start": {
+          "column": 15,
+          "line": 12
+        },
+        "start_byte": 382
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:392:393:string_start",
+      "kind": "string_start",
+      "label": "'",
+      "span": {
+        "end": {
+          "column": 26,
+          "line": 12
+        },
+        "end_byte": 393,
+        "start": {
+          "column": 25,
+          "line": 12
+        },
+        "start_byte": 392
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:393:405:string_content",
+      "kind": "string_content",
+      "label": "module_count",
+      "span": {
+        "end": {
+          "column": 38,
+          "line": 12
+        },
+        "end_byte": 405,
+        "start": {
+          "column": 26,
+          "line": 12
+        },
+        "start_byte": 393
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:405:406:string_end",
+      "kind": "string_end",
+      "label": "'",
+      "span": {
+        "end": {
+          "column": 39,
+          "line": 12
+        },
+        "end_byte": 406,
+        "start": {
+          "column": 38,
+          "line": 12
+        },
+        "start_byte": 405
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:392:393:string_start",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:393:405:string_content",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:405:406:string_end"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:392:406:string",
+      "kind": "string",
+      "label": "'module_count'",
+      "span": {
+        "end": {
+          "column": 39,
+          "line": 12
+        },
+        "end_byte": 406,
+        "start": {
+          "column": 25,
+          "line": 12
+        },
+        "start_byte": 392
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:382:391:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:392:406:string"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:382:407:subscript",
+      "kind": "subscript",
+      "label": "_SNAPSHOT['module_count']",
+      "span": {
+        "end": {
+          "column": 40,
+          "line": 12
+        },
+        "end_byte": 407,
+        "start": {
+          "column": 15,
+          "line": 12
+        },
+        "start_byte": 382
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:367:379:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:382:407:subscript"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:367:407:assignment",
+      "kind": "assignment",
+      "label": "MODULE_COUNT = _SNAPSHOT['module_count']",
+      "span": {
+        "end": {
+          "column": 40,
+          "line": 12
+        },
+        "end_byte": 407,
+        "start": {
+          "column": 0,
+          "line": 12
+        },
+        "start_byte": 367
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:409:421:identifier",
+      "kind": "identifier",
+      "label": "SAMPLE_FILES",
+      "span": {
+        "end": {
+          "column": 12,
+          "line": 13
+        },
+        "end_byte": 421,
+        "start": {
+          "column": 0,
+          "line": 13
+        },
+        "start_byte": 409
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:424:429:identifier",
+      "kind": "identifier",
+      "label": "tuple",
+      "span": {
+        "end": {
+          "column": 20,
+          "line": 13
+        },
+        "end_byte": 429,
+        "start": {
+          "column": 15,
+          "line": 13
+        },
+        "start_byte": 424
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:430:439:identifier",
+      "kind": "identifier",
+      "label": "_SNAPSHOT",
+      "span": {
+        "end": {
+          "column": 30,
+          "line": 13
+        },
+        "end_byte": 439,
+        "start": {
+          "column": 21,
+          "line": 13
+        },
+        "start_byte": 430
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:440:441:string_start",
+      "kind": "string_start",
+      "label": "'",
+      "span": {
+        "end": {
+          "column": 32,
+          "line": 13
+        },
+        "end_byte": 441,
+        "start": {
+          "column": 31,
+          "line": 13
+        },
+        "start_byte": 440
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:441:453:string_content",
+      "kind": "string_content",
+      "label": "sample_files",
+      "span": {
+        "end": {
+          "column": 44,
+          "line": 13
+        },
+        "end_byte": 453,
+        "start": {
+          "column": 32,
+          "line": 13
+        },
+        "start_byte": 441
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:453:454:string_end",
+      "kind": "string_end",
+      "label": "'",
+      "span": {
+        "end": {
+          "column": 45,
+          "line": 13
+        },
+        "end_byte": 454,
+        "start": {
+          "column": 44,
+          "line": 13
+        },
+        "start_byte": 453
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:440:441:string_start",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:441:453:string_content",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:453:454:string_end"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:440:454:string",
+      "kind": "string",
+      "label": "'sample_files'",
+      "span": {
+        "end": {
+          "column": 45,
+          "line": 13
+        },
+        "end_byte": 454,
+        "start": {
+          "column": 31,
+          "line": 13
+        },
+        "start_byte": 440
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:430:439:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:440:454:string"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:430:455:subscript",
+      "kind": "subscript",
+      "label": "_SNAPSHOT['sample_files']",
+      "span": {
+        "end": {
+          "column": 46,
+          "line": 13
+        },
+        "end_byte": 455,
+        "start": {
+          "column": 21,
+          "line": 13
+        },
+        "start_byte": 430
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:430:455:subscript"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:429:456:argument_list",
+      "kind": "argument_list",
+      "label": "(_SNAPSHOT['sample_files'])",
+      "span": {
+        "end": {
+          "column": 47,
+          "line": 13
+        },
+        "end_byte": 456,
+        "start": {
+          "column": 20,
+          "line": 13
+        },
+        "start_byte": 429
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:424:429:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:429:456:argument_list"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:424:456:call",
+      "kind": "call",
+      "label": "tuple(_SNAPSHOT['sample_files'])",
+      "span": {
+        "end": {
+          "column": 47,
+          "line": 13
+        },
+        "end_byte": 456,
+        "start": {
+          "column": 15,
+          "line": 13
+        },
+        "start_byte": 424
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:409:421:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:424:456:call"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:409:456:assignment",
+      "kind": "assignment",
+      "label": "SAMPLE_FILES = tuple(_SNAPSHOT['sample_files'])",
+      "span": {
+        "end": {
+          "column": 47,
+          "line": 13
+        },
+        "end_byte": 456,
+        "start": {
+          "column": 0,
+          "line": 13
+        },
+        "start_byte": 409
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:458:470:identifier",
+      "kind": "identifier",
+      "label": "PORTING_NOTE",
+      "span": {
+        "end": {
+          "column": 12,
+          "line": 14
+        },
+        "end_byte": 470,
+        "start": {
+          "column": 0,
+          "line": 14
+        },
+        "start_byte": 458
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:473:475:string_start",
+      "kind": "string_start",
+      "label": "f\"",
+      "span": {
+        "end": {
+          "column": 17,
+          "line": 14
+        },
+        "end_byte": 475,
+        "start": {
+          "column": 15,
+          "line": 14
+        },
+        "start_byte": 473
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:475:507:string_content",
+      "kind": "string_content",
+      "label": "Python placeholder package for '",
+      "span": {
+        "end": {
+          "column": 49,
+          "line": 14
+        },
+        "end_byte": 507,
+        "start": {
+          "column": 17,
+          "line": 14
+        },
+        "start_byte": 475
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:508:520:identifier",
+      "kind": "identifier",
+      "label": "ARCHIVE_NAME",
+      "span": {
+        "end": {
+          "column": 62,
+          "line": 14
+        },
+        "end_byte": 520,
+        "start": {
+          "column": 50,
+          "line": 14
+        },
+        "start_byte": 508
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:508:520:identifier"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:507:521:interpolation",
+      "kind": "interpolation",
+      "label": "{ARCHIVE_NAME}",
+      "span": {
+        "end": {
+          "column": 63,
+          "line": 14
+        },
+        "end_byte": 521,
+        "start": {
+          "column": 49,
+          "line": 14
+        },
+        "start_byte": 507
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:521:528:string_content",
+      "kind": "string_content",
+      "label": "' with ",
+      "span": {
+        "end": {
+          "column": 70,
+          "line": 14
+        },
+        "end_byte": 528,
+        "start": {
+          "column": 63,
+          "line": 14
+        },
+        "start_byte": 521
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:529:541:identifier",
+      "kind": "identifier",
+      "label": "MODULE_COUNT",
+      "span": {
+        "end": {
+          "column": 83,
+          "line": 14
+        },
+        "end_byte": 541,
+        "start": {
+          "column": 71,
+          "line": 14
+        },
+        "start_byte": 529
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:529:541:identifier"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:528:542:interpolation",
+      "kind": "interpolation",
+      "label": "{MODULE_COUNT}",
+      "span": {
+        "end": {
+          "column": 84,
+          "line": 14
+        },
+        "end_byte": 542,
+        "start": {
+          "column": 70,
+          "line": 14
+        },
+        "start_byte": 528
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:542:570:string_content",
+      "kind": "string_content",
+      "label": " archived module references.",
+      "span": {
+        "end": {
+          "column": 112,
+          "line": 14
+        },
+        "end_byte": 570,
+        "start": {
+          "column": 84,
+          "line": 14
+        },
+        "start_byte": 542
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:570:571:string_end",
+      "kind": "string_end",
+      "label": "\"",
+      "span": {
+        "end": {
+          "column": 113,
+          "line": 14
+        },
+        "end_byte": 571,
+        "start": {
+          "column": 112,
+          "line": 14
+        },
+        "start_byte": 570
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:473:475:string_start",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:475:507:string_content",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:507:521:interpolation",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:521:528:string_content",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:528:542:interpolation",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:542:570:string_content",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:570:571:string_end"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:473:571:string",
+      "kind": "string",
+      "label": "f\"Python placeholder package for '{ARCHIVE_NAME}' with {MODULE_COUNT} archived module references.\"",
+      "span": {
+        "end": {
+          "column": 113,
+          "line": 14
+        },
+        "end_byte": 571,
+        "start": {
+          "column": 15,
+          "line": 14
+        },
+        "start_byte": 473
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:458:470:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:473:571:string"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:458:571:assignment",
+      "kind": "assignment",
+      "label": "PORTING_NOTE = f\"Python placeholder package for '{ARCHIVE_NAME}' with {MODULE_COUNT} archived module references.\"",
+      "span": {
+        "end": {
+          "column": 113,
+          "line": 14
+        },
+        "end_byte": 571,
+        "start": {
+          "column": 0,
+          "line": 14
+        },
+        "start_byte": 458
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:575:582:identifier",
+      "kind": "identifier",
+      "label": "__all__",
+      "span": {
+        "end": {
+          "column": 7,
+          "line": 16
+        },
+        "end_byte": 582,
+        "start": {
+          "column": 0,
+          "line": 16
+        },
+        "start_byte": 575
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:586:587:string_start",
+      "kind": "string_start",
+      "label": "'",
+      "span": {
+        "end": {
+          "column": 12,
+          "line": 16
+        },
+        "end_byte": 587,
+        "start": {
+          "column": 11,
+          "line": 16
+        },
+        "start_byte": 586
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:587:599:string_content",
+      "kind": "string_content",
+      "label": "ARCHIVE_NAME",
+      "span": {
+        "end": {
+          "column": 24,
+          "line": 16
+        },
+        "end_byte": 599,
+        "start": {
+          "column": 12,
+          "line": 16
+        },
+        "start_byte": 587
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:599:600:string_end",
+      "kind": "string_end",
+      "label": "'",
+      "span": {
+        "end": {
+          "column": 25,
+          "line": 16
+        },
+        "end_byte": 600,
+        "start": {
+          "column": 24,
+          "line": 16
+        },
+        "start_byte": 599
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:586:587:string_start",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:587:599:string_content",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:599:600:string_end"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:586:600:string",
+      "kind": "string",
+      "label": "'ARCHIVE_NAME'",
+      "span": {
+        "end": {
+          "column": 25,
+          "line": 16
+        },
+        "end_byte": 600,
+        "start": {
+          "column": 11,
+          "line": 16
+        },
+        "start_byte": 586
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:602:603:string_start",
+      "kind": "string_start",
+      "label": "'",
+      "span": {
+        "end": {
+          "column": 28,
+          "line": 16
+        },
+        "end_byte": 603,
+        "start": {
+          "column": 27,
+          "line": 16
+        },
+        "start_byte": 602
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:603:615:string_content",
+      "kind": "string_content",
+      "label": "MODULE_COUNT",
+      "span": {
+        "end": {
+          "column": 40,
+          "line": 16
+        },
+        "end_byte": 615,
+        "start": {
+          "column": 28,
+          "line": 16
+        },
+        "start_byte": 603
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:615:616:string_end",
+      "kind": "string_end",
+      "label": "'",
+      "span": {
+        "end": {
+          "column": 41,
+          "line": 16
+        },
+        "end_byte": 616,
+        "start": {
+          "column": 40,
+          "line": 16
+        },
+        "start_byte": 615
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:602:603:string_start",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:603:615:string_content",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:615:616:string_end"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:602:616:string",
+      "kind": "string",
+      "label": "'MODULE_COUNT'",
+      "span": {
+        "end": {
+          "column": 41,
+          "line": 16
+        },
+        "end_byte": 616,
+        "start": {
+          "column": 27,
+          "line": 16
+        },
+        "start_byte": 602
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:618:619:string_start",
+      "kind": "string_start",
+      "label": "'",
+      "span": {
+        "end": {
+          "column": 44,
+          "line": 16
+        },
+        "end_byte": 619,
+        "start": {
+          "column": 43,
+          "line": 16
+        },
+        "start_byte": 618
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:619:631:string_content",
+      "kind": "string_content",
+      "label": "PORTING_NOTE",
+      "span": {
+        "end": {
+          "column": 56,
+          "line": 16
+        },
+        "end_byte": 631,
+        "start": {
+          "column": 44,
+          "line": 16
+        },
+        "start_byte": 619
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:631:632:string_end",
+      "kind": "string_end",
+      "label": "'",
+      "span": {
+        "end": {
+          "column": 57,
+          "line": 16
+        },
+        "end_byte": 632,
+        "start": {
+          "column": 56,
+          "line": 16
+        },
+        "start_byte": 631
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:618:619:string_start",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:619:631:string_content",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:631:632:string_end"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:618:632:string",
+      "kind": "string",
+      "label": "'PORTING_NOTE'",
+      "span": {
+        "end": {
+          "column": 57,
+          "line": 16
+        },
+        "end_byte": 632,
+        "start": {
+          "column": 43,
+          "line": 16
+        },
+        "start_byte": 618
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:634:635:string_start",
+      "kind": "string_start",
+      "label": "'",
+      "span": {
+        "end": {
+          "column": 60,
+          "line": 16
+        },
+        "end_byte": 635,
+        "start": {
+          "column": 59,
+          "line": 16
+        },
+        "start_byte": 634
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:635:647:string_content",
+      "kind": "string_content",
+      "label": "SAMPLE_FILES",
+      "span": {
+        "end": {
+          "column": 72,
+          "line": 16
+        },
+        "end_byte": 647,
+        "start": {
+          "column": 60,
+          "line": 16
+        },
+        "start_byte": 635
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:647:648:string_end",
+      "kind": "string_end",
+      "label": "'",
+      "span": {
+        "end": {
+          "column": 73,
+          "line": 16
+        },
+        "end_byte": 648,
+        "start": {
+          "column": 72,
+          "line": 16
+        },
+        "start_byte": 647
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:634:635:string_start",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:635:647:string_content",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:647:648:string_end"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:634:648:string",
+      "kind": "string",
+      "label": "'SAMPLE_FILES'",
+      "span": {
+        "end": {
+          "column": 73,
+          "line": 16
+        },
+        "end_byte": 648,
+        "start": {
+          "column": 59,
+          "line": 16
+        },
+        "start_byte": 634
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:586:600:string",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:602:616:string",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:618:632:string",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:634:648:string"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:585:649:list",
+      "kind": "list",
+      "label": "['ARCHIVE_NAME', 'MODULE_COUNT', 'PORTING_NOTE', 'SAMPLE_FILES']",
+      "span": {
+        "end": {
+          "column": 74,
+          "line": 16
+        },
+        "end_byte": 649,
+        "start": {
+          "column": 10,
+          "line": 16
+        },
+        "start_byte": 585
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:575:582:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:585:649:list"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:575:649:assignment",
+      "kind": "assignment",
+      "label": "__all__ = ['ARCHIVE_NAME', 'MODULE_COUNT', 'PORTING_NOTE', 'SAMPLE_FILES']",
+      "span": {
+        "end": {
+          "column": 74,
+          "line": 16
+        },
+        "end_byte": 649,
+        "start": {
+          "column": 0,
+          "line": 16
+        },
+        "start_byte": 575
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:76:string",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:80:114:future_import_statement",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:118:129:import_statement",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:131:155:import_from_statement",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:159:270:assignment",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:272:321:assignment",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:325:365:assignment",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:367:407:assignment",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:409:456:assignment",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:458:571:assignment",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:575:649:assignment"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/upstreamproxy/__init__.py:0:651:module",
+      "kind": "module",
+      "label": "\"\"\"Python package placeholder for the archived `upstreamproxy` subsystem.\"\"\"\r\n\r\nfrom __future__ import annotations\r\n\r\nimport json\r\nfrom pathlib import Path\r\n\r\nSNAPSHOT_PATH = Path(__file__).resolve().",
+      "span": {
+        "end": {
+          "column": 0,
+          "line": 17
+        },
+        "end_byte": 651,
+        "start": {
+          "column": 0,
+          "line": 1
+        },
+        "start_byte": 0
+      },
+      "text_digest": null
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:python",
+  "relative_path": "src/upstreamproxy/__init__.py",
+  "repository_name": "claw-code",
+  "repository_url": "https://github.com/ultraworkers/claw-code",
+  "source_language": "python",
+  "warnings": []
+}

@@ -1,0 +1,176 @@
+{
+  "analysis_timestamp": "2026-04-17T22:55:06+00:00",
+  "branch": "dev/rust",
+  "commit_sha": "7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc",
+  "dependency_resolution_status": "manifest_only",
+  "edges": [
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:edge:1",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:import:1",
+      "type": "imports"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:edge:2",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:symbol_def:1",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:edge:3",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:symbol_def:2",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:edge:4",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:symbol_def:3",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:edge:5",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:symbol_def:4",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:edge:6",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:symbol_def:5",
+      "type": "defines"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:edge:7",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:call:1",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:edge:8",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:call:2",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:edge:9",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:call:3",
+      "type": "calls"
+    },
+    {
+      "confidence": null,
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:edge:10",
+      "resolution": null,
+      "source_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:module:1",
+      "target_id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:call:4",
+      "type": "calls"
+    }
+  ],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:module:1",
+      "kind": "module",
+      "label": "src/remote_runtime.py",
+      "payload": {
+        "path": "src/remote_runtime.py"
+      }
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:import:1",
+      "kind": "import",
+      "label": "from dataclasses import dataclass",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:symbol_def:1",
+      "kind": "symbol_def",
+      "label": "as_text",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:symbol_def:2",
+      "kind": "symbol_def",
+      "label": "run_remote_mode",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:symbol_def:3",
+      "kind": "symbol_def",
+      "label": "run_ssh_mode",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:symbol_def:4",
+      "kind": "symbol_def",
+      "label": "run_teleport_mode",
+      "payload": {
+        "construct": "function"
+      }
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:symbol_def:5",
+      "kind": "symbol_def",
+      "label": "RuntimeModeReport",
+      "payload": {
+        "construct": "class"
+      }
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:call:1",
+      "kind": "call",
+      "label": "dataclass(frozen=True)",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:call:2",
+      "kind": "call",
+      "label": "RuntimeModeReport('remote', True, f'Remote control placeholder prepared for {target}')",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:call:3",
+      "kind": "call",
+      "label": "RuntimeModeReport('ssh', True, f'SSH proxy placeholder prepared for {target}')",
+      "payload": {}
+    },
+    {
+      "id": "asg:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:src/remote_runtime.py:call:4",
+      "kind": "call",
+      "label": "RuntimeModeReport('teleport', True, f'Teleport resume/create placeholder prepared for {target}')",
+      "payload": {}
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:python",
+  "relative_path": "src/remote_runtime.py",
+  "repository_name": "claw-code",
+  "repository_url": "https://github.com/ultraworkers/claw-code",
+  "source_language": "python",
+  "warnings": []
+}

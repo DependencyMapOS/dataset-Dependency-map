@@ -1,0 +1,1565 @@
+{
+  "analysis_timestamp": "2026-04-17T22:54:08+00:00",
+  "branch": "dev/rust",
+  "commit_sha": "7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc",
+  "dependency_resolution_status": "manifest_only",
+  "edges": [
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:11:mod_item->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:4:10:identifier:0",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:11:mod_item",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:4:10:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:662:source_file->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:11:mod_item:1",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:662:source_file",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:11:mod_item",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:13:23:mod_item->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:17:22:identifier:2",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:13:23:mod_item",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:17:22:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:662:source_file->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:13:23:mod_item:3",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:662:source_file",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:13:23:mod_item",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:25:33:mod_item->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:29:32:identifier:4",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:25:33:mod_item",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:29:32:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:662:source_file->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:25:33:mod_item:5",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:662:source_file",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:25:33:mod_item",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:35:45:mod_item->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:39:44:identifier:6",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:35:45:mod_item",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:39:44:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:662:source_file->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:35:45:mod_item:7",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:662:source_file",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:35:45:mod_item",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:49:234:use_declaration->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:49:52:visibility_modifier:8",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:49:234:use_declaration",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:49:52:visibility_modifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:57:233:scoped_use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:57:63:identifier:9",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:57:233:scoped_use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:57:63:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:65:233:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:72:94:identifier:10",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:65:233:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:72:94:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:65:233:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:96:109:identifier:11",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:65:233:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:96:109:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:65:233:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:111:136:identifier:12",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:65:233:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:111:136:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:65:233:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:138:165:identifier:13",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:65:233:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:138:165:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:65:233:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:172:187:identifier:14",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:65:233:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:172:187:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:65:233:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:189:199:identifier:15",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:65:233:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:189:199:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:65:233:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:201:214:identifier:16",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:65:233:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:201:214:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:65:233:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:216:229:identifier:17",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:65:233:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:216:229:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:57:233:scoped_use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:65:233:use_list:18",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:57:233:scoped_use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:65:233:use_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:49:234:use_declaration->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:57:233:scoped_use_list:19",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:49:234:use_declaration",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:57:233:scoped_use_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:662:source_file->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:49:234:use_declaration:20",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:662:source_file",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:49:234:use_declaration",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:236:260:use_declaration->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:236:239:visibility_modifier:21",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:236:260:use_declaration",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:236:239:visibility_modifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:244:259:scoped_identifier->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:244:249:identifier:22",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:244:259:scoped_identifier",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:244:249:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:244:259:scoped_identifier->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:251:259:identifier:23",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:244:259:scoped_identifier",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:251:259:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:236:260:use_declaration->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:244:259:scoped_identifier:24",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:236:260:use_declaration",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:244:259:scoped_identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:662:source_file->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:236:260:use_declaration:25",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:662:source_file",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:236:260:use_declaration",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:262:300:use_declaration->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:262:265:visibility_modifier:26",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:262:300:use_declaration",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:262:265:visibility_modifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:270:299:scoped_use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:270:273:identifier:27",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:270:299:scoped_use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:270:273:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:275:299:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:276:287:identifier:28",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:275:299:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:276:287:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:275:299:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:289:298:identifier:29",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:275:299:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:289:298:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:270:299:scoped_use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:275:299:use_list:30",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:270:299:scoped_use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:275:299:use_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:262:300:use_declaration->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:270:299:scoped_use_list:31",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:262:300:use_declaration",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:270:299:scoped_use_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:662:source_file->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:262:300:use_declaration:32",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:662:source_file",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:262:300:use_declaration",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:302:660:use_declaration->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:302:305:visibility_modifier:33",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:302:660:use_declaration",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:302:305:visibility_modifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:310:659:scoped_use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:310:315:identifier:34",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:310:659:scoped_use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:310:315:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:324:341:identifier:35",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:324:341:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:343:365:identifier:36",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:343:365:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:367:389:identifier:37",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:367:389:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:391:412:identifier:38",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:391:412:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:419:436:identifier:39",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:419:436:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:438:450:identifier:40",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:438:450:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:452:464:identifier:41",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:452:464:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:466:483:identifier:42",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:466:483:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:485:499:identifier:43",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:485:499:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:506:521:identifier:44",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:506:521:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:523:540:identifier:45",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:523:540:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:542:558:identifier:46",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:542:558:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:560:578:identifier:47",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:560:578:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:580:591:identifier:48",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:580:591:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:598:608:identifier:49",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:598:608:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:610:624:identifier:50",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:610:624:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:626:648:identifier:51",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:626:648:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:650:655:identifier:52",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:650:655:identifier",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:310:659:scoped_use_list->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list:53",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:310:659:scoped_use_list",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:302:660:use_declaration->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:310:659:scoped_use_list:54",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:302:660:use_declaration",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:310:659:scoped_use_list",
+      "type": "child"
+    },
+    {
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:edge:ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:662:source_file->ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:302:660:use_declaration:55",
+      "role": "child",
+      "source_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:662:source_file",
+      "target_id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:302:660:use_declaration",
+      "type": "child"
+    }
+  ],
+  "errors": [],
+  "generation_version": "0.1.0",
+  "nodes": [
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:4:10:identifier",
+      "kind": "identifier",
+      "label": "client",
+      "span": {
+        "end": {
+          "column": 10,
+          "line": 1
+        },
+        "end_byte": 10,
+        "start": {
+          "column": 4,
+          "line": 1
+        },
+        "start_byte": 4
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:4:10:identifier"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:11:mod_item",
+      "kind": "mod_item",
+      "label": "mod client;",
+      "span": {
+        "end": {
+          "column": 11,
+          "line": 1
+        },
+        "end_byte": 11,
+        "start": {
+          "column": 0,
+          "line": 1
+        },
+        "start_byte": 0
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:17:22:identifier",
+      "kind": "identifier",
+      "label": "error",
+      "span": {
+        "end": {
+          "column": 9,
+          "line": 2
+        },
+        "end_byte": 22,
+        "start": {
+          "column": 4,
+          "line": 2
+        },
+        "start_byte": 17
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:17:22:identifier"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:13:23:mod_item",
+      "kind": "mod_item",
+      "label": "mod error;",
+      "span": {
+        "end": {
+          "column": 10,
+          "line": 2
+        },
+        "end_byte": 23,
+        "start": {
+          "column": 0,
+          "line": 2
+        },
+        "start_byte": 13
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:29:32:identifier",
+      "kind": "identifier",
+      "label": "sse",
+      "span": {
+        "end": {
+          "column": 7,
+          "line": 3
+        },
+        "end_byte": 32,
+        "start": {
+          "column": 4,
+          "line": 3
+        },
+        "start_byte": 29
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:29:32:identifier"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:25:33:mod_item",
+      "kind": "mod_item",
+      "label": "mod sse;",
+      "span": {
+        "end": {
+          "column": 8,
+          "line": 3
+        },
+        "end_byte": 33,
+        "start": {
+          "column": 0,
+          "line": 3
+        },
+        "start_byte": 25
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:39:44:identifier",
+      "kind": "identifier",
+      "label": "types",
+      "span": {
+        "end": {
+          "column": 9,
+          "line": 4
+        },
+        "end_byte": 44,
+        "start": {
+          "column": 4,
+          "line": 4
+        },
+        "start_byte": 39
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:39:44:identifier"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:35:45:mod_item",
+      "kind": "mod_item",
+      "label": "mod types;",
+      "span": {
+        "end": {
+          "column": 10,
+          "line": 4
+        },
+        "end_byte": 45,
+        "start": {
+          "column": 0,
+          "line": 4
+        },
+        "start_byte": 35
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:49:52:visibility_modifier",
+      "kind": "visibility_modifier",
+      "label": "pub",
+      "span": {
+        "end": {
+          "column": 3,
+          "line": 6
+        },
+        "end_byte": 52,
+        "start": {
+          "column": 0,
+          "line": 6
+        },
+        "start_byte": 49
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:57:63:identifier",
+      "kind": "identifier",
+      "label": "client",
+      "span": {
+        "end": {
+          "column": 14,
+          "line": 6
+        },
+        "end_byte": 63,
+        "start": {
+          "column": 8,
+          "line": 6
+        },
+        "start_byte": 57
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:72:94:identifier",
+      "kind": "identifier",
+      "label": "oauth_token_is_expired",
+      "span": {
+        "end": {
+          "column": 26,
+          "line": 7
+        },
+        "end_byte": 94,
+        "start": {
+          "column": 4,
+          "line": 7
+        },
+        "start_byte": 72
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:96:109:identifier",
+      "kind": "identifier",
+      "label": "read_base_url",
+      "span": {
+        "end": {
+          "column": 41,
+          "line": 7
+        },
+        "end_byte": 109,
+        "start": {
+          "column": 28,
+          "line": 7
+        },
+        "start_byte": 96
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:111:136:identifier",
+      "kind": "identifier",
+      "label": "resolve_saved_oauth_token",
+      "span": {
+        "end": {
+          "column": 68,
+          "line": 7
+        },
+        "end_byte": 136,
+        "start": {
+          "column": 43,
+          "line": 7
+        },
+        "start_byte": 111
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:138:165:identifier",
+      "kind": "identifier",
+      "label": "resolve_startup_auth_source",
+      "span": {
+        "end": {
+          "column": 97,
+          "line": 7
+        },
+        "end_byte": 165,
+        "start": {
+          "column": 70,
+          "line": 7
+        },
+        "start_byte": 138
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:172:187:identifier",
+      "kind": "identifier",
+      "label": "AnthropicClient",
+      "span": {
+        "end": {
+          "column": 19,
+          "line": 8
+        },
+        "end_byte": 187,
+        "start": {
+          "column": 4,
+          "line": 8
+        },
+        "start_byte": 172
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:189:199:identifier",
+      "kind": "identifier",
+      "label": "AuthSource",
+      "span": {
+        "end": {
+          "column": 31,
+          "line": 8
+        },
+        "end_byte": 199,
+        "start": {
+          "column": 21,
+          "line": 8
+        },
+        "start_byte": 189
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:201:214:identifier",
+      "kind": "identifier",
+      "label": "MessageStream",
+      "span": {
+        "end": {
+          "column": 46,
+          "line": 8
+        },
+        "end_byte": 214,
+        "start": {
+          "column": 33,
+          "line": 8
+        },
+        "start_byte": 201
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:216:229:identifier",
+      "kind": "identifier",
+      "label": "OAuthTokenSet",
+      "span": {
+        "end": {
+          "column": 61,
+          "line": 8
+        },
+        "end_byte": 229,
+        "start": {
+          "column": 48,
+          "line": 8
+        },
+        "start_byte": 216
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:72:94:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:96:109:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:111:136:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:138:165:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:172:187:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:189:199:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:201:214:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:216:229:identifier"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:65:233:use_list",
+      "kind": "use_list",
+      "label": "{\r\n    oauth_token_is_expired, read_base_url, resolve_saved_oauth_token, resolve_startup_auth_source,\r\n    AnthropicClient, AuthSource, MessageStream, OAuthTokenSet,\r\n}",
+      "span": {
+        "end": {
+          "column": 1,
+          "line": 9
+        },
+        "end_byte": 233,
+        "start": {
+          "column": 16,
+          "line": 6
+        },
+        "start_byte": 65
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:57:63:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:65:233:use_list"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:57:233:scoped_use_list",
+      "kind": "scoped_use_list",
+      "label": "client::{\r\n    oauth_token_is_expired, read_base_url, resolve_saved_oauth_token, resolve_startup_auth_source,\r\n    AnthropicClient, AuthSource, MessageStream, OAuthTokenSet,\r\n}",
+      "span": {
+        "end": {
+          "column": 1,
+          "line": 9
+        },
+        "end_byte": 233,
+        "start": {
+          "column": 8,
+          "line": 6
+        },
+        "start_byte": 57
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:49:52:visibility_modifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:57:233:scoped_use_list"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:49:234:use_declaration",
+      "kind": "use_declaration",
+      "label": "pub use client::{\r\n    oauth_token_is_expired, read_base_url, resolve_saved_oauth_token, resolve_startup_auth_source,\r\n    AnthropicClient, AuthSource, MessageStream, OAuthTokenSet,\r\n};",
+      "span": {
+        "end": {
+          "column": 2,
+          "line": 9
+        },
+        "end_byte": 234,
+        "start": {
+          "column": 0,
+          "line": 6
+        },
+        "start_byte": 49
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:236:239:visibility_modifier",
+      "kind": "visibility_modifier",
+      "label": "pub",
+      "span": {
+        "end": {
+          "column": 3,
+          "line": 10
+        },
+        "end_byte": 239,
+        "start": {
+          "column": 0,
+          "line": 10
+        },
+        "start_byte": 236
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:244:249:identifier",
+      "kind": "identifier",
+      "label": "error",
+      "span": {
+        "end": {
+          "column": 13,
+          "line": 10
+        },
+        "end_byte": 249,
+        "start": {
+          "column": 8,
+          "line": 10
+        },
+        "start_byte": 244
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:251:259:identifier",
+      "kind": "identifier",
+      "label": "ApiError",
+      "span": {
+        "end": {
+          "column": 23,
+          "line": 10
+        },
+        "end_byte": 259,
+        "start": {
+          "column": 15,
+          "line": 10
+        },
+        "start_byte": 251
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:244:249:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:251:259:identifier"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:244:259:scoped_identifier",
+      "kind": "scoped_identifier",
+      "label": "error::ApiError",
+      "span": {
+        "end": {
+          "column": 23,
+          "line": 10
+        },
+        "end_byte": 259,
+        "start": {
+          "column": 8,
+          "line": 10
+        },
+        "start_byte": 244
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:236:239:visibility_modifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:244:259:scoped_identifier"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:236:260:use_declaration",
+      "kind": "use_declaration",
+      "label": "pub use error::ApiError;",
+      "span": {
+        "end": {
+          "column": 24,
+          "line": 10
+        },
+        "end_byte": 260,
+        "start": {
+          "column": 0,
+          "line": 10
+        },
+        "start_byte": 236
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:262:265:visibility_modifier",
+      "kind": "visibility_modifier",
+      "label": "pub",
+      "span": {
+        "end": {
+          "column": 3,
+          "line": 11
+        },
+        "end_byte": 265,
+        "start": {
+          "column": 0,
+          "line": 11
+        },
+        "start_byte": 262
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:270:273:identifier",
+      "kind": "identifier",
+      "label": "sse",
+      "span": {
+        "end": {
+          "column": 11,
+          "line": 11
+        },
+        "end_byte": 273,
+        "start": {
+          "column": 8,
+          "line": 11
+        },
+        "start_byte": 270
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:276:287:identifier",
+      "kind": "identifier",
+      "label": "parse_frame",
+      "span": {
+        "end": {
+          "column": 25,
+          "line": 11
+        },
+        "end_byte": 287,
+        "start": {
+          "column": 14,
+          "line": 11
+        },
+        "start_byte": 276
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:289:298:identifier",
+      "kind": "identifier",
+      "label": "SseParser",
+      "span": {
+        "end": {
+          "column": 36,
+          "line": 11
+        },
+        "end_byte": 298,
+        "start": {
+          "column": 27,
+          "line": 11
+        },
+        "start_byte": 289
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:276:287:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:289:298:identifier"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:275:299:use_list",
+      "kind": "use_list",
+      "label": "{parse_frame, SseParser}",
+      "span": {
+        "end": {
+          "column": 37,
+          "line": 11
+        },
+        "end_byte": 299,
+        "start": {
+          "column": 13,
+          "line": 11
+        },
+        "start_byte": 275
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:270:273:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:275:299:use_list"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:270:299:scoped_use_list",
+      "kind": "scoped_use_list",
+      "label": "sse::{parse_frame, SseParser}",
+      "span": {
+        "end": {
+          "column": 37,
+          "line": 11
+        },
+        "end_byte": 299,
+        "start": {
+          "column": 8,
+          "line": 11
+        },
+        "start_byte": 270
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:262:265:visibility_modifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:270:299:scoped_use_list"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:262:300:use_declaration",
+      "kind": "use_declaration",
+      "label": "pub use sse::{parse_frame, SseParser};",
+      "span": {
+        "end": {
+          "column": 38,
+          "line": 11
+        },
+        "end_byte": 300,
+        "start": {
+          "column": 0,
+          "line": 11
+        },
+        "start_byte": 262
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:302:305:visibility_modifier",
+      "kind": "visibility_modifier",
+      "label": "pub",
+      "span": {
+        "end": {
+          "column": 3,
+          "line": 12
+        },
+        "end_byte": 305,
+        "start": {
+          "column": 0,
+          "line": 12
+        },
+        "start_byte": 302
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:310:315:identifier",
+      "kind": "identifier",
+      "label": "types",
+      "span": {
+        "end": {
+          "column": 13,
+          "line": 12
+        },
+        "end_byte": 315,
+        "start": {
+          "column": 8,
+          "line": 12
+        },
+        "start_byte": 310
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:324:341:identifier",
+      "kind": "identifier",
+      "label": "ContentBlockDelta",
+      "span": {
+        "end": {
+          "column": 21,
+          "line": 13
+        },
+        "end_byte": 341,
+        "start": {
+          "column": 4,
+          "line": 13
+        },
+        "start_byte": 324
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:343:365:identifier",
+      "kind": "identifier",
+      "label": "ContentBlockDeltaEvent",
+      "span": {
+        "end": {
+          "column": 45,
+          "line": 13
+        },
+        "end_byte": 365,
+        "start": {
+          "column": 23,
+          "line": 13
+        },
+        "start_byte": 343
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:367:389:identifier",
+      "kind": "identifier",
+      "label": "ContentBlockStartEvent",
+      "span": {
+        "end": {
+          "column": 69,
+          "line": 13
+        },
+        "end_byte": 389,
+        "start": {
+          "column": 47,
+          "line": 13
+        },
+        "start_byte": 367
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:391:412:identifier",
+      "kind": "identifier",
+      "label": "ContentBlockStopEvent",
+      "span": {
+        "end": {
+          "column": 92,
+          "line": 13
+        },
+        "end_byte": 412,
+        "start": {
+          "column": 71,
+          "line": 13
+        },
+        "start_byte": 391
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:419:436:identifier",
+      "kind": "identifier",
+      "label": "InputContentBlock",
+      "span": {
+        "end": {
+          "column": 21,
+          "line": 14
+        },
+        "end_byte": 436,
+        "start": {
+          "column": 4,
+          "line": 14
+        },
+        "start_byte": 419
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:438:450:identifier",
+      "kind": "identifier",
+      "label": "InputMessage",
+      "span": {
+        "end": {
+          "column": 35,
+          "line": 14
+        },
+        "end_byte": 450,
+        "start": {
+          "column": 23,
+          "line": 14
+        },
+        "start_byte": 438
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:452:464:identifier",
+      "kind": "identifier",
+      "label": "MessageDelta",
+      "span": {
+        "end": {
+          "column": 49,
+          "line": 14
+        },
+        "end_byte": 464,
+        "start": {
+          "column": 37,
+          "line": 14
+        },
+        "start_byte": 452
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:466:483:identifier",
+      "kind": "identifier",
+      "label": "MessageDeltaEvent",
+      "span": {
+        "end": {
+          "column": 68,
+          "line": 14
+        },
+        "end_byte": 483,
+        "start": {
+          "column": 51,
+          "line": 14
+        },
+        "start_byte": 466
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:485:499:identifier",
+      "kind": "identifier",
+      "label": "MessageRequest",
+      "span": {
+        "end": {
+          "column": 84,
+          "line": 14
+        },
+        "end_byte": 499,
+        "start": {
+          "column": 70,
+          "line": 14
+        },
+        "start_byte": 485
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:506:521:identifier",
+      "kind": "identifier",
+      "label": "MessageResponse",
+      "span": {
+        "end": {
+          "column": 19,
+          "line": 15
+        },
+        "end_byte": 521,
+        "start": {
+          "column": 4,
+          "line": 15
+        },
+        "start_byte": 506
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:523:540:identifier",
+      "kind": "identifier",
+      "label": "MessageStartEvent",
+      "span": {
+        "end": {
+          "column": 38,
+          "line": 15
+        },
+        "end_byte": 540,
+        "start": {
+          "column": 21,
+          "line": 15
+        },
+        "start_byte": 523
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:542:558:identifier",
+      "kind": "identifier",
+      "label": "MessageStopEvent",
+      "span": {
+        "end": {
+          "column": 56,
+          "line": 15
+        },
+        "end_byte": 558,
+        "start": {
+          "column": 40,
+          "line": 15
+        },
+        "start_byte": 542
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:560:578:identifier",
+      "kind": "identifier",
+      "label": "OutputContentBlock",
+      "span": {
+        "end": {
+          "column": 76,
+          "line": 15
+        },
+        "end_byte": 578,
+        "start": {
+          "column": 58,
+          "line": 15
+        },
+        "start_byte": 560
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:580:591:identifier",
+      "kind": "identifier",
+      "label": "StreamEvent",
+      "span": {
+        "end": {
+          "column": 89,
+          "line": 15
+        },
+        "end_byte": 591,
+        "start": {
+          "column": 78,
+          "line": 15
+        },
+        "start_byte": 580
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:598:608:identifier",
+      "kind": "identifier",
+      "label": "ToolChoice",
+      "span": {
+        "end": {
+          "column": 14,
+          "line": 16
+        },
+        "end_byte": 608,
+        "start": {
+          "column": 4,
+          "line": 16
+        },
+        "start_byte": 598
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:610:624:identifier",
+      "kind": "identifier",
+      "label": "ToolDefinition",
+      "span": {
+        "end": {
+          "column": 30,
+          "line": 16
+        },
+        "end_byte": 624,
+        "start": {
+          "column": 16,
+          "line": 16
+        },
+        "start_byte": 610
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:626:648:identifier",
+      "kind": "identifier",
+      "label": "ToolResultContentBlock",
+      "span": {
+        "end": {
+          "column": 54,
+          "line": 16
+        },
+        "end_byte": 648,
+        "start": {
+          "column": 32,
+          "line": 16
+        },
+        "start_byte": 626
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:650:655:identifier",
+      "kind": "identifier",
+      "label": "Usage",
+      "span": {
+        "end": {
+          "column": 61,
+          "line": 16
+        },
+        "end_byte": 655,
+        "start": {
+          "column": 56,
+          "line": 16
+        },
+        "start_byte": 650
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:324:341:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:343:365:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:367:389:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:391:412:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:419:436:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:438:450:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:452:464:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:466:483:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:485:499:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:506:521:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:523:540:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:542:558:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:560:578:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:580:591:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:598:608:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:610:624:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:626:648:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:650:655:identifier"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list",
+      "kind": "use_list",
+      "label": "{\r\n    ContentBlockDelta, ContentBlockDeltaEvent, ContentBlockStartEvent, ContentBlockStopEvent,\r\n    InputContentBlock, InputMessage, MessageDelta, MessageDeltaEvent, MessageRequest,\r\n    MessageResp",
+      "span": {
+        "end": {
+          "column": 1,
+          "line": 17
+        },
+        "end_byte": 659,
+        "start": {
+          "column": 15,
+          "line": 12
+        },
+        "start_byte": 317
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:310:315:identifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:317:659:use_list"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:310:659:scoped_use_list",
+      "kind": "scoped_use_list",
+      "label": "types::{\r\n    ContentBlockDelta, ContentBlockDeltaEvent, ContentBlockStartEvent, ContentBlockStopEvent,\r\n    InputContentBlock, InputMessage, MessageDelta, MessageDeltaEvent, MessageRequest,\r\n    Mess",
+      "span": {
+        "end": {
+          "column": 1,
+          "line": 17
+        },
+        "end_byte": 659,
+        "start": {
+          "column": 8,
+          "line": 12
+        },
+        "start_byte": 310
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:302:305:visibility_modifier",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:310:659:scoped_use_list"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:302:660:use_declaration",
+      "kind": "use_declaration",
+      "label": "pub use types::{\r\n    ContentBlockDelta, ContentBlockDeltaEvent, ContentBlockStartEvent, ContentBlockStopEvent,\r\n    InputContentBlock, InputMessage, MessageDelta, MessageDeltaEvent, MessageRequest,\r\n",
+      "span": {
+        "end": {
+          "column": 2,
+          "line": 17
+        },
+        "end_byte": 660,
+        "start": {
+          "column": 0,
+          "line": 12
+        },
+        "start_byte": 302
+      },
+      "text_digest": null
+    },
+    {
+      "children_ids": [
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:11:mod_item",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:13:23:mod_item",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:25:33:mod_item",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:35:45:mod_item",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:49:234:use_declaration",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:236:260:use_declaration",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:262:300:use_declaration",
+        "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:302:660:use_declaration"
+      ],
+      "id": "ast:7508f1a4da9c75a9c0d37d2d217ead6ba704f6cc:rust/crates/api/src/lib.rs:0:662:source_file",
+      "kind": "source_file",
+      "label": "mod client;\r\nmod error;\r\nmod sse;\r\nmod types;\r\n\r\npub use client::{\r\n    oauth_token_is_expired, read_base_url, resolve_saved_oauth_token, resolve_startup_auth_source,\r\n    AnthropicClient, AuthSource,",
+      "span": {
+        "end": {
+          "column": 0,
+          "line": 18
+        },
+        "end_byte": 662,
+        "start": {
+          "column": 0,
+          "line": 1
+        },
+        "start_byte": 0
+      },
+      "text_digest": null
+    }
+  ],
+  "parser_id": "tree-sitter-language-pack:rust",
+  "relative_path": "rust/crates/api/src/lib.rs",
+  "repository_name": "claw-code",
+  "repository_url": "https://github.com/ultraworkers/claw-code",
+  "source_language": "rust",
+  "warnings": []
+}

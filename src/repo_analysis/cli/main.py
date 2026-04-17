@@ -11,7 +11,7 @@ from pydantic import BaseModel
 
 from repo_analysis.config import get_settings
 from repo_analysis.export.gcb_serializer import serialize_run_to_path
-from repo_analysis.intake.git_remote import list_remote_branches
+from repo_analysis.intake.git_remote import list_remote_branches, repo_display_name_from_url
 from repo_analysis.jobs.runner import run_analysis
 from repo_analysis.log import configure_logging
 from repo_analysis.models.asg import AsgCombinedArtifact
@@ -62,6 +62,89 @@ def analyze_cmd(
         repository_name=repo_name,
     )
     typer.echo(json.dumps(manifest.model_dump(), indent=2))
+
+
+def _read_repo_urls_from_file(path: Path) -> list[str]:
+    text = path.read_text(encoding="utf-8")
+    urls: list[str] = []
+    for line in text.splitlines():
+        line = line.split("#", 1)[0].strip()
+        if not line:
+            continue
+        urls.append(line)
+    return urls
+
+
+@app.command("batch-from-list")
+def batch_from_list_cmd(
+    list_file: Path = typer.Argument(..., help="Text file: one Git URL per line (# comments allowed)"),
+    dry_run: Annotated[bool, typer.Option("--dry-run", help="List branches only; do not run analysis")] = False,
+    continue_on_error: Annotated[
+        bool,
+        typer.Option("--continue-on-error", help="Continue after a failed repo or branch"),
+    ] = False,
+    output_root: Path | None = typer.Option(None, "--output-root", help="Dataset root"),
+    verbose: bool = typer.Option(False, "--verbose"),
+) -> None:
+    """For each repo URL: discover remote branches, then analyze every branch (repo name = last URL path segment)."""
+    configure_logging(verbose=verbose)
+    settings = get_settings()
+    if output_root is not None:
+        settings.dataset_root = output_root
+
+    urls = _read_repo_urls_from_file(list_file)
+    if not urls:
+        typer.echo("No repository URLs found in the file (empty or only comments).", err=True)
+        raise typer.Exit(code=1)
+
+    failures: list[str] = []
+    runs = 0
+    for url in urls:
+        repo_name = repo_display_name_from_url(url)
+        try:
+            branches = list_remote_branches(url)
+        except Exception as e:
+            msg = f"{url}: list branches failed: {e}"
+            typer.echo(msg, err=True)
+            failures.append(msg)
+            if not continue_on_error:
+                raise typer.Exit(code=1) from e
+            continue
+
+        preview = ", ".join(branches[:8])
+        extra = f" … (+{len(branches) - 8} more)" if len(branches) > 8 else ""
+        typer.echo(f"[{repo_name}] {len(branches)} branch(es): {preview}{extra}")
+
+        for branch in branches:
+            runs += 1
+            label = f"{repo_name} @ {branch}"
+            if dry_run:
+                typer.echo(f"  dry-run: {url} --branch {branch} --repo-name {repo_name}")
+                continue
+            run_id = str(uuid.uuid4())
+            try:
+                manifest = run_analysis(
+                    url=url,
+                    branch=branch,
+                    run_id=run_id,
+                    settings=settings,
+                    repository_name=repo_name,
+                )
+                typer.echo(f"  ok {label} -> {manifest.output_root}")
+            except Exception as e:
+                msg = f"{label}: {e}"
+                typer.echo(f"  FAIL {msg}", err=True)
+                failures.append(msg)
+                if not continue_on_error:
+                    raise typer.Exit(code=1) from e
+
+    if dry_run:
+        typer.echo(f"Dry run finished: {runs} branch(es) across {len(urls)} repo(s).")
+    else:
+        typer.echo(f"Finished {runs} analysis run(s); {len(failures)} failure(s).")
+
+    if failures:
+        raise typer.Exit(code=1)
 
 
 @app.command("validate")
